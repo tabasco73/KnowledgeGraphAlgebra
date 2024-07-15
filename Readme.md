@@ -20,3 +20,5 @@ to see a knowledge graph for the course and
 generate_argument.py
 ```
 to generate logical arguments about the nature of the concepts based on the knowledge graph.
+
+If you want to fork my code generation, you need to create a .env file with OPENAI_API_KEY = "whatever-your-key-is"
