@@ -1,0 +1,130 @@
+[
+    [
+        [
+            0,
+            2,
+            "Law of Composition",
+            "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            39,
+            "Leading Coefficient",
+            "For a polynomial f=\nsum a_i X^i in R[X] with deg f=n \ngeq 0, the coefficient a_n is called the leading coefficient. If a_n=1, the polynomial is called monic."
+        ],
+        [
+            3,
+            50,
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        [
+            4,
+            62,
+            "Irreducible element",
+            "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            87,
+            "Separable Polynomial",
+            "A separable polynomial is a polynomial that has distinct roots in its splitting field, i.e., all roots are simple."
+        ],
+        [
+            7,
+            96,
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            8,
+            106,
+            "Algebraic closure of a field",
+            "An algebraic closure of a field $K$, denoted as $\\bar{K}$, is an algebraically closed field that is algebraic over $K$."
+        ],
+        [
+            9,
+            121,
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            10,
+            133,
+            "p-Sylow subgroup",
+            "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+        ],
+        [
+            11,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A factor group is defined in terms of a group and a normal subgroup. Therefore, the concept of a group must be defined to understand a factor group.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A ring isomorphism is a special type of ring homomorphism, which is defined between two rings. Therefore, the concept of a ring must be defined to understand a ring isomorphism.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An irreducible element is defined within the context of an integral domain, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand an irreducible element.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A finitely generated module is defined in terms of a module, which in turn is defined over a ring. Therefore, the concept of a ring must be defined to understand a finitely generated module.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An algebraic field extension is defined in terms of fields. Therefore, the concept of a field must be defined to understand an algebraic field extension.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An algebraic closure of a field is defined in terms of fields. Therefore, the concept of a field must be defined to understand an algebraic closure of a field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A splitting field of a polynomial is defined in terms of fields and polynomials. Therefore, the concept of a field must be defined to understand a splitting field of a polynomial.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A p-Sylow subgroup is defined in terms of a group. Therefore, the concept of a group must be defined to understand a p-Sylow subgroup.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A subset is a fundamental concept that does not depend on other concepts for its definition.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

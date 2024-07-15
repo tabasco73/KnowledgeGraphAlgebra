@@ -1,0 +1,23 @@
+[
+    [
+        1248,
+        [
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        "Does the concept of a/an Commutative Ring need to be defined for a definition of a/an Ideal to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of an Ideal requires the existence of a ring, R, but does not specify that the ring must be commutative. The definition of an Ideal involves two conditions: (i) being an additive subgroup of R, and (ii) closure under multiplication by any element of R. These conditions can be satisfied in both commutative and non-commutative rings. Therefore, the concept of a commutative ring is not necessary for the definition of an Ideal to make sense. An Ideal can exist in any type of ring, whether it is commutative or not.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

@@ -1,0 +1,23 @@
+[
+    [
+        327,
+        [
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        "Does the concept of a/an Commutative Law need to be defined for a definition of a/an Subring to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a subring does not explicitly require the ring or the subring to be commutative. A subring is defined as a subset of a ring that is itself a ring by inheriting the operations and properties of the larger ring. The commutative law, which states that the order of elements in an operation does not affect the result (i.e., ab = ba), is not a necessary condition for a set to be a ring or a subring. Rings and subrings can be either commutative or non-commutative. Therefore, the concept of the commutative law is not required to define a subring; it only specifies an additional property that a ring or subring might or might not have.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

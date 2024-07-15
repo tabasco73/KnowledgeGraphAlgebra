@@ -1,0 +1,66 @@
+[
+    22,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "p-group",
+                        "Definition_Content": "A finite group G is called a p-group if the order of G is a power of p, where p is a prime number."
+                    },
+                    {
+                        "Concept_Name": "p-Sylow subgroup",
+                        "Definition_Content": "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Remark 2",
+                        "Theorem_Content": "For every prime number p, there is exactly one p-Sylow subgroup in a finite abelian group G, namely S_p={a in G ; a^{p^t}=1 for some t in N}."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 3",
+                        "Theorem_Content": "Let G be a p-group of order p^k, for a prime number p and an exponent k >= 1. Then p divides the order of the center Z of G, so that Z is not trivial."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 4",
+                        "Theorem_Content": "Let G be a p-group of order p^k, for a prime number p. Then there is a descending chain of subgroups G=G_k superset G_{k-1} superset ... superset G_0={1} such that ord G_l=p^l and G_{l-1} is a normal subgroup in G_l for l=1, ..., k."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 5",
+                        "Theorem_Content": "For a prime number p, let G be a group of order p^2. Then G is abelian. More precisely, we have G isomorphic to Z/p^2Z or G isomorphic to Z/pZ times Z/pZ."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 6 (Sylow theorems)",
+                        "Theorem_Content": "Let G be a finite group and p a prime number. (i) The group G contains at least one p-Sylow subgroup. More precisely, for every p-subgroup H subset G there is a p-Sylow subgroup S subset G such that H subset S. (ii) If S subset G is a p-Sylow subgroup, then every subgroup in G that is conjugate to S is a p-Sylow subgroup of G as well. Conversely, any two p-Sylow subgroups in G are conjugate to each other. (iii) The number s of p-Sylow subgroups in G satisfies s divides ord G, s congruent to 1 mod (p)."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 7",
+                        "Theorem_Content": "Let G be a finite group of order n=p^k m, where p is prime, but not necessarily relatively prime to m. Then the number s of p-subgroups H subset G having order ord H=p^k satisfies the relation s congruent (n-1 choose p^k-1) = (1/m)(n choose p^k) mod (p)."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 8",
+                        "Theorem_Content": "Let G be a finite group and p^k a prime power dividing ord G. Then the number s of p-subgroups H subset G of order p^k satisfies s congruent 1 mod (p) and hence is nonzero."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 9",
+                        "Theorem_Content": "Let G be a finite group, H subset G a p-subgroup, and S subset G a p-Sylow subgroup. Then there is an element g in G such that H subset g S g^{-1}."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 10",
+                        "Theorem_Content": "Let G be a finite group and S a p-Sylow subgroup in G. Writing N_S for the normalizer of S in G, the index (G: N_S) equals the number of p-Sylow subgroups in G."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 11",
+                        "Theorem_Content": "Let G be a finite group and p a prime number. Then: (i) If p divides ord G, then G admits an element of order p. (ii) G is a p-group if and only if for every a in G there exists an exponent t in N such that a^{p^t}=1. (iii) A subgroup H subset G is a p-Sylow subgroup if and only if is a maximal p-group in G."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 12",
+                        "Theorem_Content": "Let p, q be prime numbers such that p<q and p does not divide (q-1). Then every group G of order pq is cyclic."
+                    }
+                ]
+            }
+        ]
+    ]
+]

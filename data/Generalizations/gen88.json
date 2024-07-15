@@ -1,0 +1,95 @@
+[
+    [
+        [
+            0,
+            8,
+            "Empty Product",
+            "In a monoid, the empty product is defined as the unit element, i.e., $\\prod_{i=1}^{0} a_{i} := e$, where $e$ is the unit element."
+        ],
+        [
+            1,
+            17,
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            52,
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            4,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            5,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            6,
+            90,
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            7,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            8,
+            106,
+            "Algebraic closure of a field",
+            "An algebraic closure of a field $K$, denoted as $\\bar{K}$, is an algebraically closed field that is algebraic over $K$."
+        ],
+        [
+            9,
+            120,
+            "Reduced ideal",
+            "An ideal \\(\\mathfrak{a}\\) in a ring \\(R\\) is called reduced if \\(\\mathfrak{a} = \\operatorname{rad} \\mathfrak{a}\\), where \\(\\operatorname{rad} \\mathfrak{a}\\) is the set of all elements \\(a \\in R\\) such that there exists some \\(n \\in \\mathbb{N}\\) with \\(a^{n} \\in \\mathfrak{a}\\)."
+        ],
+        [
+            10,
+            139,
+            "Sign or Signature of a Permutation",
+            "The sign or signature of a permutation $\\pi \\in \\mathfrak{S}_{n}$, denoted as $\\operatorname{sgn} \\pi$, is defined by the product $\\prod_{i<j} \\frac{\\pi(i)-\\pi(j)}{i-j}$. The sign can only assume the values 1 and -1. If $\\operatorname{sgn} \\pi$ is positive, $\\pi$ is called an even permutation, and an odd permutation otherwise."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 2,
+                        "Specialization": 6,
+                        "Explanation": "A subfield (ID: 6) is a specialization of a commutative ring (ID: 2) because every field is a ring, and every subfield, being a field itself, is also a commutative ring."
+                    },
+                    {
+                        "Generalization": 2,
+                        "Specialization": 8,
+                        "Explanation": "An algebraic closure of a field (ID: 8) is a specialization of a commutative ring (ID: 2) because every field is a ring, and the algebraic closure of a field, being a field itself, is also a commutative ring."
+                    }
+                ]
+            }
+        ]
+    ]
+]

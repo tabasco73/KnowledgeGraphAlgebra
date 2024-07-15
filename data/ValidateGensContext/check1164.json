@@ -1,0 +1,23 @@
+[
+    [
+        1164,
+        [
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ],
+        [
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        "Does the concept of a/an Subgroup need to be defined for a definition of a/an Normal Subgroup to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a normal subgroup inherently relies on the concept of a subgroup. A normal subgroup is defined as a subgroup $H$ of a group $G$ such that the left and right cosets of $H$ in $G$ are the same for all elements $a$ in $G$. This definition presupposes the existence of $H$ as a subgroup, meaning it must first satisfy the conditions of being a subgroup (non-empty, closed under operation and taking inverses in the case of groups). Without the concept of a subgroup, the definition of a normal subgroup would lack foundational meaning, as it would not be clear what kind of subset $H$ is, nor would it be clear how to apply the operations and conditions described in the definition of a normal subgroup. Therefore, the concept of a subgroup is essential and must be defined before one can meaningfully discuss or define what a normal subgroup is.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            7,
+            "Product Notation in Monoids",
+            "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+        ],
+        [
+            1,
+            17,
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            33,
+            "Field",
+            "A field is a commutative division ring."
+        ],
+        [
+            3,
+            47,
+            "Finitely Generated Ideal",
+            "An ideal $\\mathfrak{a}$ in a ring $R$ is finitely generated if it admits a finite system of generators."
+        ],
+        [
+            4,
+            54,
+            "Ring Automorphism",
+            "An automorphism of a ring $R$ is an isomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            66,
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            6,
+            87,
+            "Separable Polynomial",
+            "A separable polynomial is a polynomial that has distinct roots in its splitting field, i.e., all roots are simple."
+        ],
+        [
+            7,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            8,
+            110,
+            "Finite Field",
+            "A finite field $\\\\[\\mathbb{F}\\\text{\\_q}\\]$ consists of $q$ elements, where $q=p^n$ for some prime number $p$ and integer $n>0$. It is different from the residue class ring $\\\\[\\mathbb{Z} / p^n \\mathbb{Z}\\]$ for $n>1$, as the latter has nontrivial zero divisors and cannot be a field."
+        ],
+        [
+            9,
+            122,
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            10,
+            142,
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 2,
+                        "Specialization": 8,
+                        "Explanation": "A finite field is a specific type of field characterized by having a finite number of elements. Thus, every finite field is a field, but not every field is finite."
+                    }
+                ]
+            }
+        ]
+    ]
+]

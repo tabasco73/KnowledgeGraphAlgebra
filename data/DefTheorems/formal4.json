@@ -1,0 +1,82 @@
+[
+    5,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Ring",
+                        "Definition_Content": "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+                    },
+                    {
+                        "Concept_Name": "Commutative Ring",
+                        "Definition_Content": "A ring R is called commutative if the multiplication is commutative."
+                    },
+                    {
+                        "Concept_Name": "Zero Ring",
+                        "Definition_Content": "The zero ring is a ring where the unit element of addition (0) and the unit element of multiplication (1) are the same, i.e., 1=0. It consists of a single element 0."
+                    },
+                    {
+                        "Concept_Name": "Subring",
+                        "Definition_Content": "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+                    },
+                    {
+                        "Concept_Name": "Ring Extension",
+                        "Definition_Content": "The pair (S, R), where S is a subring of R, is called a ring extension."
+                    },
+                    {
+                        "Concept_Name": "Units of a Ring",
+                        "Definition_Content": "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+                    },
+                    {
+                        "Concept_Name": "Division Ring",
+                        "Definition_Content": "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+                    },
+                    {
+                        "Concept_Name": "Field",
+                        "Definition_Content": "A field is a commutative division ring."
+                    },
+                    {
+                        "Concept_Name": "Zero Divisor",
+                        "Definition_Content": "An element a of a ring R is called a zero divisor if there exists an element b in R - {0} such that ab=0 or ba=0. Fields and skew fields do not admit any zero divisors, except for 0, the trivial zero divisor."
+                    },
+                    {
+                        "Concept_Name": "Integral Domain",
+                        "Definition_Content": "A commutative ring R is called an integral domain if it is nonzero and does not admit nontrivial zero divisors."
+                    },
+                    {
+                        "Concept_Name": "Polynomial Ring",
+                        "Definition_Content": "Given a commutative ring R, the polynomial ring R[X] is the set of all sequences (a_i) where a_i in R and a_i=0 for almost all i, equipped with addition and multiplication defined by (a_i)+(b_i)=(a_i+b_i) and (a_i) \ncdot (b_i)=(c_i) where c_i=\nsum_{\nu+\nu=i} a_\nu b_\nu. Elements of R[X] can be written as \nsum_{i=0}^n a_i X^i where X is the sequence (0,1,0,0,...)."
+                    },
+                    {
+                        "Concept_Name": "Coefficient of a Polynomial",
+                        "Definition_Content": "Given a polynomial f=\nsum a_i X^i in R[X], the i-th coefficient a_i is called the coefficient of degree i."
+                    },
+                    {
+                        "Concept_Name": "Degree of a Polynomial",
+                        "Definition_Content": "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+                    },
+                    {
+                        "Concept_Name": "Leading Coefficient",
+                        "Definition_Content": "For a polynomial f=\nsum a_i X^i in R[X] with deg f=n \ngeq 0, the coefficient a_n is called the leading coefficient. If a_n=1, the polynomial is called monic."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Remark 2",
+                        "Theorem_Content": "For polynomials f, g in a polynomial ring R[X], the degree of the sum (f+g) is at most the maximum of the degrees of f and g, and the degree of the product (f \ncdot g) is at most the sum of their degrees. If R is an integral domain, then deg(f \ncdot g) = deg f + deg g."
+                    },
+                    {
+                        "Theorem_Name": "Remark 3",
+                        "Theorem_Content": "If R is an integral domain, then the polynomial ring R[X] is also an integral domain, and the units of R[X] are exactly the units of R."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 4",
+                        "Theorem_Content": "For a ring R and a polynomial g in R[X] with a unit as its leading coefficient, every polynomial f in R[X] can be uniquely expressed as f=qg+r where q, r are polynomials in R[X] and deg r < deg g."
+                    }
+                ]
+            }
+        ]
+    ]
+]

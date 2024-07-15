@@ -1,0 +1,38 @@
+[
+    13,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Characteristic of a field",
+                        "Definition_Content": "Let $K$ be a field (or, more generally, an integral domain) and let $\\varphi: \\mathbb{Z} \\longrightarrow K$ be the canonical ring homomorphism. Furthermore, let $p \\in \\mathbb{N}$ be a generating element of the principal ideal $\\operatorname{ker} \\varphi$. Then $p$ is called the characteristic of $K$, and we write $p=\\operatorname{char} K$."
+                    },
+                    {
+                        "Concept_Name": "Subfield",
+                        "Definition_Content": "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+                    },
+                    {
+                        "Concept_Name": "Prime subfield of a Field",
+                        "Definition_Content": "The unique smallest subfield $P$ of a field $K$, given by the intersection of all subfields in $K$, is referred to as the prime (sub)field in $K$."
+                    },
+                    {
+                        "Concept_Name": "Frobenius homomorphism",
+                        "Definition_Content": "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Proposition 2",
+                        "Theorem_Content": "Let $K$ be a field and $P \\subset K$ its prime subfield. Then: (i) char $K=p>0 \\Longleftrightarrow P \\simeq \\mathbb{F}_{p}$ for $p$ prime. (ii) $\\operatorname{char} K=0 \\Longleftrightarrow P \\simeq \\mathbb{Q}$. In particular, up to isomorphism, the only prime subfields that can occur, are $\\mathbb{F}_{p}$ for a prime number $p$, as well as $\\mathbb{Q}$."
+                    },
+                    {
+                        "Theorem_Name": "Remark 3",
+                        "Theorem_Content": "Let $p$ be a prime number and $R$ an integral domain of characteristic $p$ (or, more generally, a ring satisfying $p \\cdot 1=0$ ). Then, for elements $a, b \\in R$ and $r \\in \\mathbb{N}$, the binomial formula takes the following form: $(a+b)^{p^{r}}=a^{p^{r}}+b^{p^{r}}, \\quad(a-b)^{p^{r}}=a^{p^{r}}-b^{p^{r}} .$"
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            5,
+            "Unit or Neutral Element",
+            "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+        ],
+        [
+            1,
+            14,
+            "Monoid Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$."
+        ],
+        [
+            2,
+            29,
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        [
+            3,
+            47,
+            "Finitely Generated Ideal",
+            "An ideal $\\mathfrak{a}$ in a ring $R$ is finitely generated if it admits a finite system of generators."
+        ],
+        [
+            4,
+            56,
+            "Image of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The image of $\\varphi$, denoted $\\operatorname{im} \\varphi$, is defined as $\\varphi(R)$, which is a subring of $R'$."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            91,
+            "Prime subfield of a Field",
+            "The unique smallest subfield $P$ of a field $K$, given by the intersection of all subfields in $K$, is referred to as the prime (sub)field in $K$."
+        ],
+        [
+            7,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            8,
+            115,
+            "Multiplicative Group of a Finite Field",
+            "The multiplicative group of a finite field $\\\\[\\mathbb{F}_q\\]$ is the group formed by all nonzero elements of $\\\\[\\mathbb{F}_q\\]$, denoted as $\\\\[\\mathbb{F}_q^*\\]$. It is cyclic of order $q-1$."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            132,
+            "p-group",
+            "A finite group G is called a p-group if the order of G is a power of p, where p is a prime number."
+        ],
+        [
+            11,
+            150,
+            "Image of Map",
+            "The image of a function \\( f: A \to B \\) is the set of all elements in \\( B \\) that have at least one corresponding element in \\( A \\) via the function \\( f \\)."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 7,
+                        "Specialization": 4,
+                        "Explanation": "The concept of an 'Algebra over a Ring' (ID 7) generalizes the concept of 'Image of a Ring Homomorphism' (ID 4) because an algebra over a ring involves a ring homomorphism, and the image of a ring homomorphism is a specific instance where the homomorphism's target is considered, which is a subring of the codomain ring."
+                    }
+                ]
+            }
+        ]
+    ]
+]

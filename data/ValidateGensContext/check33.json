@@ -1,0 +1,23 @@
+[
+    [
+        33,
+        [
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        "Does the concept of a/an Field Extension need to be defined for a definition of a/an Galois Group of a Finite Field Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To define the Galois Group of a Finite Field Extension, the concept of a Field Extension is essential. The definition of the Galois Group explicitly references a finite field extension $\\mathbb{F}_{q'} / \\mathbb{F}_q$, which is a specific case of a field extension where $\\mathbb{F}_q$ is a subfield of $\\mathbb{F}_{q'}$. Without understanding what a field extension is, one cannot comprehend the structure or the elements (automorphisms) of the Galois Group, as these automorphisms are defined based on their action on the field extension. Therefore, the concept of a Field Extension is necessary to properly define and understand the Galois Group of a Finite Field Extension.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

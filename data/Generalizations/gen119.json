@@ -1,0 +1,100 @@
+[
+    [
+        [
+            0,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            37,
+            "Coefficient of a Polynomial",
+            "Given a polynomial f=\nsum a_i X^i in R[X], the i-th coefficient a_i is called the coefficient of degree i."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            59,
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        [
+            5,
+            66,
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            100,
+            "Ring Homomorphism of Finite Type",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is of finite type if there exists an epimorphism $\\Phi: A[X_{1}, \\ldots, X_{n}] \\longrightarrow B$ from a polynomial ring in finitely many variables over $A$ to $B$ that extends $\\varphi$. Alternatively, it can be characterized by the existence of elements $x_{1}, \\ldots, x_{n} \\in B$ such that $B=\\varphi(A)[x_{1}, \\ldots, x_{n}]$."
+        ],
+        [
+            8,
+            109,
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        [
+            9,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            10,
+            132,
+            "p-group",
+            "A finite group G is called a p-group if the order of G is a power of p, where p is a prime number."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 0,
+                        "Specialization": 1,
+                        "Explanation": "A factor group (ID: 1) is a specialization of a group (ID: 0) because it is defined specifically as a group formed by the set of left cosets of a normal subgroup in another group, inheriting all properties of a group with additional structure related to the normal subgroup."
+                    },
+                    {
+                        "Generalization": 0,
+                        "Specialization": 9,
+                        "Explanation": "The centralizer (ID: 9) is a specialization of a group (ID: 0) because it is defined as a subset of a group that itself forms a group under the same operation, specifically those elements that commute with all elements of a given subset of the group."
+                    },
+                    {
+                        "Generalization": 0,
+                        "Specialization": 10,
+                        "Explanation": "A p-group (ID: 10) is a specialization of a group (ID: 0) because it is defined as a group where the order of the group is a power of a prime number, thus inheriting all group properties with additional constraints on the order."
+                    }
+                ]
+            }
+        ]
+    ]
+]

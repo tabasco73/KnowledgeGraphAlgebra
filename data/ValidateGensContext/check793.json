@@ -1,0 +1,23 @@
+[
+    [
+        793,
+        [
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        "Does the concept of a/an Polynomial need to be defined for a definition of a/an Normal field extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a normal field extension explicitly references the concept of a polynomial. It states that a normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. Additionally, it mentions that the field extension is normal if it is a splitting field for a family of polynomials in \\(K[X]\\), where \\(K[X]\\) denotes the ring of polynomials with coefficients in the base field \\(K\\). Furthermore, it also states that every irreducible polynomial in \\(K[X]\\) that has a zero in \\(L\\) must decompose completely into linear factors over \\(L\\). Thus, the concept of a polynomial is integral to understanding what constitutes a normal field extension, as polynomials are used to define the conditions under which an extension field is considered normal.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

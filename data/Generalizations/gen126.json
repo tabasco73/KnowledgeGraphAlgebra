@@ -1,0 +1,100 @@
+[
+    [
+        [
+            0,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            1,
+            26,
+            "Ring",
+            "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            50,
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            8,
+            116,
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            139,
+            "Sign or Signature of a Permutation",
+            "The sign or signature of a permutation $\\pi \\in \\mathfrak{S}_{n}$, denoted as $\\operatorname{sgn} \\pi$, is defined by the product $\\prod_{i<j} \\frac{\\pi(i)-\\pi(j)}{i-j}$. The sign can only assume the values 1 and -1. If $\\operatorname{sgn} \\pi$ is positive, $\\pi$ is called an even permutation, and an odd permutation otherwise."
+        ],
+        [
+            11,
+            145,
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 2,
+                        "Explanation": "A ring is a generalization of the units of a ring. The units of a ring (R*) are a subset of the ring R, specifically the set of elements that are multiplicatively invertible."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 3,
+                        "Explanation": "A ring is a generalization of a ring isomorphism. A ring isomorphism is a specific type of function (bijective homomorphism) between rings, thus it operates within the framework of ring theory."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 4,
+                        "Explanation": "A ring is a generalization of a ring endomorphism. A ring endomorphism is a specific type of function (homomorphism) from a ring to itself, thus it operates within the framework of ring theory."
+                    }
+                ]
+            }
+        ]
+    ]
+]

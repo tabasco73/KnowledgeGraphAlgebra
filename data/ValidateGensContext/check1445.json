@@ -1,0 +1,23 @@
+[
+    [
+        1445,
+        [
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        "Does the concept of a/an Separable extension need to be defined for a definition of a/an Galois extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "According to the provided definitions, a Galois extension is defined as an extension that is both normal and separable. This definition inherently requires the concept of a separable extension, as it is explicitly mentioned as a criterion. Without understanding what a separable extension is, one cannot fully comprehend or apply the definition of a Galois extension. Therefore, the concept of a separable extension is necessary for the definition of a Galois extension to be meaningful and complete.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

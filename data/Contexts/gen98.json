@@ -1,0 +1,119 @@
+[
+    [
+        [
+            0,
+            9,
+            "Powers of an Element",
+            "For an element $a \\in M$ of a monoid and an exponent $n \\in \\mathbb{N}$, the $n$th power of $a$, denoted $a^n$, is defined in the usual way. Note that $a^0 = e$, following the convention on empty products."
+        ],
+        [
+            1,
+            26,
+            "Ring",
+            "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+        ],
+        [
+            2,
+            30,
+            "Ring Extension",
+            "The pair (S, R), where S is a subring of R, is called a ring extension."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            5,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            6,
+            89,
+            "Characteristic of a field",
+            "Let $K$ be a field (or, more generally, an integral domain) and let $\\varphi: \\mathbb{Z} \\longrightarrow K$ be the canonical ring homomorphism. Furthermore, let $p \\in \\mathbb{N}$ be a generating element of the principal ideal $\\operatorname{ker} \\varphi$. Then $p$ is called the characteristic of $K$, and we write $p=\\operatorname{char} K$."
+        ],
+        [
+            7,
+            96,
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            127,
+            "Orbit",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+        ],
+        [
+            10,
+            132,
+            "p-group",
+            "A finite group G is called a p-group if the order of G is a power of p, where p is a prime number."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A ring extension is defined as a pair (S, R) where S is a subring of R. Therefore, the concept of a ring must be defined to understand what a ring extension is.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An ideal is defined as a subset of a ring that satisfies certain properties. Therefore, the concept of a ring must be defined to understand what an ideal is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A prime ideal is a specific type of ideal in a ring. Therefore, the concept of an ideal must be defined to understand what a prime ideal is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "A prime ideal is a specific type of ideal in a ring. Therefore, the concept of a ring must be defined to understand what a prime ideal is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The characteristic of a field involves the concept of a field, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand what the characteristic of a field is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An algebraic field extension involves the concept of a field, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand what an algebraic field extension is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The prime subfield of a finite field involves the concept of a field, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand what the prime subfield of a finite field is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A p-group is defined as a finite group where the order of the group is a power of a prime number p. Therefore, the concept of a group must be defined to understand what a p-group is.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 9
+                    }
+                ]
+            }
+        ]
+    ]
+]

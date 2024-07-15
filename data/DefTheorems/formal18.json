@@ -1,0 +1,50 @@
+[
+    19,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Algebraic subset",
+                        "Definition_Content": "An algebraic subset of \\(\\bar{K}^{n}\\) defined over \\(K\\) is the set of common zeros in \\(\\bar{K}^{n}\\) of the polynomials belonging to a subset \\(E\\) of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\). It is denoted as \\(V(E)\\)."
+                    },
+                    {
+                        "Concept_Name": "Ideal corresponding to a subset",
+                        "Definition_Content": "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+                    },
+                    {
+                        "Concept_Name": "Noetherian ring",
+                        "Definition_Content": "A ring \\(R\\) is called Noetherian if every ascending chain of ideals \\(\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\subset \\ldots \\subset R\\) becomes stationary after finitely many steps, or equivalently, every ideal of \\(R\\) is finitely generated."
+                    },
+                    {
+                        "Concept_Name": "Reduced ideal",
+                        "Definition_Content": "An ideal \\(\\mathfrak{a}\\) in a ring \\(R\\) is called reduced if \\(\\mathfrak{a} = \\operatorname{rad} \\mathfrak{a}\\), where \\(\\operatorname{rad} \\mathfrak{a}\\) is the set of all elements \\(a \\in R\\) such that there exists some \\(n \\in \\mathbb{N}\\) with \\(a^{n} \\in \\mathfrak{a}\\)."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Lemma 1",
+                        "Theorem_Content": "For ideals \\(\\mathfrak{a}_{1}, \\mathfrak{a}_{2}\\), respectively a family \\(\\left(\\mathfrak{a}_{i}\\right)_{i \\in I}\\) of ideals in \\(K[X]\\), and for subsets \\(U_{1}, U_{2} \\subset \\bar{K}^{n}\\), the following properties hold: (i) \\(\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\Longrightarrow V\\left(\\mathfrak{a}_{1}\\right) \\supset V\\left(\\mathfrak{a}_{2}\\right)\\). (ii) \\(U_{1} \\subset U_{2} \\Longrightarrow I\\left(U_{1}\\right) \\supset I\\left(U_{2}\\right)\\). (iii) \\(V\\left(\\sum_{i} \\mathfrak{a}_{i}\\right)=\\bigcap_{i} V\\left(\\mathfrak{a}_{i}\\right)\\). (iv) \\(V\\left(\\mathfrak{a}_{1} \\cdot \\mathfrak{a}_{2}\\right)=V\\left(\\mathfrak{a}_{1} \\cap \\mathfrak{a}_{2}\\right)=V\\left(\\mathfrak{a}_{1}\\right) \\cup V\\left(\\mathfrak{a}_{2}\\right)\\)."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 2 (Hilbert's basis theorem)",
+                        "Theorem_Content": "Let \\(R\\) be a Noetherian ring. Then the polynomial ring \\(R[Y]\\) in a variable \\(Y\\) is Noetherian as well. In particular, the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\) in finitely many variables over a field \\(K\\) is Noetherian."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 3",
+                        "Theorem_Content": "The mappings \\(I(\\cdot)\\) and \\(V(\\cdot)\\) define mutually inverse and inclusion-inverting bijections between the set of algebraic subsets of \\(\\bar{K}^{n}\\) defined over \\(K\\) and the set of reduced ideals in \\(K[X]\\)."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 4 (Hilbert's Nullstellensatz)",
+                        "Theorem_Content": "Let \\(\\mathfrak{a}\\) be an ideal of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\) and let \\(V(\\mathfrak{a})\\) be the corresponding zero set in \\(\\bar{K}^{n}\\). Then \\(I(V(\\mathfrak{a}))=\\operatorname{rad} \\mathfrak{a}\\). In other words, a polynomial \\(f \\in K[X]\\) vanishes on \\(V(\\mathfrak{a})\\) precisely when a power \\(f^{r}\\) belongs to \\(\\mathfrak{a}\\)."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 6",
+                        "Theorem_Content": "Let \\(K\\) be an algebraically closed field. An ideal \\(\\mathfrak{m}\\) of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\) is maximal if and only if there exists a point \\(x=\\left(x_{1}, \\ldots, x_{n}\\right)\\) in \\(K^{n}\\) such that \\(\\mathfrak{m}=\\left(X_{1}-x_{1}, \\ldots, X_{n}-x_{n}\\right)\\). In particular, \\(V(\\mathfrak{m})=\\{x\\}\\) and \\(I(x)=\\mathfrak{m}\\) in this case."
+                    }
+                ]
+            }
+        ]
+    ]
+]

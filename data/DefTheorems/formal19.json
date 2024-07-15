@@ -1,0 +1,46 @@
+[
+    20,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Splitting Field of Polynomial",
+                        "Definition_Content": "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+                    },
+                    {
+                        "Concept_Name": "Separable extension",
+                        "Definition_Content": "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+                    },
+                    {
+                        "Concept_Name": "Galois extension",
+                        "Definition_Content": "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+                    },
+                    {
+                        "Concept_Name": "Galois group of a Field Extension",
+                        "Definition_Content": "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+                    },
+                    {
+                        "Concept_Name": "Solvable group",
+                        "Definition_Content": "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Fundamental theorem of Galois theory",
+                        "Theorem_Content": "Every chain of fields of type $K=K_{0} \\\\subsetneq K_{1} \\\\subsetneq \\\\ldots \\\\subsetneq K_{r}$, where $L \\\\subset K_{r}$ and each $K_{i+1}$ is obtained by adjoining a root of some element in $K_{i}$, is equivalent to a chain of subgroups of the Galois group $\\\\operatorname{Gal}(K_{r} / K)$."
+                    },
+                    {
+                        "Theorem_Name": "Solvability by radicals",
+                        "Theorem_Content": "An equation $f(x)=0$ is solvable by radicals if and only if there exists a chain of subgroups of the Galois group $\\\\operatorname{Gal}(L / K)$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is cyclic."
+                    },
+                    {
+                        "Theorem_Name": "Sylow theorems",
+                        "Theorem_Content": "In any finite group, there exist subgroups whose order is a power of a prime, and these subgroups have specific properties related to the structure of the group."
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,78 @@
+[
+    8,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Euclidean domain",
+                        "Definition_Content": "An integral domain $R$ is called a Euclidean domain if it admits a map $\\delta: R-\\{0\\} \\longrightarrow \\mathbb{N}$ making possible Euclidean division in $R$ in the following sense: Given elements $f, g \\in R, g \\neq 0$, there are elements $q, r \\in R$ such that $f=q g+r$, where $\\delta(r)<\\delta(g)$ or $r=0$."
+                    },
+                    {
+                        "Concept_Name": "Euclidean function",
+                        "Definition_Content": "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+                    },
+                    {
+                        "Concept_Name": "Irreducible element",
+                        "Definition_Content": "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+                    },
+                    {
+                        "Concept_Name": "Factorial ring/unique factorization domain",
+                        "Definition_Content": "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+                    },
+                    {
+                        "Concept_Name": "Greatest common divisor",
+                        "Definition_Content": "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+                    },
+                    {
+                        "Concept_Name": "Least common multiple",
+                        "Definition_Content": "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Proposition 2",
+                        "Theorem_Content": "Every Euclidean domain is a principal ideal domain."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 3",
+                        "Theorem_Content": "The rings $\\mathbb{Z}, \\mathbb{Z}[i]$, as well as the polynomial ring $K[X]$ over a field $K$, are Euclidean domains and hence principal ideal domains."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 6",
+                        "Theorem_Content": "Let $R$ be a principal ideal domain and $p \\in R$ a nonzero nonunit. The following conditions are equivalent: (i) $p$ is irreducible. (ii) $p$ is a prime element. (iii) (p) is a maximal ideal in $R$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 7",
+                        "Theorem_Content": "Let $R$ be a principal ideal domain. Then every nonzero nonunit $a \\in R$ is a product of prime elements."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 8",
+                        "Theorem_Content": "Every principal ideal domain $R$ is Noetherian, i.e., every ascending chain of ideals $\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\subset \\ldots \\subset R$ becomes stationary in the sense that there is some $n \\in \\mathbb{N}$ such that $\\mathfrak{a}_{i}=\\mathfrak{a}_{n}$ for all $i \\geq n$."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 9",
+                        "Theorem_Content": "Let $R$ be an integral domain. For an element $a \\in R$, consider factorizations $a=p_{1} \\ldots p_{r}=q_{1} \\ldots q_{s}$ into prime elements $p_{i}$ and irreducible elements $q_{j}$. Then $r=s$, and one can renumber the $q_{j}$ in such a way that $p_{i}$ is associated to $q_{i}$ for $i=1, \\ldots, r$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 12",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain and let $P$ be a system of representatives of all prime elements in $R$. If $x_{i}=\\varepsilon_{i} \\prod_{p \\in P} p^{\\nu_{p}\\left(x_{i}\\right)}, \\quad i=1, \\ldots, n$ are prime factorizations of elements $x_{1}, \\ldots, x_{n} \\in R$, then $\\operatorname{gcd}\\left(x_{1}, \\ldots, x_{n}\\right)$ and $\\operatorname{lcm}\\left(x_{1}, \\ldots, x_{n}\\right)$ exist and are given by $\\operatorname{gcd}\\left(x_{1}, \\ldots, x_{n}\\right)=\\prod_{p \\in P} p^{\\min \\left(\\nu_{p}\\left(x_{1}\\right), \\ldots, \\nu_{p}\\left(x_{n}\\right)\\right)}$ and $\\operatorname{lcm}\\left(x_{1}, \\ldots, x_{n}\\right)=\\prod_{p \\in P} p^{\\max \\left(\\nu_{p}\\left(x_{1}\\right), \\ldots, \\nu_{p}\\left(x_{n}\\right)\\right)}$ up to associatedness."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 13",
+                        "Theorem_Content": "Let $x_{1}, \\ldots, x_{n}$ be elements of an integral domain $R$. (i) If $\\left(x_{1}, \\ldots, x_{n}\\right)$, the ideal generated by the $x_{i}$ in $R$, is principal, say generated by an element $d \\in R$, then $d=\\operatorname{gcd}\\left(x_{1}, \\ldots, x_{n}\\right)$. (ii) If $\\left(x_{1}\\right) \\cap \\ldots \\cap\\left(x_{n}\\right)$ is a principal ideal, say generated by an element $v \\in R$, then $v=\\operatorname{lcm}\\left(x_{1}, \\ldots, x_{n}\\right)$."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 14",
+                        "Theorem_Content": "Let $R$ be a principal ideal domain and $a=\\varepsilon p_{1}^{\\nu_{1}} \\ldots p_{r}^{\\nu_{r}}$ a prime factorization of some element $a \\in R$, where $\\varepsilon$ is a unit and the prime elements $p_{i}$ are pairwise nonassociated. Then the Chinese remainder theorem 2.3/12 provides a canonical isomorphism $R /(a) \\xrightarrow{\\sim} R /\\left(p_{1}^{\\nu_{1}}\\right) \\times \\ldots \\times R /\\left(p_{n}^{\\nu_{n}}\\right) .$"
+                    },
+                    {
+                        "Theorem_Name": "Proposition 15 (Euclidean algorithm)",
+                        "Theorem_Content": "Let $R$ be a Euclidean domain. For two elements $x, y \\in R-\\{0\\}$ consider the sequence $z_{0}, z_{1}, \\ldots \\in R$, which is inductively given by $z_{0} =x, z_{1} =y, z_{i+1} =\\left\\{\\begin{array}{l} \\text { the remainder of } z_{i-1} \\text { with respect to division by } z_{i} \\text { if } z_{i} \\neq 0, \\ 0 \\text { otherwise. } \\end{array}\\right.$. Then $z_{i}=0$ for almost all $i \\in \\mathbb{N}$. Furthermore, $z_{n}=\\operatorname{gcd}(x, y)$, where $n \\in \\mathbb{N} is the smallest index satisfying $z_{n+1}=0$."
+                    }
+                ]
+            }
+        ]
+    ]
+]

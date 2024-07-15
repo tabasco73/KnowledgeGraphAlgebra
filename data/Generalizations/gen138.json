@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            12,
+            "Submonoid",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            36,
+            "Polynomial Ring",
+            "Given a commutative ring R, the polynomial ring R[X] is the set of all sequences (a_i) where a_i in R and a_i=0 for almost all i, equipped with addition and multiplication defined by (a_i)+(b_i)=(a_i+b_i) and (a_i) \ncdot (b_i)=(c_i) where c_i=\nsum_{\nu+\nu=i} a_\nu b_\nu. Elements of R[X] can be written as \nsum_{i=0}^n a_i X^i where X is the sequence (0,1,0,0,...)."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            83,
+            "Length of an A-module",
+            "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+        ],
+        [
+            7,
+            104,
+            "Algebraically closed field",
+            "A field $K$ is called algebraically closed if every nonconstant polynomial $f$ of $K[X]$ admits a zero in $K$, or in other words, if $f$ decomposes in $K[X]$ into a product of linear factors. This means that $f$ admits a product decomposition $f=c \\prod_{i}\\left(X-\\alpha_{i}\\right)$ with a constant $c \\in K^{*}$ as well as zeros $\\alpha_{i} \\in K$."
+        ],
+        [
+            8,
+            110,
+            "Finite Field",
+            "A finite field $\\\\[\\mathbb{F}\\\text{\\_q}\\]$ consists of $q$ elements, where $q=p^n$ for some prime number $p$ and integer $n>0$. It is different from the residue class ring $\\\\[\\mathbb{Z} / p^n \\mathbb{Z}\\]$ for $n>1$, as the latter has nontrivial zero divisors and cannot be a field."
+        ],
+        [
+            9,
+            119,
+            "Noetherian ring",
+            "A ring \\(R\\) is called Noetherian if every ascending chain of ideals \\(\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\subset \\ldots \\subset R\\) becomes stationary after finitely many steps, or equivalently, every ideal of \\(R\\) is finitely generated."
+        ],
+        [
+            10,
+            134,
+            "Symmetric Group",
+            "The symmetric group, denoted as $\\mathfrak{S}_{n}$, is the group of all bijective self-maps of the set $\\{1, \\ldots, n\\}$."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 3,
+                        "Specialization": 4,
+                        "Explanation": "The kernel of a ring homomorphism is a specific type of ideal, defined by the set of elements that map to zero under the homomorphism. Thus, every kernel of a ring homomorphism is an ideal, but not every ideal is a kernel of a ring homomorphism."
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,86 @@
+[
+    [
+        [
+            0,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ],
+        [
+            1,
+            145,
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ],
+        [
+            2,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ],
+        [
+            3,
+            147,
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ],
+        [
+            4,
+            148,
+            "Codomain",
+            "The codomain of a function is the set that contains all potential output values, even if some of those values are not actually produced by any input in the domain."
+        ],
+        [
+            5,
+            149,
+            "Tensor",
+            "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+        ],
+        [
+            6,
+            150,
+            "Image of Map",
+            "The image of a function \\( f: A \to B \\) is the set of all elements in \\( B \\) that have at least one corresponding element in \\( A \\) via the function \\( f \\)."
+        ],
+        [
+            7,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 0,
+                        "Explanation": "A subset is a specialization of a set, as it inherits all properties of being a set but with the additional constraint that all its elements are also elements of another specific set."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 3,
+                        "Explanation": "The domain of a function is a specialization of a set, as it consists of all possible input values for the function, which are distinct objects considered as an entity."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 4,
+                        "Explanation": "The codomain of a function is a specialization of a set, as it consists of all potential output values for the function, which are distinct objects considered as an entity."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 6,
+                        "Explanation": "The image of a map is a specialization of a set, as it consists of all elements in the codomain that have at least one corresponding element in the domain via the function."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 7,
+                        "Explanation": "The kernel of a map is a specialization of a set, as it consists of all elements in the domain for which the function outputs zero, and these elements are distinct objects considered as an entity."
+                    }
+                ]
+            }
+        ]
+    ]
+]

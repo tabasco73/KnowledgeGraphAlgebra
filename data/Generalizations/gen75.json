@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            7,
+            "Product Notation in Monoids",
+            "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+        ],
+        [
+            1,
+            18,
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        [
+            2,
+            34,
+            "Zero Divisor",
+            "An element a of a ring R is called a zero divisor if there exists an element b in R - {0} such that ab=0 or ba=0. Fields and skew fields do not admit any zero divisors, except for 0, the trivial zero divisor."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            5,
+            67,
+            "Localization of a Ring",
+            "Given a ring $R$ and a multiplicative system $S \\subset R$, the localization $S^{-1}R$ (or $R_S$) is the ring of fractions $\frac{a}{s}$ where $a \\in R$ and $s \\in S$, under an equivalence relation defined by $\frac{a}{s} = \frac{a'}{s'}$ if there exists some $s'' \\in S$ such that $as's'' = a'ss''$."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            143,
+            "Element of a Set",
+            "An element of a set is an object belonging to a set."
+        ],
+        [
+            11,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 11,
+                        "Specialization": 1,
+                        "Explanation": "A normal subgroup (ID: 1) is a specific type of subset (ID: 11) where the subset also satisfies additional group-theoretic properties, making it a specialization of the general concept of a subset."
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,95 @@
+[
+    [
+        [
+            0,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            1,
+            22,
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            2,
+            33,
+            "Field",
+            "A field is a commutative division ring."
+        ],
+        [
+            3,
+            41,
+            "Trivial Ideals",
+            "In any ring $R$, the zero ideal $\\{0\\}$ and the unit ideal $R$ are called trivial ideals. These are the only ideals if $R$ is a field."
+        ],
+        [
+            4,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            5,
+            76,
+            "System of generators",
+            "A family (x_i)_{i in I} of elements of an A-module M is called a system of generators of M if M = sum_{i in I} A x_i."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            104,
+            "Algebraically closed field",
+            "A field $K$ is called algebraically closed if every nonconstant polynomial $f$ of $K[X]$ admits a zero in $K$, or in other words, if $f$ decomposes in $K[X]$ into a product of linear factors. This means that $f$ admits a product decomposition $f=c \\prod_{i}\\left(X-\\alpha_{i}\\right)$ with a constant $c \\in K^{*}$ as well as zeros $\\alpha_{i} \\in K$."
+        ],
+        [
+            8,
+            116,
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        [
+            9,
+            121,
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            10,
+            138,
+            "Transposition",
+            "A 2-cycle is called a transposition."
+        ],
+        [
+            11,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 2,
+                        "Specialization": 3,
+                        "Explanation": "A field is a commutative division ring, and in any ring, including fields, the only ideals are the zero ideal and the unit ideal, which are called trivial ideals. Thus, the concept of trivial ideals is a specialization of the concept of a field."
+                    },
+                    {
+                        "Generalization": 7,
+                        "Specialization": 9,
+                        "Explanation": "An algebraically closed field is a field in which every nonconstant polynomial splits into linear factors. A splitting field of a polynomial is a field extension where the polynomial splits into linear factors. Thus, a splitting field is a specialization of an algebraically closed field."
+                    }
+                ]
+            }
+        ]
+    ]
+]

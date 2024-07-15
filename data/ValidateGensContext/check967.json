@@ -1,0 +1,23 @@
+[
+    [
+        967,
+        [
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        "Does the concept of a/an Field of Fractions need to be defined for a definition of a/an Purely Inseparable Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Field of Fractions is relevant when dealing with integral domains that are not already fields, providing a way to construct a field from an integral domain by considering ratios of its elements. This construction allows for the definition of division and rational expressions within the context of an integral domain.\\n\\nOn the other hand, a Purely Inseparable Extension specifically pertains to field extensions. It involves the properties of minimal polynomials of elements within a field extension, focusing on the nature of these roots in the context of field theory. The definition of a purely inseparable extension does not inherently require the concept of a field of fractions, as it deals directly with fields and their extensions, not with the construction of fields from integral domains.\\n\\nTherefore, the concept of a Field of Fractions is not necessary for the definition or understanding of a Purely Inseparable Extension. The latter can be fully understood and applied within the realm of field theory without reference to the process of constructing fields from integral domains, which is the primary purpose of the Field of Fractions.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

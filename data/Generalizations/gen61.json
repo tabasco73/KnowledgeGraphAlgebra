@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            6,
+            "Monoid",
+            "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+        ],
+        [
+            1,
+            18,
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            64,
+            "Greatest common divisor",
+            "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+        ],
+        [
+            5,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            6,
+            85,
+            "Galois Group of a Polynomial Splitting Fields",
+            "The Galois group of a polynomial equation is the group of automorphisms of the splitting field of the polynomial that fix the base field. These automorphisms permute the roots of the polynomial."
+        ],
+        [
+            7,
+            104,
+            "Algebraically closed field",
+            "A field $K$ is called algebraically closed if every nonconstant polynomial $f$ of $K[X]$ admits a zero in $K$, or in other words, if $f$ decomposes in $K[X]$ into a product of linear factors. This means that $f$ admits a product decomposition $f=c \\prod_{i}\\left(X-\\alpha_{i}\\right)$ with a constant $c \\in K^{*}$ as well as zeros $\\alpha_{i} \\in K$."
+        ],
+        [
+            8,
+            115,
+            "Multiplicative Group of a Finite Field",
+            "The multiplicative group of a finite field $\\\\[\\mathbb{F}_q\\]$ is the group formed by all nonzero elements of $\\\\[\\mathbb{F}_q\\]$, denoted as $\\\\[\\mathbb{F}_q^*\\]$. It is cyclic of order $q-1$."
+        ],
+        [
+            9,
+            125,
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            10,
+            133,
+            "p-Sylow subgroup",
+            "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+        ],
+        [
+            11,
+            149,
+            "Tensor",
+            "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 9,
+                        "Specialization": 1,
+                        "Explanation": "A normal subgroup is a specialization of the concept of a solvable group, as every normal subgroup can be considered within the context of solvable groups where the quotient by this subgroup is abelian."
+                    }
+                ]
+            }
+        ]
+    ]
+]

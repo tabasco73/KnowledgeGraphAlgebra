@@ -1,0 +1,86 @@
+[
+    11,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "A-module",
+                        "Definition_Content": "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+                    },
+                    {
+                        "Concept_Name": "A-homomorphism",
+                        "Definition_Content": "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+                    },
+                    {
+                        "Concept_Name": "Submodule",
+                        "Definition_Content": "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+                    },
+                    {
+                        "Concept_Name": "Residue class module",
+                        "Definition_Content": "The residue class module M/N of an A-module M by a submodule N is defined analogously to the quotient space in vector spaces, where M/N consists of the cosets of N in M."
+                    },
+                    {
+                        "Concept_Name": "System of generators",
+                        "Definition_Content": "A family (x_i)_{i in I} of elements of an A-module M is called a system of generators of M if M = sum_{i in I} A x_i."
+                    },
+                    {
+                        "Concept_Name": "Finitely generated module",
+                        "Definition_Content": "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+                    },
+                    {
+                        "Concept_Name": "Free system of generators (basis)",
+                        "Definition_Content": "A family (x_i)_{i in I} of elements of an A-module M is called free or linearly independent if from an equation sum_{i in I} a_i x_i = 0 with coefficients a_i in A we can conclude that a_i = 0 for all i in I. A free system of generators will also be referred to as a basis."
+                    },
+                    {
+                        "Concept_Name": "Free A-module",
+                        "Definition_Content": "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+                    },
+                    {
+                        "Concept_Name": "Torsion element",
+                        "Definition_Content": "An element x of an A-module M is called a torsion element if there exists an element a in A-{0} such that a.x = 0."
+                    },
+                    {
+                        "Concept_Name": "Torsion submodule",
+                        "Definition_Content": "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+                    },
+                    {
+                        "Concept_Name": "Rank of an A-module",
+                        "Definition_Content": "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+                    },
+                    {
+                        "Concept_Name": "Length of an A-module",
+                        "Definition_Content": "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Lemma 1",
+                        "Theorem_Content": "(i) Let A be a principal ideal domain and a in A an element with prime factorization a = p_1 ... p_r. Then l_A(A / a A) = r. (ii) Let M be an A-module that is the direct sum of two submodules M' and M''. Then l_A(M) = l_A(M') + l_A(M'')."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 2",
+                        "Theorem_Content": "Consider a finite free module F over a principal ideal domain A and a submodule M subset F of rank n. Then there exist elements x_1, ..., x_n in F that are part of a basis of F, as well as coefficients alpha_1, ..., alpha_n in A-{0} such that: (i) alpha_1 x_1, ..., alpha_n x_n form a basis of M. (ii) alpha_i | alpha_{i+1} for 1 <= i<n. The elements alpha_1, ..., alpha_n are uniquely determined by M, up to associatedness, and are called the elementary divisors of M subset F."
+                    },
+                    {
+                        "Theorem_Name": "Remark 3",
+                        "Theorem_Content": "In the situation of Theorem 2, the submodule bigoplus_{i=1}^{n} A x_i subset F is uniquely determined by M as the saturation M_{sat} of M in F, which consists of all elements y in F such that there exists an element a != 0 in A satisfying ay in M. Furthermore, we have M_{sat} / M isomorphic to bigoplus_{i=1}^{n} A / alpha_i A."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 4",
+                        "Theorem_Content": "In the situation of Theorem 2 the following assertions hold: (i) Given x in F there exists phi in F^* such that phi(x) = cont(x). (ii) For x in F and psi in F^* we have cont(x) | psi(x). (iii) There exists an element x in M such that cont(x) | cont(y) for all y in M."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 5",
+                        "Theorem_Content": "Let A be a principal ideal domain and let Q isomorphic to bigoplus_{i=1}^{n} A / alpha_i A be an A-module, where alpha_1, ..., alpha_n in A-{0} are nonunits such that alpha_i | alpha_{i+1} for 1 <= i<n. Then the elements alpha_1, ..., alpha_n are uniquely determined by Q, up to associatedness."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 6",
+                        "Theorem_Content": "Let A be a principal ideal domain, F a finite free A-module with basis x_1, ..., x_r, as well as M subset F a submodule of rank n with corresponding elementary divisors alpha_1, ..., alpha_n. Furthermore, let z_1, ..., z_m in M be a (not necessarily free) system of generators of M. For j=1, ..., m assume z_j = sum_{i=1}^{r} a_{i j} x_i for coefficients a_{i j} in A, and let mu_t for t=1, ..., n be the greatest common divisor of all t-minors of the coefficient matrix D. Then mu_t = alpha_1 ... alpha_t, and in particular, alpha_1 = mu_1 as well as alpha_t mu_{t-1} = mu_t for t=2, ..., n."
+                    }
+                ]
+            }
+        ]
+    ]
+]

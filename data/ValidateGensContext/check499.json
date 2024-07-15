@@ -1,0 +1,23 @@
+[
+    [
+        499,
+        [
+            "Zero Divisor",
+            "An element a of a ring R is called a zero divisor if there exists an element b in R - {0} such that ab=0 or ba=0. Fields and skew fields do not admit any zero divisors, except for 0, the trivial zero divisor."
+        ],
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        "Does the concept of a/an Zero Divisor need to be defined for a definition of a/an Normal field extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a normal field extension involves properties and behaviors of field extensions, particularly focusing on the splitting of polynomials and the behavior of homomorphisms. The definition of a normal field extension does not involve the multiplication properties of elements within the field, such as zero divisors. Instead, it focuses on the algebraic structure and the behavior of polynomials and their roots within the field extensions.\\n\\nOn the other hand, the concept of zero divisors pertains to the existence of non-zero elements in a ring that when multiplied by another non-zero element results in zero. This concept is relevant in the study of rings but not directly applicable to fields, as fields do not have zero divisors other than zero itself. Since a field inherently lacks zero divisors (except for the trivial case of zero), the concept of zero divisors is not necessary or directly relevant to the definition or understanding of a normal field extension.\\n\\nTherefore, the concept of zero divisors is not needed to define or understand a normal field extension. The properties and definitions involved in normal field extensions are independent of the concept of zero divisors.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

@@ -1,0 +1,23 @@
+[
+    [
+        635,
+        [
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        "Does the concept of a/an Division Ring need to be defined for a definition of a/an Normal field extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a normal field extension involves the properties and behavior of field extensions, particularly focusing on how polynomials from a base field split within an extension field. This concept is deeply rooted in the properties of fields, which are a specific type of ring where every nonzero element has a multiplicative inverse.\\n\\nA division ring, or skew field, is a generalization of a field where the multiplication is not necessarily commutative. The key property of a division ring is that every nonzero element is a unit, similar to a field, but without the requirement of commutative multiplication.\\n\\nTo understand and define a normal field extension, the properties utilized (such as splitting of polynomials and behavior under homomorphisms) are specific to fields and do not require the non-commutative aspects of division rings. The definition of a normal field extension relies on the structure and properties of fields (commutative division rings) and does not extend or rely on the broader concept of non-commutative division rings.\\n\\nTherefore, the concept of a division ring is not necessary for defining a normal field extension. The essential properties and definitions involved in normal field extensions are fully encompassed within the framework of fields, without needing to reference the broader and less restrictive concept of division rings.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

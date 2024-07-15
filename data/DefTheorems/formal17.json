@@ -1,0 +1,66 @@
+[
+    18,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Finite Field",
+                        "Definition_Content": "A finite field $\\\\[\\mathbb{F}\\\text{\\_q}\\]$ consists of $q$ elements, where $q=p^n$ for some prime number $p$ and integer $n>0$. It is different from the residue class ring $\\\\[\\mathbb{Z} / p^n \\mathbb{Z}\\]$ for $n>1$, as the latter has nontrivial zero divisors and cannot be a field."
+                    },
+                    {
+                        "Concept_Name": "Prime Subfield of a Finite Field",
+                        "Definition_Content": "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+                    },
+                    {
+                        "Concept_Name": "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+                        "Definition_Content": "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+                    },
+                    {
+                        "Concept_Name": "Extension Field",
+                        "Definition_Content": "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+                    },
+                    {
+                        "Concept_Name": "Algebraic Closure of Finite Field",
+                        "Definition_Content": "An algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of a finite field $\\\\[\\mathbb{F}_p\\]$ is a field that contains $\\\\[\\mathbb{F}_p\\]$ and all its algebraic extensions. It is used to view the fields $\\\\[\\mathbb{F}_{p^n}\\]$ as subfields."
+                    },
+                    {
+                        "Concept_Name": "Multiplicative Group of a Finite Field",
+                        "Definition_Content": "The multiplicative group of a finite field $\\\\[\\mathbb{F}_q\\]$ is the group formed by all nonzero elements of $\\\\[\\mathbb{F}_q\\]$, denoted as $\\\\[\\mathbb{F}_q^*\\]$. It is cyclic of order $q-1$."
+                    },
+                    {
+                        "Concept_Name": "Galois Group of a Finite Field Extension",
+                        "Definition_Content": "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Lemma 1",
+                        "Theorem_Content": "Let $\\\\[\\mathbb{F}\\]$ be a finite field. Then $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$, and $\\\\[\\mathbb{F}\\]$ contains $\\\\[\\mathbb{F}_p\\]$ as its prime subfield. Moreover, $\\\\[\\mathbb{F}\\]$ consists of precisely $q=p^n$ elements, where $n=\\left[\\mathbb{F}: \\mathbb{F}_p\\right]$. In addition, $\\\\[\\mathbb{F}\\]$ is a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$, and it follows that the extension $\\\\[\\mathbb{F} / \\mathbb{F}_p\\]$ is normal."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 2",
+                        "Theorem_Content": "Let $p$ be a prime number. For every integer $n \\in \\mathbb{N}-\\{0\\}$ there exists an extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ consisting of $q=p^n$ elements. Furthermore, up to isomorphism, $\\\\[\\mathbb{F}_q\\]$ is uniquely characterized as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$. In fact, the elements of $\\\\[\\mathbb{F}_q\\]$ are recognized as the $q$ different zeros of $X^q-X$."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 3",
+                        "Theorem_Content": "Embed the fields $\\\\[\\mathbb{F}_q\\]$ for $q=p^n, n \\in \\mathbb{N}-\\{0\\}$, into an algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of $\\\\[\\mathbb{F}_p\\]$. Then an inclusion $\\\\[\\mathbb{F}_q\\] \\subset \\mathbb{F}_{q'}\\]$ holds for $q=p^n$ and $q'=p^{n'}$ if and only if $n \\mid n'$. Furthermore, the extensions of type $\\\\[\\mathbb{F}_q \\subset \\mathbb{F}_{q'}\\]$ are the only extensions between finite fields of characteristic $p$, up to isomorphism."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 4",
+                        "Theorem_Content": "Every algebraic extension of a finite field is normal and separable. In particular, finite fields are perfect."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 5",
+                        "Theorem_Content": "Let $q$ be a power of a prime number. Then the multiplicative group of $\\\\[\\mathbb{F}_q\\]$ is cyclic of order $q-1$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 6",
+                        "Theorem_Content": "Let $\\\\[\\mathbb{F}_q\\]$ be a finite field, $q=p^r$, and $\\\\[\\mathbb{F} / \\mathbb{F}_q\\]$ a finite field extension of degree $n$. Then $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F})\\]$ is cyclic of order $n$, generated by the relative Frobenius homomorphism $\\\\[\\mathbb{F} \\longrightarrow \\mathbb{F}, a \\longmapsto a^q\\]$."
+                    }
+                ]
+            }
+        ]
+    ]
+]

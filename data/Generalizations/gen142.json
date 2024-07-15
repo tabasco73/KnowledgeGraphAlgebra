@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            12,
+            "Submonoid",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+        ],
+        [
+            1,
+            15,
+            "Group Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            44,
+            "Intersection of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the intersection $\\mathfrak{a} \\cap \\mathfrak{b}$ is defined as $\\{x ; x \\in \\mathfrak{a} \\text { and } x \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            59,
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        [
+            5,
+            68,
+            "Primitive Polynomial",
+            "A polynomial $f \\in R[X]$ with coefficients in a unique factorization domain $R$ is called primitive if the greatest common divisor of all its coefficients is 1, or equivalently, if $\nu_p(f) = 0$ for all prime elements $p \\in R$."
+        ],
+        [
+            6,
+            87,
+            "Separable Polynomial",
+            "A separable polynomial is a polynomial that has distinct roots in its splitting field, i.e., all roots are simple."
+        ],
+        [
+            7,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            8,
+            114,
+            "Algebraic Closure of Finite Field",
+            "An algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of a finite field $\\\\[\\mathbb{F}_p\\]$ is a field that contains $\\\\[\\mathbb{F}_p\\]$ and all its algebraic extensions. It is used to view the fields $\\\\[\\mathbb{F}_{p^n}\\]$ as subfields."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            138,
+            "Transposition",
+            "A 2-cycle is called a transposition."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 1,
+                        "Explanation": "A group homomorphism is a specialization of a monoid homomorphism when the monoids involved are groups."
+                    }
+                ]
+            }
+        ]
+    ]
+]

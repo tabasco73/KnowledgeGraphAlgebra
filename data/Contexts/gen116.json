@@ -1,0 +1,99 @@
+[
+    [
+        [
+            0,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            1,
+            17,
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            28,
+            "Zero Ring",
+            "The zero ring is a ring where the unit element of addition (0) and the unit element of multiplication (1) are the same, i.e., 1=0. It consists of a single element 0."
+        ],
+        [
+            3,
+            49,
+            "Ring Homomorphism",
+            "Let $R$ and $R'$ be rings. A map $\\varphi: R \\longrightarrow R'$ is called a ring homomorphism if it satisfies two conditions: (i) $\\varphi(a+b)=\\varphi(a)+\\varphi(b)$ for all $a, b \\in R$, making $\\varphi$ a group homomorphism with respect to addition, and (ii) $\\varphi(a \\cdot b)=\\varphi(a) \\cdot \\varphi(b)$ for all $a, b \\in R$ and $\\varphi(1)=1$, making $\\varphi$ a monoid homomorphism with respect to multiplication."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            71,
+            "Canonical Homomorphism",
+            "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+        ],
+        [
+            6,
+            83,
+            "Length of an A-module",
+            "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            10,
+            133,
+            "p-Sylow subgroup",
+            "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of an inverse of an element requires the concept of a monoid, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The definition of a ring endomorphism requires the concept of a ring homomorphism, as it is a specific type of ring homomorphism.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The definition of a canonical homomorphism requires the concept of a ring homomorphism, as it is a specific type of ring homomorphism.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The definition of a finite ring homomorphism requires the concept of a ring homomorphism, as it is a specific type of ring homomorphism.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 3
+                    }
+                ]
+            }
+        ]
+    ]
+]

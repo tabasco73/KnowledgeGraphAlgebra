@@ -1,0 +1,95 @@
+[
+    [
+        [
+            0,
+            8,
+            "Empty Product",
+            "In a monoid, the empty product is defined as the unit element, i.e., $\\prod_{i=1}^{0} a_{i} := e$, where $e$ is the unit element."
+        ],
+        [
+            1,
+            15,
+            "Group Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+        ],
+        [
+            2,
+            38,
+            "Degree of a Polynomial",
+            "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+        ],
+        [
+            3,
+            50,
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        [
+            4,
+            56,
+            "Image of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The image of $\\varphi$, denoted $\\operatorname{im} \\varphi$, is defined as $\\varphi(R)$, which is a subring of $R'$."
+        ],
+        [
+            5,
+            70,
+            "Prime Element",
+            "An element $p$ in a unique factorization domain $R$ is called a prime element if it generates a prime ideal, i.e., the ideal $(p)$ is such that if $p$ divides a product of elements in $R$, then $p$ divides at least one of those elements."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            117,
+            "Algebraic subset",
+            "An algebraic subset of \\(\\bar{K}^{n}\\) defined over \\(K\\) is the set of common zeros in \\(\\bar{K}^{n}\\) of the polynomials belonging to a subset \\(E\\) of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\). It is denoted as \\(V(E)\\)."
+        ],
+        [
+            9,
+            118,
+            "Ideal corresponding to a subset",
+            "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+        ],
+        [
+            10,
+            137,
+            "Disjoint Cycles",
+            "Two cycles $(x_{1}, \\ldots, x_{r})$ and $(y_{1}, \\ldots, y_{s})$ are called disjoint if the sets $\\{x_{1}, \\ldots, x_{r}\\}$ and $\\{y_{1}, \\ldots, y_{s}\\}$ have no elements in common."
+        ],
+        [
+            11,
+            149,
+            "Tensor",
+            "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 1,
+                        "Explanation": "A group homomorphism is a specialization of a monoid homomorphism when the domains and codomains are groups, inheriting all properties of monoid homomorphisms."
+                    },
+                    {
+                        "Generalization": 3,
+                        "Specialization": 7,
+                        "Explanation": "A finite ring homomorphism is a specialization of a ring homomorphism that is finite, inheriting all properties of ring homomorphisms."
+                    }
+                ]
+            }
+        ]
+    ]
+]

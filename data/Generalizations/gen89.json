@@ -1,0 +1,89 @@
+[
+    [
+        [
+            0,
+            8,
+            "Empty Product",
+            "In a monoid, the empty product is defined as the unit element, i.e., $\\prod_{i=1}^{0} a_{i} := e$, where $e$ is the unit element."
+        ],
+        [
+            1,
+            18,
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        [
+            2,
+            28,
+            "Zero Ring",
+            "The zero ring is a ring where the unit element of addition (0) and the unit element of multiplication (1) are the same, i.e., 1=0. It consists of a single element 0."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            59,
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        [
+            5,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            6,
+            91,
+            "Prime subfield of a Field",
+            "The unique smallest subfield $P$ of a field $K$, given by the intersection of all subfields in $K$, is referred to as the prime (sub)field in $K$."
+        ],
+        [
+            7,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            8,
+            107,
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        [
+            9,
+            121,
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 3,
+                        "Specialization": 4,
+                        "Explanation": "A maximal ideal is a specific type of ideal in a ring, characterized by the property that there is no other ideal between it and the ring itself, except for the ring. Thus, every maximal ideal is an ideal, but not every ideal is maximal."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 10,
+                        "Explanation": "The alternating group is a specific example of a normal subgroup, as it is a normal subgroup of the symmetric group $\\\\(mathfrak{S}_{n}\\\\)$ with index 2."
+                    }
+                ]
+            }
+        ]
+    ]
+]

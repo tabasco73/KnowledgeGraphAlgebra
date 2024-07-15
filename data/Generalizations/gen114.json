@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            1,
+            15,
+            "Group Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+        ],
+        [
+            2,
+            39,
+            "Leading Coefficient",
+            "For a polynomial f=\nsum a_i X^i in R[X] with deg f=n \ngeq 0, the coefficient a_n is called the leading coefficient. If a_n=1, the polynomial is called monic."
+        ],
+        [
+            3,
+            47,
+            "Finitely Generated Ideal",
+            "An ideal $\\mathfrak{a}$ in a ring $R$ is finitely generated if it admits a finite system of generators."
+        ],
+        [
+            4,
+            64,
+            "Greatest common divisor",
+            "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+        ],
+        [
+            5,
+            69,
+            "Irreducible Polynomial",
+            "A polynomial $f$ in a ring $R[X]$ is irreducible if it cannot be factored into the product of two non-constant polynomials in $R[X]$."
+        ],
+        [
+            6,
+            81,
+            "Torsion submodule",
+            "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+        ],
+        [
+            7,
+            97,
+            "Simple Field Extension",
+            "A field extension $K \\subset L$ is called simple if there exists an element $\\alpha \\in L$ such that $L=K(\\alpha)$. The degree $[K(\\alpha): K]$ is referred to as the degree of $\\alpha$ over $K$."
+        ],
+        [
+            8,
+            109,
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        [
+            9,
+            127,
+            "Orbit",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+        ],
+        [
+            10,
+            131,
+            "Normalizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The normalizer of $S$ in $G$ is given by $N_{S}=\\{x \\in G ; x S=S x\\}$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 1,
+                        "Explanation": "A group homomorphism is a specialization of a monoid homomorphism when the monoids involved are groups."
+                    }
+                ]
+            }
+        ]
+    ]
+]

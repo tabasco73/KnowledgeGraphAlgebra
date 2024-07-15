@@ -1,0 +1,23 @@
+[
+    [
+        1465,
+        [
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ],
+        [
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ],
+        "Does the concept of a/an Map/Function need to be defined for a definition of a/an Domain to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Domain explicitly refers to it being the set of all possible input values for which a function is defined. This implies that the concept of a function (or map) is integral to understanding what a domain is. Without the concept of a function, the idea of a domain loses its context because it is specifically the set of inputs that a function can accept. Therefore, the concept of a map or function is necessary for the definition of a domain to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

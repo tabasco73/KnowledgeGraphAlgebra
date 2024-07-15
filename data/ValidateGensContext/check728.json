@@ -1,0 +1,23 @@
+[
+    [
+        728,
+        [
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ],
+        [
+            "Symmetric Group",
+            "The symmetric group, denoted as $\\mathfrak{S}_{n}$, is the group of all bijective self-maps of the set $\\{1, \\ldots, n\\}$."
+        ],
+        "Does the concept of a/an Map/Function need to be defined for a definition of a/an Symmetric Group to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Symmetric Group involves the concept of bijective self-maps of a set. A map, or function, is fundamentally a relationship that associates each element of one set (domain) to exactly one element in another set (codomain). In the context of the Symmetric Group, these maps are specifically bijective, meaning they are one-to-one and onto, which are properties defined within the broader concept of functions. Therefore, understanding what a map or function is, is crucial to comprehending what a bijective self-map is, as used in the definition of a Symmetric Group. Without the concept of a map or function, the definition of a Symmetric Group would lack the necessary foundation to make sense, as it directly relies on the properties of functions (bijectivity, in particular).",
+                "Verdict": true
+            }
+        ]
+    ]
+]

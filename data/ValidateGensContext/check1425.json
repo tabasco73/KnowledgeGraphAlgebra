@@ -1,0 +1,23 @@
+[
+    [
+        1425,
+        [
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            "Finitely Generated Field Extension",
+            "manual "
+        ],
+        "Does the concept of a/an Field Extension need to be defined for a definition of a/an Finitely Generated Field Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "manual",
+                "Verdict": true
+            }
+        ]
+    ]
+]

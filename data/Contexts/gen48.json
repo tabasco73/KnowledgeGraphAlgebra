@@ -1,0 +1,129 @@
+[
+    [
+        [
+            0,
+            5,
+            "Unit or Neutral Element",
+            "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            34,
+            "Zero Divisor",
+            "An element a of a ring R is called a zero divisor if there exists an element b in R - {0} such that ab=0 or ba=0. Fields and skew fields do not admit any zero divisors, except for 0, the trivial zero divisor."
+        ],
+        [
+            3,
+            52,
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            4,
+            61,
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        [
+            5,
+            69,
+            "Irreducible Polynomial",
+            "A polynomial $f$ in a ring $R[X]$ is irreducible if it cannot be factored into the product of two non-constant polynomials in $R[X]$."
+        ],
+        [
+            6,
+            83,
+            "Length of an A-module",
+            "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+        ],
+        [
+            7,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            8,
+            107,
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        [
+            9,
+            128,
+            "Stabilizer",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The stabilizer or isotropy subgroup of a point $x \\in X$ is defined as $G_{x}:=\\{g \\in G ; g x=x\\}$."
+        ],
+        [
+            10,
+            137,
+            "Disjoint Cycles",
+            "Two cycles $(x_{1}, \\ldots, x_{r})$ and $(y_{1}, \\ldots, y_{s})$ are called disjoint if the sets $\\{x_{1}, \\ldots, x_{r}\\}$ and $\\{y_{1}, \\ldots, y_{s}\\}$ have no elements in common."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A factor group is defined in terms of a group and its normal subgroup. Therefore, the concept of a group must be defined to understand a factor group.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A zero divisor is an element of a ring. Therefore, the concept of a ring must be defined to understand a zero divisor.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A ring epimorphism is a specific type of ring homomorphism, which in turn is defined in terms of rings. Therefore, the concept of a ring must be defined to understand a ring epimorphism.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A Euclidean function is defined in the context of a Euclidean domain, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand a Euclidean function.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An irreducible polynomial is defined in the context of a polynomial ring. Therefore, the concept of a ring must be defined to understand an irreducible polynomial.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The length of an A-module is defined in terms of submodules, which are themselves defined in the context of modules. Therefore, the concept of a module must be defined to understand the length of an A-module.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A field extension is defined in terms of fields. Therefore, the concept of a field must be defined to understand a field extension.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A K-homomorphism is a field homomorphism between field extensions. Therefore, the concept of a field extension must be defined to understand a K-homomorphism.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "A stabilizer is defined in the context of a group action. Therefore, the concept of a group must be defined to understand a stabilizer.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "Disjoint cycles are defined in the context of permutations, which are elements of a symmetric group. Therefore, the concept of a group must be defined to understand disjoint cycles.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

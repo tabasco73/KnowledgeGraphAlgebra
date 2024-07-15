@@ -1,0 +1,110 @@
+[
+    [
+        [
+            0,
+            3,
+            "Associative Law",
+            "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            38,
+            "Degree of a Polynomial",
+            "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+        ],
+        [
+            3,
+            47,
+            "Finitely Generated Ideal",
+            "An ideal $\\mathfrak{a}$ in a ring $R$ is finitely generated if it admits a finite system of generators."
+        ],
+        [
+            4,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            5,
+            75,
+            "Residue class module",
+            "The residue class module M/N of an A-module M by a submodule N is defined analogously to the quotient space in vector spaces, where M/N consists of the cosets of N in M."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            100,
+            "Ring Homomorphism of Finite Type",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is of finite type if there exists an epimorphism $\\Phi: A[X_{1}, \\ldots, X_{n}] \\longrightarrow B$ from a polynomial ring in finitely many variables over $A$ to $B$ that extends $\\varphi$. Alternatively, it can be characterized by the existence of elements $x_{1}, \\ldots, x_{n} \\in B$ such that $B=\\varphi(A)[x_{1}, \\ldots, x_{n}]$."
+        ],
+        [
+            8,
+            107,
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        [
+            9,
+            124,
+            "Galois group of a Field Extension",
+            "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+        ],
+        [
+            10,
+            135,
+            "Cycle",
+            "A permutation $\\pi \\in \\mathfrak{S}_{n}$ is called a cycle if there exist distinct elements $x_{1}, \\ldots, x_{r}$ in $\\{1, \\ldots, n\\}, r \\geq 2$, such that $\\pi(x_{i}) = x_{i+1}$ for $1 \\leq i < r$, $\\pi(x_{r}) = x_{1}$, and $\\pi(x) = x$ for $x \\in \\{1, \\ldots, n\\} - \\{x_{1}, \\ldots, x_{r}\\}$."
+        ],
+        [
+            11,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The degree of a polynomial is defined in terms of the polynomial itself. Specifically, the degree is the highest power of the variable in the polynomial with a non-zero coefficient.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A prime ideal is a specific type of ideal in a ring. Therefore, the concept of an ideal must be defined before defining a prime ideal.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "A ring homomorphism of finite type involves polynomial rings, which are defined in terms of polynomials.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A K-homomorphism is a specific type of field homomorphism between field extensions. The concept of a field extension is necessary to define a K-homomorphism.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "The Galois group of a field extension is defined in terms of field automorphisms that fix every element of a smaller field. Therefore, the concept of a field extension is necessary to define the Galois group.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 8
+                    }
+                ]
+            }
+        ]
+    ]
+]

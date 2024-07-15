@@ -1,0 +1,129 @@
+[
+    [
+        [
+            0,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            30,
+            "Ring Extension",
+            "The pair (S, R), where S is a subring of R, is called a ring extension."
+        ],
+        [
+            3,
+            51,
+            "Ring Monomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called a monomorphism if it is injective."
+        ],
+        [
+            4,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            5,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            6,
+            85,
+            "Galois Group of a Polynomial Splitting Fields",
+            "The Galois group of a polynomial equation is the group of automorphisms of the splitting field of the polynomial that fix the base field. These automorphisms permute the roots of the polynomial."
+        ],
+        [
+            7,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            8,
+            113,
+            "Extension Field",
+            "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+        ],
+        [
+            9,
+            118,
+            "Ideal corresponding to a subset",
+            "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+        ],
+        [
+            10,
+            135,
+            "Cycle",
+            "A permutation $\\pi \\in \\mathfrak{S}_{n}$ is called a cycle if there exist distinct elements $x_{1}, \\ldots, x_{r}$ in $\\{1, \\ldots, n\\}, r \\geq 2$, such that $\\pi(x_{i}) = x_{i+1}$ for $1 \\leq i < r$, $\\pi(x_{r}) = x_{1}$, and $\\pi(x) = x$ for $x \\in \\{1, \\ldots, n\\} - \\{x_{1}, \\ldots, x_{r}\\}$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of an inverse of an element requires the concept of a monoid, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of a factor group requires the concept of a group and a normal subgroup, which are specific types of algebraic structures.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of a ring extension requires the concept of a subring and a ring, which are specific types of algebraic structures.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of a ring monomorphism requires the concept of a ring homomorphism, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of the kernel of a ring homomorphism requires the concept of a ring homomorphism, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of an A-homomorphism requires the concept of an A-module, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of the Galois group of a polynomial splitting field requires the concept of a splitting field, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 8
+                    },
+                    {
+                        "Explanation": "The definition of an extension field requires the concept of a field, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of an ideal corresponding to a subset requires the concept of a polynomial ring, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of a cycle requires the concept of a permutation, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 7
+                    }
+                ]
+            }
+        ]
+    ]
+]

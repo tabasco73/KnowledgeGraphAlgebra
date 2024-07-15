@@ -1,0 +1,78 @@
+[
+    [
+        [
+            0,
+            4,
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            1,
+            14,
+            "Monoid Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$."
+        ],
+        [
+            2,
+            35,
+            "Integral Domain",
+            "A commutative ring R is called an integral domain if it is nonzero and does not admit nontrivial zero divisors."
+        ],
+        [
+            3,
+            42,
+            "Sum of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the sum $\\mathfrak{a}+\\mathfrak{b}$ is defined as $\\{a+b ; a \\in \\mathfrak{a}, b \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ],
+        [
+            5,
+            71,
+            "Canonical Homomorphism",
+            "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            8,
+            106,
+            "Algebraic closure of a field",
+            "An algebraic closure of a field $K$, denoted as $\\bar{K}$, is an algebraically closed field that is algebraic over $K$."
+        ],
+        [
+            9,
+            125,
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            10,
+            135,
+            "Cycle",
+            "A permutation $\\pi \\in \\mathfrak{S}_{n}$ is called a cycle if there exist distinct elements $x_{1}, \\ldots, x_{r}$ in $\\{1, \\ldots, n\\}, r \\geq 2$, such that $\\pi(x_{i}) = x_{i+1}$ for $1 \\leq i < r$, $\\pi(x_{r}) = x_{1}$, and $\\pi(x) = x$ for $x \\in \\{1, \\ldots, n\\} - \\{x_{1}, \\ldots, x_{r}\\}$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": []
+            }
+        ]
+    ]
+]

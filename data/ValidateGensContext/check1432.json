@@ -1,0 +1,23 @@
+[
+    [
+        1432,
+        [
+            "Extension Field",
+            "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+        ],
+        [
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        "Does the concept of a/an Extension Field need to be defined for a definition of a/an K-homomorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a K-homomorphism inherently involves the concept of field extensions, as it specifically refers to a field homomorphism between two field extensions L / K and L' / K. This implies that both L and L' are extension fields of K. Therefore, the concept of an extension field is crucial for defining what L / K and L' / K are, which are integral to the definition of a K-homomorphism. Without understanding what an extension field is, one cannot fully grasp the meaning of a K-homomorphism, as it relies on the properties and structure of extension fields. Thus, the concept of an extension field is necessary for the definition of a K-homomorphism to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

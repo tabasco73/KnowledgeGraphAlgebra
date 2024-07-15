@@ -1,0 +1,140 @@
+[
+    [
+        [
+            0,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            1,
+            26,
+            "Ring",
+            "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            50,
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            8,
+            116,
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            139,
+            "Sign or Signature of a Permutation",
+            "The sign or signature of a permutation $\\pi \\in \\mathfrak{S}_{n}$, denoted as $\\operatorname{sgn} \\pi$, is defined by the product $\\prod_{i<j} \\frac{\\pi(i)-\\pi(j)}{i-j}$. The sign can only assume the values 1 and -1. If $\\operatorname{sgn} \\pi$ is positive, $\\pi$ is called an even permutation, and an odd permutation otherwise."
+        ],
+        [
+            11,
+            145,
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A group is defined as a monoid with additional properties. Therefore, the concept of a monoid must be defined to understand what a group is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A ring is defined as a set with two operations that satisfy certain properties. Therefore, the concept of a set must be defined to understand what a ring is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The units of a ring are defined as the multiplicatively invertible elements of a ring. Therefore, the concept of a ring must be defined to understand what the units of a ring are.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A ring isomorphism is defined as a bijective ring homomorphism that admits an inverse. Therefore, the concept of a ring must be defined to understand what a ring isomorphism is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A ring endomorphism is defined as a homomorphism from a ring to itself. Therefore, the concept of a ring must be defined to understand what a ring endomorphism is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A-homomorphisms are defined as homomorphisms between A-modules. Therefore, the concept of an A-module must be defined to understand what an A-homomorphism is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "The rank of an A-module is defined as the supremum of the number of linearly independent elements in the module. Therefore, the concept of an A-module must be defined to understand what the rank of an A-module is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "The degree of a field extension is defined as the dimension of the extension as a vector space over the base field. Therefore, the concept of a field extension must be defined to understand what the degree of a field extension is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "The Galois group of a finite field extension is defined as the group of field automorphisms that fix the base field. Therefore, the concept of a finite field extension must be defined to understand what the Galois group is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "A Galois extension is defined as a field extension that is both normal and separable. Therefore, the concept of a field extension must be defined to understand what a Galois extension is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The sign or signature of a permutation is defined in terms of the elements of a set. Therefore, the concept of a set must be defined to understand what the sign of a permutation is.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 11
+                    }
+                ]
+            }
+        ]
+    ]
+]

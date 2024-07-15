@@ -1,0 +1,23 @@
+[
+    [
+        773,
+        [
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        [
+            "Frobenius homomorphism",
+            "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+        ],
+        "Does the concept of a/an K-homomorphism need to be defined for a definition of a/an Frobenius homomorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Frobenius homomorphism involves a specific map \\(\\sigma: K \\longrightarrow K, a \\longmapsto a^{p}\\) for a field \\(K\\) of characteristic \\(p>0\\). This map is defined entirely within the field \\(K\\) itself and does not reference any field extensions or the need for the map to restrict to the identity on any subfield. The concept of a \\(K\\)-homomorphism, on the other hand, specifically pertains to field homomorphisms between field extensions \\(L / K\\) and \\(L' / K\\) where the homomorphism restricts to the identity on \\(K\\). Since the Frobenius homomorphism is defined without reference to any field extensions or the need for identity restriction on a subfield, the concept of a \\(K\\)-homomorphism is not necessary for the definition or understanding of a Frobenius homomorphism. The Frobenius homomorphism is self-contained within the field \\(K\\) and does not involve other fields or extensions.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

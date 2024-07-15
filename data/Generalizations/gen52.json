@@ -1,0 +1,78 @@
+[
+    [
+        [
+            0,
+            6,
+            "Monoid",
+            "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+        ],
+        [
+            1,
+            22,
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            47,
+            "Finitely Generated Ideal",
+            "An ideal $\\mathfrak{a}$ in a ring $R$ is finitely generated if it admits a finite system of generators."
+        ],
+        [
+            4,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            5,
+            78,
+            "Free system of generators (basis)",
+            "A family (x_i)_{i in I} of elements of an A-module M is called free or linearly independent if from an equation sum_{i in I} a_i x_i = 0 with coefficients a_i in A we can conclude that a_i = 0 for all i in I. A free system of generators will also be referred to as a basis."
+        ],
+        [
+            6,
+            89,
+            "Characteristic of a field",
+            "Let $K$ be a field (or, more generally, an integral domain) and let $\\varphi: \\mathbb{Z} \\longrightarrow K$ be the canonical ring homomorphism. Furthermore, let $p \\in \\mathbb{N}$ be a generating element of the principal ideal $\\operatorname{ker} \\varphi$. Then $p$ is called the characteristic of $K$, and we write $p=\\operatorname{char} K$."
+        ],
+        [
+            7,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            8,
+            106,
+            "Algebraic closure of a field",
+            "An algebraic closure of a field $K$, denoted as $\\bar{K}$, is an algebraically closed field that is algebraic over $K$."
+        ],
+        [
+            9,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            10,
+            137,
+            "Disjoint Cycles",
+            "Two cycles $(x_{1}, \\ldots, x_{r})$ and $(y_{1}, \\ldots, y_{s})$ are called disjoint if the sets $\\{x_{1}, \\ldots, x_{r}\\}$ and $\\{y_{1}, \\ldots, y_{s}\\}$ have no elements in common."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": []
+            }
+        ]
+    ]
+]

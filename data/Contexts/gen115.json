@@ -1,0 +1,109 @@
+[
+    [
+        [
+            0,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ],
+        [
+            5,
+            70,
+            "Prime Element",
+            "An element $p$ in a unique factorization domain $R$ is called a prime element if it generates a prime ideal, i.e., the ideal $(p)$ is such that if $p$ divides a product of elements in $R$, then $p$ divides at least one of those elements."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            8,
+            110,
+            "Finite Field",
+            "A finite field $\\\\[\\mathbb{F}\\\text{\\_q}\\]$ consists of $q$ elements, where $q=p^n$ for some prime number $p$ and integer $n>0$. It is different from the residue class ring $\\\\[\\mathbb{Z} / p^n \\mathbb{Z}\\]$ for $n>1$, as the latter has nontrivial zero divisors and cannot be a field."
+        ],
+        [
+            9,
+            128,
+            "Stabilizer",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The stabilizer or isotropy subgroup of a point $x \\in X$ is defined as $G_{x}:=\\{g \\in G ; g x=x\\}$."
+        ],
+        [
+            10,
+            132,
+            "p-group",
+            "A finite group G is called a p-group if the order of G is a power of p, where p is a prime number."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of a principal ideal domain requires the concept of an integral domain, which is a specific type of ring.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of a least common multiple requires the concept of divisibility within a ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of a prime element requires the concept of a unique factorization domain, which is a specific type of integral domain.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The definition of the rank of an A-module requires the concept of a module, which is a generalization of vector spaces over a ring.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of a finitely generated field extension requires the concept of a field extension.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of a finite field requires the concept of a field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 2
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,120 @@
+[
+    [
+        [
+            0,
+            2,
+            "Law of Composition",
+            "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+        ],
+        [
+            1,
+            26,
+            "Ring",
+            "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+        ],
+        [
+            2,
+            33,
+            "Field",
+            "A field is a commutative division ring."
+        ],
+        [
+            3,
+            44,
+            "Intersection of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the intersection $\\mathfrak{a} \\cap \\mathfrak{b}$ is defined as $\\{x ; x \\in \\mathfrak{a} \\text { and } x \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            56,
+            "Image of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The image of $\\varphi$, denoted $\\operatorname{im} \\varphi$, is defined as $\\varphi(R)$, which is a subring of $R'$."
+        ],
+        [
+            5,
+            71,
+            "Canonical Homomorphism",
+            "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+        ],
+        [
+            6,
+            81,
+            "Torsion submodule",
+            "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+        ],
+        [
+            7,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            8,
+            113,
+            "Extension Field",
+            "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+        ],
+        [
+            9,
+            128,
+            "Stabilizer",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The stabilizer or isotropy subgroup of a point $x \\in X$ is defined as $G_{x}:=\\{g \\in G ; g x=x\\}$."
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of a ring includes the requirement for two laws of composition (addition and multiplication), thus it depends on the concept of a law of composition.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a field as a commutative division ring implies that it is a special type of ring, thus its definition depends on the concept of a ring.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The intersection of ideals is specifically defined within the context of a ring, thus its definition depends on the concept of a ring.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The image of a ring homomorphism is defined within the context of ring homomorphisms, which inherently depends on the concept of a ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The canonical homomorphism is a type of ring homomorphism, which inherently depends on the concept of a ring.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The integral ring homomorphism is a type of ring homomorphism, which inherently depends on the concept of a ring.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An extension field is defined as a type of field, thus its definition depends on the concept of a field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 2
+                    }
+                ]
+            }
+        ]
+    ]
+]

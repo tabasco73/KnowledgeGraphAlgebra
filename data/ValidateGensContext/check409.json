@@ -1,0 +1,23 @@
+[
+    [
+        409,
+        [
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        "Does the concept of a/an Solvable group need to be defined for a definition of a/an Left Coset to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Left Coset involves a group $G$ and a subgroup $H$ of $G$, and defines a subset formed by multiplying a fixed element $a$ from $G$ with every element in $H$. This definition requires only the concepts of a group and a subgroup, and does not depend on any additional properties of the group, such as whether it is solvable or not.\\n\\nThe concept of a Solvable group, on the other hand, involves a specific type of group that has a particular chain of subgroups with each quotient being abelian. This concept is more specific and pertains to the internal structure and properties of the group itself.\\n\\nSince the definition of a Left Coset does not require the group to have any specific properties like solvability, and only requires the basic group structure and the existence of subgroups, the concept of a Solvable group is not necessary for the definition of a Left Coset to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

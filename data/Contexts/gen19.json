@@ -1,0 +1,130 @@
+[
+    [
+        [
+            0,
+            3,
+            "Associative Law",
+            "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+        ],
+        [
+            1,
+            18,
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        [
+            2,
+            32,
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            3,
+            41,
+            "Trivial Ideals",
+            "In any ring $R$, the zero ideal $\\{0\\}$ and the unit ideal $R$ are called trivial ideals. These are the only ideals if $R$ is a field."
+        ],
+        [
+            4,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ],
+        [
+            5,
+            69,
+            "Irreducible Polynomial",
+            "A polynomial $f$ in a ring $R[X]$ is irreducible if it cannot be factored into the product of two non-constant polynomials in $R[X]$."
+        ],
+        [
+            6,
+            89,
+            "Characteristic of a field",
+            "Let $K$ be a field (or, more generally, an integral domain) and let $\\varphi: \\mathbb{Z} \\longrightarrow K$ be the canonical ring homomorphism. Furthermore, let $p \\in \\mathbb{N}$ be a generating element of the principal ideal $\\operatorname{ker} \\varphi$. Then $p$ is called the characteristic of $K$, and we write $p=\\operatorname{char} K$."
+        ],
+        [
+            7,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            8,
+            114,
+            "Algebraic Closure of Finite Field",
+            "An algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of a finite field $\\\\[\\mathbb{F}_p\\]$ is a field that contains $\\\\[\\mathbb{F}_p\\]$ and all its algebraic extensions. It is used to view the fields $\\\\[\\mathbb{F}_{p^n}\\]$ as subfields."
+        ],
+        [
+            9,
+            118,
+            "Ideal corresponding to a subset",
+            "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+        ],
+        [
+            10,
+            142,
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of a normal subgroup involves the concept of a subgroup, which in turn is defined within the context of a group. A group is defined by its associative law among other properties.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A division ring is a specific type of ring, and the concept of trivial ideals is defined within the context of a ring.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of an irreducible polynomial involves the concept of a ring, as it is a polynomial in a ring.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The characteristic of a field is defined using the concept of a field.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The degree of a field extension is defined using the concept of a field.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "An algebraic closure of a finite field is defined using the concept of a finite field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "The ideal corresponding to a subset is defined using the concept of a polynomial ring, which in turn is defined using the concept of a ring.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The Klein four-group is defined as a subgroup of the symmetric group, which is a specific type of group. The concept of a group is defined using the associative law.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The kernel of a map is defined as a subset of the domain, which is a set. The concept of a set is fundamental and does not depend on other concepts in this list.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

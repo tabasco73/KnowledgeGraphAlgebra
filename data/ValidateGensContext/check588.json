@@ -1,0 +1,23 @@
+[
+    [
+        588,
+        [
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        "Does the concept of a/an Ring Epimorphism need to be defined for a definition of a/an Degree of a Field Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of the degree of a field extension involves understanding the dimension of one field as a vector space over another field. This concept is purely based on the properties of fields and vector spaces, and it specifically involves the dimensions of vector spaces over fields.\\n\\nOn the other hand, a ring epimorphism is a concept from ring theory, specifically a type of ring homomorphism that is surjective. This concept relates to the structure and properties of rings and their homomorphisms.\\n\\nThere is no direct or necessary connection between the concept of a ring epimorphism and the degree of a field extension. The degree of a field extension can be fully understood and defined without any reference to ring epimorphisms. The degree of a field extension is concerned with vector space dimensions over fields, whereas ring epimorphisms deal with surjective mappings between rings. These are separate areas of algebra with different focuses.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

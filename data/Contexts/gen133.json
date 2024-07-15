@@ -1,0 +1,140 @@
+[
+    [
+        [
+            0,
+            12,
+            "Submonoid",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            63,
+            "Factorial ring/unique factorization domain",
+            "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+        ],
+        [
+            5,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            6,
+            91,
+            "Prime subfield of a Field",
+            "The unique smallest subfield $P$ of a field $K$, given by the intersection of all subfields in $K$, is referred to as the prime (sub)field in $K$."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            105,
+            "Trivial Algebraic field extension",
+            "An algebraic field extension $L / K$ is trivial if every element of $L$ is algebraic over $K$."
+        ],
+        [
+            9,
+            127,
+            "Orbit",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+        ],
+        [
+            10,
+            142,
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ],
+        [
+            11,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of a submonoid requires the concept of a monoid to be defined first, as it specifies a subset of a monoid that satisfies certain properties.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of a factor group depends on the concept of a normal subgroup, which in turn requires the concept of a group to be defined.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of units of a ring depends on the concept of a ring being defined first.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of a principal ideal domain depends on the concept of a ring and the concept of an ideal being defined.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of a factorial ring depends on the concept of an integral domain, which is a type of ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of an A-module depends on the concept of an abelian group and the concept of a ring (or more generally, a ring-like structure A).",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of a prime subfield of a field depends on the concept of a field being defined first.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of a finite ring homomorphism depends on the concept of a ring homomorphism, which in turn depends on the concept of a ring.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of a trivial algebraic field extension depends on the concept of a field and the concept of an algebraic extension.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of an orbit depends on the concept of a group action, which requires the concept of a group.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The definition of the Klein Four-Group depends on the concept of a group, specifically the symmetric group $\\\\frak{S}_{4}$, and the concept of a group isomorphism.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 11
+                    }
+                ]
+            }
+        ]
+    ]
+]

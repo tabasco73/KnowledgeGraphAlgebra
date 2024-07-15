@@ -1,0 +1,140 @@
+[
+    [
+        [
+            0,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            1,
+            25,
+            "Dedekind Domain",
+            "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+        ],
+        [
+            2,
+            30,
+            "Ring Extension",
+            "The pair (S, R), where S is a subring of R, is called a ring extension."
+        ],
+        [
+            3,
+            49,
+            "Ring Homomorphism",
+            "Let $R$ and $R'$ be rings. A map $\\varphi: R \\longrightarrow R'$ is called a ring homomorphism if it satisfies two conditions: (i) $\\varphi(a+b)=\\varphi(a)+\\varphi(b)$ for all $a, b \\in R$, making $\\varphi$ a group homomorphism with respect to addition, and (ii) $\\varphi(a \\cdot b)=\\varphi(a) \\cdot \\varphi(b)$ for all $a, b \\in R$ and $\\varphi(1)=1$, making $\\varphi$ a monoid homomorphism with respect to multiplication."
+        ],
+        [
+            4,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ],
+        [
+            5,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            6,
+            81,
+            "Torsion submodule",
+            "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+        ],
+        [
+            7,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            8,
+            115,
+            "Multiplicative Group of a Finite Field",
+            "The multiplicative group of a finite field $\\\\[\\mathbb{F}_q\\]$ is the group formed by all nonzero elements of $\\\\[\\mathbb{F}_q\\]$, denoted as $\\\\[\\mathbb{F}_q^*\\]$. It is cyclic of order $q-1$."
+        ],
+        [
+            9,
+            122,
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            10,
+            138,
+            "Transposition",
+            "A 2-cycle is called a transposition."
+        ],
+        [
+            11,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A group is defined as a monoid with additional properties. Therefore, the concept of a monoid must be defined to understand what a group is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "A Dedekind domain is a specific type of integral domain, so the concept of an integral domain must be defined first.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A ring homomorphism involves the concept of rings, so rings must be defined first.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The least common multiple is defined in terms of divisibility within a ring, so the concept of a ring must be defined first.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "An A-module is defined as an abelian group with additional structure, so the concept of an abelian group must be defined first.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The torsion submodule is a submodule of an A-module, so the concept of an A-module must be defined first.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "A field extension is a specific type of ring extension where the rings are fields, so the concept of a ring extension must be defined first.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The multiplicative group of a finite field is a group formed by elements of a finite field, so the concept of a group must be defined first.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A separable extension is a specific type of field extension, so the concept of a field extension must be defined first.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "A transposition is a specific type of permutation, which is a concept within group theory, so the concept of a group must be defined first.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A subset is a fundamental concept in set theory, which is a prerequisite for understanding all other mathematical structures.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,124 @@
+[
+    [
+        [
+            0,
+            7,
+            "Product Notation in Monoids",
+            "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+        ],
+        [
+            1,
+            26,
+            "Ring",
+            "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+        ],
+        [
+            2,
+            29,
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            63,
+            "Factorial ring/unique factorization domain",
+            "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+        ],
+        [
+            5,
+            75,
+            "Residue class module",
+            "The residue class module M/N of an A-module M by a submodule N is defined analogously to the quotient space in vector spaces, where M/N consists of the cosets of N in M."
+        ],
+        [
+            6,
+            83,
+            "Length of an A-module",
+            "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+        ],
+        [
+            7,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            8,
+            106,
+            "Algebraic closure of a field",
+            "An algebraic closure of a field $K$, denoted as $\\bar{K}$, is an algebraically closed field that is algebraic over $K$."
+        ],
+        [
+            9,
+            118,
+            "Ideal corresponding to a subset",
+            "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+        ],
+        [
+            10,
+            138,
+            "Transposition",
+            "A 2-cycle is called a transposition."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A subring is defined as a subset of a ring that is a subgroup with respect to addition and a submonoid with respect to multiplication. Therefore, the concept of a ring must be defined to understand what a subring is.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The product of ideals is defined in the context of a ring, as ideals themselves are subsets of a ring. Therefore, the concept of a ring must be defined to understand what the product of ideals is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A factorial ring or unique factorization domain is a specific type of integral domain, which is a type of ring. Therefore, the concept of a ring must be defined to understand what a factorial ring is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The residue class module is defined in terms of an A-module, which is a generalization of modules over a ring. Therefore, the concept of a ring must be defined to understand what a residue class module is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The length of an A-module is defined in terms of submodules, which are defined in the context of modules over a ring. Therefore, the concept of a ring must be defined to understand what the length of an A-module is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A finitely generated field extension is defined in terms of fields, which are specific types of rings. Therefore, the concept of a ring must be defined to understand what a finitely generated field extension is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An algebraic closure of a field is defined in terms of fields, which are specific types of rings. Therefore, the concept of a ring must be defined to understand what an algebraic closure of a field is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The ideal corresponding to a subset is defined in terms of a polynomial ring, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand what the ideal corresponding to a subset is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The product notation in monoids is defined in terms of a monoid, which is a set equipped with an associative binary operation and an identity element. Therefore, the concept of a monoid must be defined to understand what the product notation in monoids is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    }
+                ]
+            }
+        ]
+    ]
+]

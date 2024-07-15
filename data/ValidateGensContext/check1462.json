@@ -1,0 +1,23 @@
+[
+    [
+        1462,
+        [
+            "Symmetric Group",
+            "The symmetric group, denoted as $\\mathfrak{S}_{n}$, is the group of all bijective self-maps of the set $\\{1, \\ldots, n\\}$."
+        ],
+        [
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ],
+        "Does the concept of a/an Symmetric Group need to be defined for a definition of a/an Klein Four-Group to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of the Klein Four-Group explicitly states that it is a subgroup of the symmetric group $\\\\frak{S}_{4}$. This implies that the concept of the symmetric group must be understood first in order to comprehend what $\\\\frak{S}_{4}$ represents, as it refers to the group of all permutations of four elements. Without understanding what a symmetric group is, one cannot fully grasp the structure or the elements of the Klein Four-Group, since its elements are described as specific permutations within $\\\\frak{S}_{4}$. Therefore, the concept of a symmetric group is necessary to define and understand the Klein Four-Group.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

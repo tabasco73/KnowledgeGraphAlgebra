@@ -1,0 +1,23 @@
+[
+    [
+        299,
+        [
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        "Does the concept of a/an Commutative Law need to be defined for a definition of a/an Normal Subgroup to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a normal subgroup involves the condition that $aH = Ha$ for all $a \\n G$, where $H$ is a subgroup of a group $G$. This condition ensures that the left and right cosets of $H$ in $G$ are the same for every element $a$ in $G$. The commutative law, on the other hand, states that a law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\n M$. \\n\\nThe requirement for a subgroup to be normal does not depend on the operation of the group $G$ being commutative. The normality condition $aH = Ha$ is about the relationship between an element and a subgroup, ensuring that the subgroup's structure is compatible with the group's structure in a specific way (i.e., the subgroup is invariant under conjugation by elements of the group). This is different from requiring that every pair of elements in the group commute, which would be the implication if the commutative law were necessary for the definition of a normal subgroup. \\n\\nTherefore, the concept of the commutative law is not necessary for the definition of a normal subgroup to make sense. The definition of a normal subgroup can be fully understood and applied regardless of whether the group operation is commutative or not.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

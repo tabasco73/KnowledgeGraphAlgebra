@@ -1,0 +1,146 @@
+[
+    [
+        [
+            0,
+            92,
+            "Frobenius homomorphism",
+            "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+        ],
+        [
+            1,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            2,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            3,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            4,
+            96,
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            5,
+            97,
+            "Simple Field Extension",
+            "A field extension $K \\subset L$ is called simple if there exists an element $\\alpha \\in L$ such that $L=K(\\alpha)$. The degree $[K(\\alpha): K]$ is referred to as the degree of $\\alpha$ over $K$."
+        ],
+        [
+            6,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            100,
+            "Ring Homomorphism of Finite Type",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is of finite type if there exists an epimorphism $\\Phi: A[X_{1}, \\ldots, X_{n}] \\longrightarrow B$ from a polynomial ring in finitely many variables over $A$ to $B$ that extends $\\varphi$. Alternatively, it can be characterized by the existence of elements $x_{1}, \\ldots, x_{n} \\in B$ such that $B=\\varphi(A)[x_{1}, \\ldots, x_{n}]$."
+        ],
+        [
+            9,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            10,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            11,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            12,
+            104,
+            "Algebraically closed field",
+            "A field $K$ is called algebraically closed if every nonconstant polynomial $f$ of $K[X]$ admits a zero in $K$, or in other words, if $f$ decomposes in $K[X]$ into a product of linear factors. This means that $f$ admits a product decomposition $f=c \\prod_{i}\\left(X-\\alpha_{i}\\right)$ with a constant $c \\in K^{*}$ as well as zeros $\\alpha_{i} \\in K$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The Frobenius homomorphism is defined for a field K of characteristic p > 0. Therefore, the concept of a field must be defined to understand the Frobenius homomorphism.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The degree of a field extension is defined in terms of a field extension K \u2282 L. Therefore, the concept of a field extension must be defined to understand the degree of a field extension.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An algebraic element is defined in terms of a field extension K \u2282 L. Therefore, the concept of a field extension must be defined to understand an algebraic element.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An algebraic field extension is defined in terms of every element in the extension field being algebraic over the base field. Therefore, the concept of an algebraic element must be defined to understand an algebraic field extension.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "A simple field extension is defined in terms of a field extension K \u2282 L. Therefore, the concept of a field extension must be defined to understand a simple field extension.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A finitely generated field extension is defined in terms of a field extension K \u2282 L. Therefore, the concept of a field extension must be defined to understand a finitely generated field extension.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A finite ring homomorphism is defined in terms of a ring homomorphism. Therefore, the concept of a ring homomorphism must be defined to understand a finite ring homomorphism.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "A ring homomorphism of finite type is defined in terms of a ring homomorphism. Therefore, the concept of a ring homomorphism must be defined to understand a ring homomorphism of finite type.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "An integral element over a ring is defined in terms of a ring homomorphism. Therefore, the concept of a ring homomorphism must be defined to understand an integral element over a ring.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "An integral ring homomorphism is defined in terms of every element in the codomain being integral over the domain. Therefore, the concept of an integral element over a ring must be defined to understand an integral ring homomorphism.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 10
+                    },
+                    {
+                        "Explanation": "An algebraically closed field is defined in terms of the field having certain properties related to polynomials. Therefore, the concept of a field must be defined to understand an algebraically closed field.",
+                        "The_Definition_of_This_Concept": 12,
+                        "Depends_On_This_Concept": 1
+                    }
+                ]
+            }
+        ]
+    ]
+]

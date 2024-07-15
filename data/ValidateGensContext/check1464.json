@@ -1,0 +1,23 @@
+[
+    [
+        1464,
+        [
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ],
+        [
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ],
+        "Does the concept of a/an Set need to be defined for a definition of a/an Map/Function to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "According to the provided definitions, a map (or function) is described as a relationship between two sets, specifically associating every element in one set (the domain) to exactly one element in another set (the codomain). This definition inherently relies on the concept of a set, as it explicitly mentions and uses sets to define the domain and codomain of the map. Without understanding what a set is, one cannot fully comprehend what it means for elements to belong to a domain or a codomain, nor can the relationship (mapping) between these sets be understood. Therefore, the concept of a set is essential for the definition of a map/function to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

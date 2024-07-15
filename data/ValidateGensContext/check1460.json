@@ -1,0 +1,23 @@
+[
+    [
+        1460,
+        [
+            "Symmetric Group",
+            "The symmetric group, denoted as $\\mathfrak{S}_{n}$, is the group of all bijective self-maps of the set $\\{1, \\ldots, n\\}$."
+        ],
+        [
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ],
+        "Does the concept of a/an Symmetric Group need to be defined for a definition of a/an Alternating Group to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of the Alternating Group explicitly references the Symmetric Group, denoted as \\(\\mathfrak{S}_{n}\\). The Alternating Group is defined as the set of all even permutations in \\(\\mathfrak{S}_{n}\\), which implies that it is a subset of the Symmetric Group. Furthermore, the concept of even permutations (those for which \\(\\operatorname{sgn} \\pi = 1\\)) inherently relies on the structure and elements of the Symmetric Group, as it is within this group that the permutations are defined and their properties, such as being even, are determined. Therefore, without the definition of the Symmetric Group, the definition of the Alternating Group would lack context and clarity, as it would not be clear what set of permutations is being referred to or how these permutations are structured and behave.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

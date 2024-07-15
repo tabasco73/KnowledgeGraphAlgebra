@@ -1,0 +1,23 @@
+[
+    [
+        1401,
+        [
+            "Euclidean domain",
+            "An integral domain $R$ is called a Euclidean domain if it admits a map $\\delta: R-\\{0\\} \\longrightarrow \\mathbb{N}$ making possible Euclidean division in $R$ in the following sense: Given elements $f, g \\in R, g \\neq 0$, there are elements $q, r \\in R$ such that $f=q g+r$, where $\\delta(r)<\\delta(g)$ or $r=0$."
+        ],
+        [
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        "Does the concept of a/an Euclidean domain need to be defined for a definition of a/an Euclidean function to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Euclidean function explicitly references a Euclidean domain, stating that the map \\n\\ndelta is in a Euclidean domain R that facilitates the Euclidean division process. This implies that the concept of a Euclidean domain is fundamental to the definition of a Euclidean function, as the function itself is defined within the context of a Euclidean domain. Without the concept of a Euclidean domain, the Euclidean function would lack the necessary framework in which it operates, making the concept of a Euclidean domain essential for the definition of a Euclidean function to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

@@ -1,0 +1,94 @@
+[
+    [
+        [
+            0,
+            4,
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            1,
+            15,
+            "Group Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+        ],
+        [
+            2,
+            36,
+            "Polynomial Ring",
+            "Given a commutative ring R, the polynomial ring R[X] is the set of all sequences (a_i) where a_i in R and a_i=0 for almost all i, equipped with addition and multiplication defined by (a_i)+(b_i)=(a_i+b_i) and (a_i) \ncdot (b_i)=(c_i) where c_i=\nsum_{\nu+\nu=i} a_\nu b_\nu. Elements of R[X] can be written as \nsum_{i=0}^n a_i X^i where X is the sequence (0,1,0,0,...)."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            6,
+            89,
+            "Characteristic of a field",
+            "Let $K$ be a field (or, more generally, an integral domain) and let $\\varphi: \\mathbb{Z} \\longrightarrow K$ be the canonical ring homomorphism. Furthermore, let $p \\in \\mathbb{N}$ be a generating element of the principal ideal $\\operatorname{ker} \\varphi$. Then $p$ is called the characteristic of $K$, and we write $p=\\operatorname{char} K$."
+        ],
+        [
+            7,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            8,
+            107,
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        [
+            9,
+            126,
+            "Group Action",
+            "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+        ],
+        [
+            10,
+            136,
+            "r-cycle",
+            "A cycle involving $r$ elements is called an $r$-cycle and is denoted as $\\pi = (x_{1}, \\ldots, x_{r})$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 4,
+                        "Explanation": "A Ring Endomorphism (ID: 4) is a specialization of a Group Homomorphism (ID: 1) when the monoids in question are rings, as it is a homomorphism from a ring to itself, fulfilling the conditions of a group homomorphism within the context of ring structures."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 7,
+                        "Explanation": "An Integral Ring Homomorphism (ID: 7) is a specialization of a Group Homomorphism (ID: 1) when the monoids in question are rings, as it is a ring homomorphism that additionally satisfies the condition of elements being integral over the source ring."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 8,
+                        "Explanation": "A K-homomorphism (ID: 8) is a specialization of a Group Homomorphism (ID: 1) when the monoids in question are fields, as it is a field homomorphism that restricts to the identity map on a subfield, fulfilling the conditions of a group homomorphism within the context of field structures."
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,33 @@
+{
+    "name": "Definition_Association_Analysis",
+    "description": "Gather Inheritence Relations between Concepts",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "Implied_Association_Relationships": {
+                "type": "array",
+                "description": "An array of implied associations between relationships. This can be identified by evaluating whether the definition of one concept is dependent on the other. You can simply look at the definition of concept B and see if the other concept needs to be defined for A to be definied.",
+                "items": {
+                    "type": "object",
+                    "description": "An object containing each implied-association relationships. For example, the definition of an eigenvalue (B) depends on the definition of an operator (A).",
+                    "properties": {
+                        "Explanation": {
+                            "type": "string",
+                            "description": "Provide an explanation of why the definition of the concept B depends on the definition of concept A. In essence, if the answer to the question: <Does A need to be defined for B to defined?> is yes, then such a relationship exists. "
+                        },
+                        "The_Definition_of_This_Concept": {
+                            "type": "integer",
+                            "description": "The ID number to the concept whose definition is contingent on the other concept."
+                        },
+                        "Depends_On_This_Concept": {
+                            "type": "integer",
+                            "description": "The ID number belonging to the concept which is needed for the definition of the other concept."
+                        }
+                        
+                    },"required":["Explanation","The_Definition_of_This_Concept","Depends_On_This_Concept"]
+                }
+            }
+       
+        }
+    }
+}

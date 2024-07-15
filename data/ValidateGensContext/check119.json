@@ -1,0 +1,23 @@
+[
+    [
+        119,
+        [
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        "Does the concept of a/an Division Ring need to be defined for a definition of a/an Integral Element over a Ring to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of an integral element over a ring involves an element $b$ of a ring $B$ being expressible in terms of a ring $A$ through a ring homomorphism $\\\\[varphi: A \\\\longrightarrow B\\\\]$. The definition focuses on the existence of a monic polynomial $f \\\\in A[X]$ such that $f(b)=0$, or the finitely generated nature of certain submodules involving $b$. This definition inherently relies on the properties of rings and ring homomorphisms, but does not specifically require that any of the rings involved be a division ring.\\n\\nA division ring, by definition, is a ring in which every nonzero element is a unit. This property is specific to division rings and does not generally apply to all rings. The definition of an integral element over a ring does not necessitate that $A$ or $B$ be division rings; they only need to satisfy the general properties of rings (possibly with additional structure like being commutative, depending on context).\\n\\nTherefore, the concept of a division ring is not necessary for the definition of an integral element over a ring to make sense. The essential requirements are the ring structures of $A$ and $B$ and the ring homomorphism between them, not the specific property of every element being invertible as in a division ring.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

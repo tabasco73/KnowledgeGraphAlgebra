@@ -1,0 +1,104 @@
+[
+    [
+        [
+            0,
+            1,
+            "Cartesian Product",
+            "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+        ],
+        [
+            1,
+            22,
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            2,
+            35,
+            "Integral Domain",
+            "A commutative ring R is called an integral domain if it is nonzero and does not admit nontrivial zero divisors."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            61,
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        [
+            5,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            6,
+            87,
+            "Separable Polynomial",
+            "A separable polynomial is a polynomial that has distinct roots in its splitting field, i.e., all roots are simple."
+        ],
+        [
+            7,
+            100,
+            "Ring Homomorphism of Finite Type",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is of finite type if there exists an epimorphism $\\Phi: A[X_{1}, \\ldots, X_{n}] \\longrightarrow B$ from a polynomial ring in finitely many variables over $A$ to $B$ that extends $\\varphi$. Alternatively, it can be characterized by the existence of elements $x_{1}, \\ldots, x_{n} \\in B$ such that $B=\\varphi(A)[x_{1}, \\ldots, x_{n}]$."
+        ],
+        [
+            8,
+            113,
+            "Extension Field",
+            "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+        ],
+        [
+            9,
+            126,
+            "Group Action",
+            "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+        ],
+        [
+            10,
+            139,
+            "Sign or Signature of a Permutation",
+            "The sign or signature of a permutation $\\pi \\in \\mathfrak{S}_{n}$, denoted as $\\operatorname{sgn} \\pi$, is defined by the product $\\prod_{i<j} \\frac{\\pi(i)-\\pi(j)}{i-j}$. The sign can only assume the values 1 and -1. If $\\operatorname{sgn} \\pi$ is positive, $\\pi$ is called an even permutation, and an odd permutation otherwise."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A principal ideal domain is defined as an integral domain where every ideal is principal. Thus, the concept of an integral domain must be defined to understand what a principal ideal domain is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A submodule is defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M. Therefore, the concept of a module must be defined to understand what a submodule is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A ring homomorphism of finite type involves the concept of a ring and polynomial rings over a ring. Therefore, the concept of a ring must be defined to understand what a ring homomorphism of finite type is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "An extension field is defined as a field consisting of a certain number of elements, characterized as a splitting field of a polynomial over another field. Therefore, the concept of a field must be defined to understand what an extension field is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A group action is defined as a map from the Cartesian product of a group and a set to the set itself. Therefore, the concept of a Cartesian product must be defined to understand what a group action is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

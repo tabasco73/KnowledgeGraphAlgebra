@@ -1,0 +1,58 @@
+[
+    2,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Left Coset",
+                        "Definition_Content": "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+                    },
+                    {
+                        "Concept_Name": "Right Coset",
+                        "Definition_Content": "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+                    },
+                    {
+                        "Concept_Name": "Normal Subgroup",
+                        "Definition_Content": "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+                    },
+                    {
+                        "Concept_Name": "Factor Group",
+                        "Definition_Content": "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Proposition 1",
+                        "Theorem_Content": "Any two left cosets of $H$ in $G$ have the same cardinality and are disjoint if they do not coincide. In particular, $G$ is the disjoint union of all left cosets of $H$ in $G$."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 2",
+                        "Theorem_Content": "Let $aH$ and $bH$ be left cosets of $H$ in $G$. The following conditions are equivalent: (i) $aH = bH$. (ii) $aH \\cap bH \\neq \\emptyset$. (iii) $a \\in bH$. (iv) $b^{-1}a \\in H$."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 3 (Theorem of Lagrange)",
+                        "Theorem_Content": "Let $G$ be a finite group and $H$ a subgroup of $G$. Then $\\operatorname{ord} G = \\operatorname{ord} H \\cdot (G: H)$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 6 (Fundamental theorem on homomorphisms)",
+                        "Theorem_Content": "Let $\\varphi: G \\longrightarrow G^{\\prime}$ be a group homomorphism and $N \\subset G$ a normal subgroup such that $N \\subset \\operatorname{ker} \\varphi$. Then there exists a unique group homomorphism $\\bar{\\varphi}: G / N \\longrightarrow G^{\\prime}$ satisfying $\\varphi = \\bar{\\varphi} \\circ \\pi$, where $\\pi$ is the projection $G \\longrightarrow G / N$."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 7",
+                        "Theorem_Content": "If $\\varphi: G \\longrightarrow G^{\\prime}$ is a surjective group homomorphism, then $G^{\\prime}$ is canonically isomorphic to $G / \\operatorname{ker} \\varphi$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 8 (First isomorphism theorem)",
+                        "Theorem_Content": "Let $G$ be a group, $H \\subset G$ a subgroup, and $N \\subset G$ a normal subgroup of $G$. Then $HN$ is a subgroup of $G$ admitting $N$ as a normal subgroup, and $H \\cap N$ is a normal subgroup of $H$. The canonical homomorphism $H / H \\cap N \\longrightarrow HN / N$ is an isomorphism."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 9 (Second isomorphism theorem)",
+                        "Theorem_Content": "Let $G$ be a group and let $N, H$ be normal subgroups of $G$ satisfying $N \\subset H \\subset G$. Then $N$ is normal in $H$ as well, and one can view $H / N$ as a normal subgroup of $G / N$. Furthermore, the canonical group homomorphism $(G / N) /(H / N) \\longrightarrow G / H$ is an isomorphism."
+                    }
+                ]
+            }
+        ]
+    ]
+]

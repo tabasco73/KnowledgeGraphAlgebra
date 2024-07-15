@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            7,
+            "Product Notation in Monoids",
+            "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            41,
+            "Trivial Ideals",
+            "In any ring $R$, the zero ideal $\\{0\\}$ and the unit ideal $R$ are called trivial ideals. These are the only ideals if $R$ is a field."
+        ],
+        [
+            4,
+            61,
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        [
+            5,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            6,
+            81,
+            "Torsion submodule",
+            "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+        ],
+        [
+            7,
+            96,
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            8,
+            117,
+            "Algebraic subset",
+            "An algebraic subset of \\(\\bar{K}^{n}\\) defined over \\(K\\) is the set of common zeros in \\(\\bar{K}^{n}\\) of the polynomials belonging to a subset \\(E\\) of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\). It is denoted as \\(V(E)\\)."
+        ],
+        [
+            9,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            10,
+            136,
+            "r-cycle",
+            "A cycle involving $r$ elements is called an $r$-cycle and is denoted as $\\pi = (x_{1}, \\ldots, x_{r})$."
+        ],
+        [
+            11,
+            150,
+            "Image of Map",
+            "The image of a function \\( f: A \to B \\) is the set of all elements in \\( B \\) that have at least one corresponding element in \\( A \\) via the function \\( f \\)."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": []
+            }
+        ]
+    ]
+]

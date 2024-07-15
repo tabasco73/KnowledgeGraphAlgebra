@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            13,
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            35,
+            "Integral Domain",
+            "A commutative ring R is called an integral domain if it is nonzero and does not admit nontrivial zero divisors."
+        ],
+        [
+            3,
+            50,
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        [
+            4,
+            64,
+            "Greatest common divisor",
+            "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+        ],
+        [
+            5,
+            75,
+            "Residue class module",
+            "The residue class module M/N of an A-module M by a submodule N is defined analogously to the quotient space in vector spaces, where M/N consists of the cosets of N in M."
+        ],
+        [
+            6,
+            91,
+            "Prime subfield of a Field",
+            "The unique smallest subfield $P$ of a field $K$, given by the intersection of all subfields in $K$, is referred to as the prime (sub)field in $K$."
+        ],
+        [
+            7,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            122,
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            10,
+            136,
+            "r-cycle",
+            "A cycle involving $r$ elements is called an $r$-cycle and is denoted as $\\pi = (x_{1}, \\ldots, x_{r})$."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 6,
+                        "Specialization": 8,
+                        "Explanation": "The concept of a 'Prime Subfield of a Field' (ID: 6) is a generalization of the 'Prime Subfield of a Finite Field' (ID: 8). The latter is specifically the smallest subfield in a finite field, which is a special case of the general concept of the smallest subfield in any field."
+                    }
+                ]
+            }
+        ]
+    ]
+]

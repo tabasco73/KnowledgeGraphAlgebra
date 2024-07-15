@@ -1,0 +1,89 @@
+[
+    [
+        [
+            0,
+            3,
+            "Associative Law",
+            "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            33,
+            "Field",
+            "A field is a commutative division ring."
+        ],
+        [
+            3,
+            42,
+            "Sum of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the sum $\\mathfrak{a}+\\mathfrak{b}$ is defined as $\\{a+b ; a \\in \\mathfrak{a}, b \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            70,
+            "Prime Element",
+            "An element $p$ in a unique factorization domain $R$ is called a prime element if it generates a prime ideal, i.e., the ideal $(p)$ is such that if $p$ divides a product of elements in $R$, then $p$ divides at least one of those elements."
+        ],
+        [
+            6,
+            90,
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            7,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            8,
+            115,
+            "Multiplicative Group of a Finite Field",
+            "The multiplicative group of a finite field $\\\\[\\mathbb{F}_q\\]$ is the group formed by all nonzero elements of $\\\\[\\mathbb{F}_q\\]$, denoted as $\\\\[\\mathbb{F}_q^*\\]$. It is cyclic of order $q-1$."
+        ],
+        [
+            9,
+            119,
+            "Noetherian ring",
+            "A ring \\(R\\) is called Noetherian if every ascending chain of ideals \\(\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\subset \\ldots \\subset R\\) becomes stationary after finitely many steps, or equivalently, every ideal of \\(R\\) is finitely generated."
+        ],
+        [
+            10,
+            143,
+            "Element of a Set",
+            "An element of a set is an object belonging to a set."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 2,
+                        "Specialization": 6,
+                        "Explanation": "A subfield (ID: 6) is a specialization of a field (ID: 2) because a subfield is defined as a subring of a field that is itself a field, inheriting all properties of being a field."
+                    },
+                    {
+                        "Generalization": 2,
+                        "Specialization": 8,
+                        "Explanation": "The multiplicative group of a finite field (ID: 8) is a specialization of a field (ID: 2) because it is defined specifically within the context of a finite field, inheriting the properties of field operations restricted to non-zero elements."
+                    }
+                ]
+            }
+        ]
+    ]
+]

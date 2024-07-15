@@ -1,0 +1,23 @@
+[
+    [
+        379,
+        [
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            "Finite Ring Homomorphism",
+           "A ring homomorphism \\$\\varphi: A \\longrightarrow B\\$ is finite if \\$B\\$ is a finite \\$A\\$-module under \\$\\varphi\\$. This is also referred to as \\$B\\$ being finite over \\$A\\$ or, if \\$\\varphi\\$ is an inclusion homomorphism, that the extension \\$A \\hookrightarrow B\\$ is finite."
+        ],
+        "Does the concept of a/an Commutative Ring need to be defined for a definition of a/an Characteristic of a field to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "Manual check",
+                "Verdict": false
+            }
+        ]
+    ]
+]

@@ -1,0 +1,129 @@
+[
+    [
+        [
+            0,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            29,
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            64,
+            "Greatest common divisor",
+            "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+        ],
+        [
+            5,
+            71,
+            "Canonical Homomorphism",
+            "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+        ],
+        [
+            6,
+            80,
+            "Torsion element",
+            "An element x of an A-module M is called a torsion element if there exists an element a in A-{0} such that a.x = 0."
+        ],
+        [
+            7,
+            92,
+            "Frobenius homomorphism",
+            "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+        ],
+        [
+            8,
+            114,
+            "Algebraic Closure of Finite Field",
+            "An algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of a finite field $\\\\[\\mathbb{F}_p\\]$ is a field that contains $\\\\[\\mathbb{F}_p\\]$ and all its algebraic extensions. It is used to view the fields $\\\\[\\mathbb{F}_{p^n}\\]$ as subfields."
+        ],
+        [
+            9,
+            121,
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            10,
+            137,
+            "Disjoint Cycles",
+            "Two cycles $(x_{1}, \\ldots, x_{r})$ and $(y_{1}, \\ldots, y_{s})$ are called disjoint if the sets $\\{x_{1}, \\ldots, x_{r}\\}$ and $\\{y_{1}, \\ldots, y_{s}\\}$ have no elements in common."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A group is defined as a monoid with additional properties. Therefore, the concept of a monoid must be defined to understand what a group is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A subring is defined as a subset of a ring that is a subgroup with respect to addition and a submonoid with respect to multiplication. Therefore, the concept of a ring must be defined to understand what a subring is.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A principal ideal domain is defined as a ring with specific properties. Therefore, the concept of a ring must be defined to understand what a principal ideal domain is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The greatest common divisor is defined in terms of divisibility within a ring. Therefore, the concept of a ring must be defined to understand what a greatest common divisor is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The canonical homomorphism is defined as a ring homomorphism. Therefore, the concept of a ring must be defined to understand what a canonical homomorphism is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A torsion element is defined in the context of an A-module. Therefore, the concept of a module must be defined to understand what a torsion element is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The Frobenius homomorphism is defined as a homomorphism of fields. Therefore, the concept of a field must be defined to understand what a Frobenius homomorphism is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An algebraic closure of a finite field is defined as a field containing a finite field and all its algebraic extensions. Therefore, the concept of a field must be defined to understand what an algebraic closure of a finite field is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A splitting field of a polynomial is defined as a field extension where the polynomial splits into linear factors. Therefore, the concept of a field must be defined to understand what a splitting field is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "Disjoint cycles are defined in terms of sets. Therefore, the concept of a set must be defined to understand what disjoint cycles are.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

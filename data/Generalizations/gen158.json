@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            1,
+            "Cartesian Product",
+            "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            29,
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        [
+            3,
+            42,
+            "Sum of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the sum $\\mathfrak{a}+\\mathfrak{b}$ is defined as $\\{a+b ; a \\in \\mathfrak{a}, b \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            5,
+            68,
+            "Primitive Polynomial",
+            "A polynomial $f \\in R[X]$ with coefficients in a unique factorization domain $R$ is called primitive if the greatest common divisor of all its coefficients is 1, or equivalently, if $\nu_p(f) = 0$ for all prime elements $p \\in R$."
+        ],
+        [
+            6,
+            81,
+            "Torsion submodule",
+            "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+        ],
+        [
+            7,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            8,
+            107,
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        [
+            9,
+            120,
+            "Reduced ideal",
+            "An ideal \\(\\mathfrak{a}\\) in a ring \\(R\\) is called reduced if \\(\\mathfrak{a} = \\operatorname{rad} \\mathfrak{a}\\), where \\(\\operatorname{rad} \\mathfrak{a}\\) is the set of all elements \\(a \\in R\\) such that there exists some \\(n \\in \\mathbb{N}\\) with \\(a^{n} \\in \\mathfrak{a}\\)."
+        ],
+        [
+            10,
+            133,
+            "p-Sylow subgroup",
+            "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+        ],
+        [
+            11,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": []
+            }
+        ]
+    ]
+]

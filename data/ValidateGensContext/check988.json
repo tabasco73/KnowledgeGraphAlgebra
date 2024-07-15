@@ -1,0 +1,23 @@
+[
+    [
+        988,
+        [
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            "Irreducible element",
+            "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+        ],
+        "Does the concept of a/an Commutative Ring need to be defined for a definition of a/an Irreducible element to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of an irreducible element specifically requires the structure to be an integral domain. An integral domain is a special type of commutative ring that has no zero divisors. Therefore, the concept of a commutative ring is inherently necessary because an integral domain cannot be defined without first defining a commutative ring. The definition of an irreducible element does not directly mention a commutative ring, but it relies on the concept of an integral domain, which in turn relies on the concept of a commutative ring. Thus, the concept of a commutative ring is indirectly but essentially required for the definition of an irreducible element to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

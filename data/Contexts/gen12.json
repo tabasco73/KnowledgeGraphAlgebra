@@ -1,0 +1,135 @@
+[
+    [
+        [
+            0,
+            2,
+            "Law of Composition",
+            "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+        ],
+        [
+            1,
+            25,
+            "Dedekind Domain",
+            "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+        ],
+        [
+            2,
+            32,
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            5,
+            70,
+            "Prime Element",
+            "An element $p$ in a unique factorization domain $R$ is called a prime element if it generates a prime ideal, i.e., the ideal $(p)$ is such that if $p$ divides a product of elements in $R$, then $p$ divides at least one of those elements."
+        ],
+        [
+            6,
+            80,
+            "Torsion element",
+            "An element x of an A-module M is called a torsion element if there exists an element a in A-{0} such that a.x = 0."
+        ],
+        [
+            7,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            127,
+            "Orbit",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+        ],
+        [
+            10,
+            139,
+            "Sign or Signature of a Permutation",
+            "The sign or signature of a permutation $\\pi \\in \\mathfrak{S}_{n}$, denoted as $\\operatorname{sgn} \\pi$, is defined by the product $\\prod_{i<j} \\frac{\\pi(i)-\\pi(j)}{i-j}$. The sign can only assume the values 1 and -1. If $\\operatorname{sgn} \\pi$ is positive, $\\pi$ is called an even permutation, and an odd permutation otherwise."
+        ],
+        [
+            11,
+            150,
+            "Image of Map",
+            "The image of a function \\( f: A \to B \\) is the set of all elements in \\( B \\) that have at least one corresponding element in \\( A \\) via the function \\( f \\)."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A Dedekind domain is defined as an integral domain, which is a type of ring. Therefore, the concept of a ring must be defined to understand what an integral domain is, and subsequently, what a Dedekind domain is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The product of ideals is defined in terms of ideals in a ring. Therefore, the concept of a ring must be defined to understand what ideals are, and subsequently, what the product of ideals is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The kernel of a ring homomorphism is defined as an ideal in a ring. Therefore, the concept of a ring must be defined to understand what a ring homomorphism and an ideal are, and subsequently, what the kernel of a ring homomorphism is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A prime element is defined in a unique factorization domain, which is a type of integral domain, and hence a type of ring. Therefore, the concept of a ring must be defined to understand what a unique factorization domain is, and subsequently, what a prime element is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A torsion element is defined in the context of an A-module. Therefore, the concept of a module must be defined to understand what a torsion element is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An integral element over a ring is defined with respect to a ring homomorphism. Therefore, the concept of a ring must be defined to understand what a ring homomorphism is, and subsequently, what an integral element over a ring is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A splitting field of a polynomial is defined over its prime subfield, which is a type of field. Therefore, the concept of a field must be defined to understand what a prime subfield is, and subsequently, what a splitting field is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The orbit of a point under a group action is defined in terms of the action of a group on a set. Therefore, the concept of a group must be defined to understand what a group action is, and subsequently, what an orbit is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The sign or signature of a permutation is defined in terms of the elements of a permutation group. Therefore, the concept of a permutation group must be defined to understand what a permutation is, and subsequently, what the sign or signature of a permutation is.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The image of a map is defined in terms of a function. Therefore, the concept of a function must be defined to understand what the image of a map is.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

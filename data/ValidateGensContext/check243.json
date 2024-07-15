@@ -1,0 +1,23 @@
+[
+    [
+        243,
+        [
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        "Does the concept of a/an Separable extension need to be defined for a definition of a/an Galois Group of a Finite Field Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a separable extension is important in the general theory of field extensions, particularly in the context of defining a Galois extension, which is both normal and separable. However, in the specific case of finite fields, every algebraic extension is automatically separable. This is because the minimal polynomial of any element in a finite field extension is separable due to the fact that finite fields are perfect; that is, every element in a finite field is a root of a separable polynomial. Therefore, when dealing with finite field extensions, such as $\\mathbb{F}_{q'} / \\mathbb{F}_q$, the extension is inherently separable, and the concept of separability does not need to be separately considered or defined for the definition of the Galois group of such an extension to make sense. The definition of the Galois group of a finite field extension as given does not explicitly require the concept of a separable extension because separability is a given in this context.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

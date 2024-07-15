@@ -1,0 +1,62 @@
+[
+    16,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Algebraically closed field",
+                        "Definition_Content": "A field $K$ is called algebraically closed if every nonconstant polynomial $f$ of $K[X]$ admits a zero in $K$, or in other words, if $f$ decomposes in $K[X]$ into a product of linear factors. This means that $f$ admits a product decomposition $f=c \\prod_{i}\\left(X-\\alpha_{i}\\right)$ with a constant $c \\in K^{*}$ as well as zeros $\\alpha_{i} \\in K$."
+                    },
+                    {
+                        "Concept_Name": "Trivial Algebraic field extension",
+                        "Definition_Content": "An algebraic field extension $L / K$ is trivial if every element of $L$ is algebraic over $K$."
+                    },
+                    {
+                        "Concept_Name": "Algebraic closure of a field",
+                        "Definition_Content": "An algebraic closure of a field $K$, denoted as $\\bar{K}$, is an algebraically closed field that is algebraic over $K$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Proposition 1",
+                        "Theorem_Content": "Let $K$ be a field and $f \\in K[X]$ a polynomial of degree $\\geq 1$. Then there exists a finite algebraic field extension $K \\subset L$ such that $f$ admits a zero in $L$. If $f$ is irreducible, we can set $L:=K[X] /(f)$."
+                    },
+                    {
+                        "Theorem_Name": "Remark 3",
+                        "Theorem_Content": "A field $K$ is algebraically closed if and only if every algebraic field extension $L / K$ is trivial."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 4",
+                        "Theorem_Content": "Every field $K$ admits an extension field $L$ that is algebraically closed."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 5 (Zorn)",
+                        "Theorem_Content": "Let $M$ be a partially ordered set such that every subset of $M$ that is totally ordered with respect to the order induced from $M$ admits an upper bound in $M$. Then there exists a maximal element in $M."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 6",
+                        "Theorem_Content": "Let $R$ be a ring and $\\mathfrak{a} \\subsetneq R$ a proper ideal. Then $R$ admits a maximal ideal $\\mathfrak{m}$ containing $\\mathfrak{a}$. In particular, every ring $R \\neq 0$ admits a maximal ideal."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 7",
+                        "Theorem_Content": "Let $K$ be a field. Then there exists an algebraically closed field $\\bar{K}$ extending $K$, where $\\bar{K}$ is algebraic over $K$; such a field $\\bar{K}$ is called an algebraic closure of $K$."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 8",
+                        "Theorem_Content": "Let $K$ be a field and $K^{\\prime}=K(\\alpha)$ a simple algebraic field extension of $K$ with attached minimal polynomial $f \\in K[X]$ of $\\alpha$. Furthermore, let $\\sigma: K \\longrightarrow L$ be a field homomorphism. (i) If $\\sigma^{\\prime}: K^{\\prime} \\longrightarrow L$ is a field homomorphism extending $\\sigma$, then $\\sigma^{\\prime}(\\alpha)$ is a zero of $f^{\\sigma}$. (ii) Conversely, for every zero $\\beta \\in L$ of $f^{\\sigma} \\in L[X]$, there is precisely one extension $\\sigma^{\\prime}: K^{\\prime} \\longrightarrow L$ of $\\sigma$ such that $\\sigma^{\\prime}(\\alpha)=\\beta$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 9",
+                        "Theorem_Content": "Let $K \\subset K^{\\prime}$ be an algebraic field extension and $\\sigma: K \\longrightarrow L$ a field homomorphism with image in an algebraically closed field $L$. Then $\\sigma$ admits an extension $\\sigma^{\\prime}: K^{\\prime} \\longrightarrow L$. In addition, if $K^{\\prime}$ is algebraically closed and $L$ algebraic over $\\sigma(K)$, then every extension $\\sigma^{\\prime}$ of $\\sigma$ is an isomorphism."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 10",
+                        "Theorem_Content": "Let $\\bar{K}_{1}$ and $\\bar{K}_{2}$ be two algebraic closures of a field $K$. Then there exists an isomorphism $\\bar{K}_{1} \\xrightarrow{\\sim} \\bar{K}_{2}$, noncanonical in general, that extends the identity map on K."
+                    }
+                ]
+            }
+        ]
+    ]
+]

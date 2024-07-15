@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            5,
+            "Unit or Neutral Element",
+            "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            39,
+            "Leading Coefficient",
+            "For a polynomial f=\nsum a_i X^i in R[X] with deg f=n \ngeq 0, the coefficient a_n is called the leading coefficient. If a_n=1, the polynomial is called monic."
+        ],
+        [
+            3,
+            44,
+            "Intersection of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the intersection $\\mathfrak{a} \\cap \\mathfrak{b}$ is defined as $\\{x ; x \\in \\mathfrak{a} \\text { and } x \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            120,
+            "Reduced ideal",
+            "An ideal \\(\\mathfrak{a}\\) in a ring \\(R\\) is called reduced if \\(\\mathfrak{a} = \\operatorname{rad} \\mathfrak{a}\\), where \\(\\operatorname{rad} \\mathfrak{a}\\) is the set of all elements \\(a \\in R\\) such that there exists some \\(n \\in \\mathbb{N}\\) with \\(a^{n} \\in \\mathfrak{a}\\)."
+        ],
+        [
+            10,
+            142,
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ],
+        [
+            11,
+            147,
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 2,
+                        "Explanation": "A Leading Coefficient (ID: 2) is a concept specifically defined within the context of a Polynomial (ID: 1). The leading coefficient is a property of a polynomial, making it a specialization of the polynomial concept."
+                    }
+                ]
+            }
+        ]
+    ]
+]

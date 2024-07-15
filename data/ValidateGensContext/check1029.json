@@ -1,0 +1,23 @@
+[
+    [
+        1029,
+        [
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        "Does the concept of a/an Degree of a Field Extension need to be defined for a definition of a/an Galois extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Galois extension involves an extension being both normal and separable. The definitions of normal and separable extensions do not inherently require the concept of the degree of the extension. A normal extension is one where every irreducible polynomial in $K[x]$ that has a root in $K_r$ splits completely in $K_r[x]$. A separable extension is one where the minimal polynomial of every element in $K_r$ over $K$ has distinct roots. Neither of these definitions directly involves the degree of the field extension, which is defined as the dimension of $L$ as a vector space over $K$. Therefore, the concept of the degree of a field extension is not necessary for defining a Galois extension. The degree of the extension is a separate concept that quantifies the 'size' of the extension but does not influence the criteria for an extension being Galois.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

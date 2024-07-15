@@ -1,0 +1,135 @@
+[
+    [
+        [
+            0,
+            4,
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            47,
+            "Finitely Generated Ideal",
+            "An ideal $\\mathfrak{a}$ in a ring $R$ is finitely generated if it admits a finite system of generators."
+        ],
+        [
+            4,
+            57,
+            "Factor Ring",
+            "Let $R$ be a ring and $\\mathfrak{a}$ an ideal in $R$. The factor ring, or residue class ring, $R / \\mathfrak{a}$, is defined initially as an abelian group by viewing $\\mathfrak{a}$ as a (normal) subgroup of the additive group of $R$. The elements of $R / \\mathfrak{a}$ are all residue classes of type $x+\\mathfrak{a}$ for $x \\in R$, where addition is given by $(x+\\mathfrak{a})+(y+\\mathfrak{a})=(x+y)+\\mathfrak{a}$ and multiplication by $(x+\\mathfrak{a}) \\cdot(y+\\mathfrak{a})=(x \\cdot y)+\\mathfrak{a}$. The ring properties of $R$ carry over to $R / \\mathfrak{a}$."
+        ],
+        [
+            5,
+            76,
+            "System of generators",
+            "A family (x_i)_{i in I} of elements of an A-module M is called a system of generators of M if M = sum_{i in I} A x_i."
+        ],
+        [
+            6,
+            80,
+            "Torsion element",
+            "An element x of an A-module M is called a torsion element if there exists an element a in A-{0} such that a.x = 0."
+        ],
+        [
+            7,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            130,
+            "Center",
+            "The center of a group $G$ is defined as the centralizer of $G$, i.e., as $Z=Z_{G}=\\{x \\in G ; x s=s x \\text { for all } s \\in G\\} .$"
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ],
+        [
+            11,
+            147,
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A commutative ring is defined as a ring where the multiplication operation is commutative. Thus, the concept of a commutative law is necessary to define a commutative ring.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A factor group is defined using the concept of a group and a normal subgroup. Thus, the concept of a group is necessary to define a factor group.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "A finitely generated ideal is defined in the context of a ring. Thus, the concept of a ring is necessary to define a finitely generated ideal.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A factor ring is defined using the concept of a ring and an ideal. Thus, the concept of a ring is necessary to define a factor ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A system of generators is defined in the context of an A-module. Thus, the concept of an A-module is necessary to define a system of generators.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "A torsion element is defined in the context of an A-module. Thus, the concept of an A-module is necessary to define a torsion element.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The degree of a field extension is defined using the concept of a field extension. Thus, the concept of a field extension is necessary to define the degree of a field extension.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 8
+                    },
+                    {
+                        "Explanation": "The prime subfield of a finite field is defined using the concept of a finite field. Thus, the concept of a finite field is necessary to define the prime subfield of a finite field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The center of a group is defined using the concept of a group. Thus, the concept of a group is necessary to define the center of a group.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "The alternating group is defined using the concept of permutations and the symmetric group. Thus, the concept of a symmetric group is necessary to define the alternating group.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 9
+                    }
+                ]
+            }
+        ]
+    ]
+]

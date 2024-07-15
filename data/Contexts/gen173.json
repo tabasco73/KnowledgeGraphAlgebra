@@ -1,0 +1,111 @@
+[
+    [
+        [
+            0,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            1,
+            54,
+            "Ring Automorphism",
+            "An automorphism of a ring $R$ is an isomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            2,
+            55,
+            "Kernel of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The kernel of $\\varphi$, denoted $\\operatorname{ker} \\varphi$, is defined as $\\{a \\in R ; \\varphi(a)=0\\}$, which is an ideal in $R$."
+        ],
+        [
+            3,
+            56,
+            "Image of a Ring Homomorphism",
+            "Let $\\varphi: R \\longrightarrow R'$ be a ring homomorphism. The image of $\\varphi$, denoted $\\operatorname{im} \\varphi$, is defined as $\\varphi(R)$, which is a subring of $R'$."
+        ],
+        [
+            4,
+            57,
+            "Factor Ring",
+            "Let $R$ be a ring and $\\mathfrak{a}$ an ideal in $R$. The factor ring, or residue class ring, $R / \\mathfrak{a}$, is defined initially as an abelian group by viewing $\\mathfrak{a}$ as a (normal) subgroup of the additive group of $R$. The elements of $R / \\mathfrak{a}$ are all residue classes of type $x+\\mathfrak{a}$ for $x \\in R$, where addition is given by $(x+\\mathfrak{a})+(y+\\mathfrak{a})=(x+y)+\\mathfrak{a}$ and multiplication by $(x+\\mathfrak{a}) \\cdot(y+\\mathfrak{a})=(x \\cdot y)+\\mathfrak{a}$. The ring properties of $R$ carry over to $R / \\mathfrak{a}$."
+        ],
+        [
+            5,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            6,
+            59,
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        [
+            7,
+            60,
+            "Euclidean domain",
+            "An integral domain $R$ is called a Euclidean domain if it admits a map $\\delta: R-\\{0\\} \\longrightarrow \\mathbb{N}$ making possible Euclidean division in $R$ in the following sense: Given elements $f, g \\in R, g \\neq 0$, there are elements $q, r \\in R$ such that $f=q g+r$, where $\\delta(r)<\\delta(g)$ or $r=0$."
+        ],
+        [
+            8,
+            61,
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        [
+            9,
+            62,
+            "Irreducible element",
+            "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+        ],
+        [
+            10,
+            63,
+            "Factorial ring/unique factorization domain",
+            "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+        ],
+        [
+            11,
+            64,
+            "Greatest common divisor",
+            "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+        ],
+        [
+            12,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A ring automorphism is a specific type of ring endomorphism that is also an isomorphism. Therefore, the concept of a ring endomorphism must be defined to understand what a ring automorphism is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A Euclidean domain is a specific type of integral domain. Therefore, the concept of an integral domain must be defined to understand what a Euclidean domain is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 10
+                    },
+                    {
+                        "Explanation": "A Euclidean function is defined in terms of a Euclidean domain. Therefore, the concept of a Euclidean domain must be defined to understand what a Euclidean function is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The greatest common divisor is defined in terms of divisibility in a ring. Therefore, the concept of divisibility in a ring must be defined to understand what the greatest common divisor is.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 10
+                    }
+                ]
+            }
+        ]
+    ]
+]

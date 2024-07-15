@@ -1,0 +1,130 @@
+[
+    [
+        [
+            0,
+            1,
+            "Cartesian Product",
+            "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+        ],
+        [
+            1,
+            14,
+            "Monoid Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$."
+        ],
+        [
+            2,
+            27,
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            66,
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            6,
+            79,
+            "Free A-module",
+            "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+        ],
+        [
+            7,
+            92,
+            "Frobenius homomorphism",
+            "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+        ],
+        [
+            8,
+            105,
+            "Trivial Algebraic field extension",
+            "An algebraic field extension $L / K$ is trivial if every element of $L$ is algebraic over $K$."
+        ],
+        [
+            9,
+            118,
+            "Ideal corresponding to a subset",
+            "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+        ],
+        [
+            10,
+            131,
+            "Normalizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The normalizer of $S$ in $G$ is given by $N_{S}=\\{x \\in G ; x S=S x\\}$."
+        ],
+        [
+            11,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A monoid homomorphism is defined between two monoids. Therefore, the concept of a monoid must be defined to understand what a monoid homomorphism is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An ideal is defined as a subset of a ring. Therefore, the concept of a ring must be defined to understand what an ideal is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A ring endomorphism is a homomorphism from a ring to itself. Therefore, the concept of a ring must be defined to understand what a ring endomorphism is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The field of fractions is defined for an integral domain, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand what a field of fractions is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A free A-module is defined in terms of a module over a ring A. Therefore, the concept of a ring must be defined to understand what a free A-module is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The Frobenius homomorphism is defined for a field of characteristic p>0. Therefore, the concept of a field must be defined to understand what a Frobenius homomorphism is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "An algebraic field extension is defined in terms of fields. Therefore, the concept of a field must be defined to understand what an algebraic field extension is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The ideal corresponding to a subset is defined in terms of a subset. Therefore, the concept of a subset must be defined to understand what an ideal corresponding to a subset is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "The normalizer is defined in terms of a subset. Therefore, the concept of a subset must be defined to understand what a normalizer is.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 11
+                    }
+                ]
+            }
+        ]
+    ]
+]

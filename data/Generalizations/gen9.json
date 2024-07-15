@@ -1,0 +1,95 @@
+[
+    [
+        [
+            0,
+            2,
+            "Law of Composition",
+            "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+        ],
+        [
+            1,
+            22,
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            2,
+            29,
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ],
+        [
+            5,
+            67,
+            "Localization of a Ring",
+            "Given a ring $R$ and a multiplicative system $S \\subset R$, the localization $S^{-1}R$ (or $R_S$) is the ring of fractions $\frac{a}{s}$ where $a \\in R$ and $s \\in S$, under an equivalence relation defined by $\frac{a}{s} = \frac{a'}{s'}$ if there exists some $s'' \\in S$ such that $as's'' = a'ss''$."
+        ],
+        [
+            6,
+            90,
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            109,
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        [
+            9,
+            124,
+            "Galois group of a Field Extension",
+            "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+        ],
+        [
+            10,
+            136,
+            "r-cycle",
+            "A cycle involving $r$ elements is called an $r$-cycle and is denoted as $\\pi = (x_{1}, \\ldots, x_{r})$."
+        ],
+        [
+            11,
+            147,
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 0,
+                        "Specialization": 2,
+                        "Explanation": "A subring (ID: 2) inherits the laws of composition (ID: 0) from the ring it is a subset of, thus a law of composition is a generalization of a subring."
+                    },
+                    {
+                        "Generalization": 0,
+                        "Specialization": 6,
+                        "Explanation": "A subfield (ID: 6) is a type of subring that inherits the laws of composition (ID: 0) from the field it is a subset of, making a law of composition a generalization of a subfield."
+                    }
+                ]
+            }
+        ]
+    ]
+]

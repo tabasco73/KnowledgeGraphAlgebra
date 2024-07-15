@@ -1,0 +1,116 @@
+[
+    [
+        [
+            0,
+            66,
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            1,
+            67,
+            "Localization of a Ring",
+            "Given a ring $R$ and a multiplicative system $S \\subset R$, the localization $S^{-1}R$ (or $R_S$) is the ring of fractions $\frac{a}{s}$ where $a \\in R$ and $s \\in S$, under an equivalence relation defined by $\frac{a}{s} = \frac{a'}{s'}$ if there exists some $s'' \\in S$ such that $as's'' = a'ss''$."
+        ],
+        [
+            2,
+            68,
+            "Primitive Polynomial",
+            "A polynomial $f \\in R[X]$ with coefficients in a unique factorization domain $R$ is called primitive if the greatest common divisor of all its coefficients is 1, or equivalently, if $\nu_p(f) = 0$ for all prime elements $p \\in R$."
+        ],
+        [
+            3,
+            69,
+            "Irreducible Polynomial",
+            "A polynomial $f$ in a ring $R[X]$ is irreducible if it cannot be factored into the product of two non-constant polynomials in $R[X]$."
+        ],
+        [
+            4,
+            70,
+            "Prime Element",
+            "An element $p$ in a unique factorization domain $R$ is called a prime element if it generates a prime ideal, i.e., the ideal $(p)$ is such that if $p$ divides a product of elements in $R$, then $p$ divides at least one of those elements."
+        ],
+        [
+            5,
+            71,
+            "Canonical Homomorphism",
+            "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+        ],
+        [
+            6,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            7,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            8,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            9,
+            75,
+            "Residue class module",
+            "The residue class module M/N of an A-module M by a submodule N is defined analogously to the quotient space in vector spaces, where M/N consists of the cosets of N in M."
+        ],
+        [
+            10,
+            76,
+            "System of generators",
+            "A family (x_i)_{i in I} of elements of an A-module M is called a system of generators of M if M = sum_{i in I} A x_i."
+        ],
+        [
+            11,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            12,
+            78,
+            "Free system of generators (basis)",
+            "A family (x_i)_{i in I} of elements of an A-module M is called free or linearly independent if from an equation sum_{i in I} a_i x_i = 0 with coefficients a_i in A we can conclude that a_i = 0 for all i in I. A free system of generators will also be referred to as a basis."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 6,
+                        "Specialization": 8,
+                        "Explanation": "A Submodule (ID: 8) is a specialization of an A-module (ID: 6) because it is defined as a subset of an A-module that is closed under the operations of the A-module, inheriting all properties and operations of an A-module."
+                    },
+                    {
+                        "Generalization": 6,
+                        "Specialization": 9,
+                        "Explanation": "A Residue class module (ID: 9) is a specialization of an A-module (ID: 6) because it is formed by taking the quotient of an A-module by one of its submodules, thus inheriting the structure and operations of an A-module."
+                    },
+                    {
+                        "Generalization": 6,
+                        "Specialization": 10,
+                        "Explanation": "A System of generators (ID: 10) is a specialization of an A-module (ID: 6) because it describes a specific way of generating an A-module using a set of elements from the A-module."
+                    },
+                    {
+                        "Generalization": 6,
+                        "Specialization": 11,
+                        "Explanation": "A Finitely generated module (ID: 11) is a specialization of an A-module (ID: 6) because it is an A-module that can be generated by a finite number of elements, thus inheriting all properties of an A-module."
+                    },
+                    {
+                        "Generalization": 6,
+                        "Specialization": 12,
+                        "Explanation": "A Free system of generators (basis) (ID: 12) is a specialization of an A-module (ID: 6) because it describes a specific type of system of generators that is linearly independent, inheriting the structure and operations of an A-module."
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,23 @@
+[
+    [
+        1368,
+        [
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        "Does the concept of a/an Left Coset need to be defined for a definition of a/an Normal Subgroup to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a normal subgroup explicitly involves the concept of left cosets. According to the definition, a subgroup H of G is normal if and only if the left coset aH is equal to the right coset Ha for every element a in G. This equality of left and right cosets is central to the definition of normality in group theory. Therefore, understanding what a left coset is becomes essential to fully grasp the concept of a normal subgroup. Without the concept of left cosets, one cannot properly define or understand the condition that characterizes normal subgroups, namely, the equality of left and right cosets for all elements of the group.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

@@ -1,0 +1,129 @@
+[
+    [
+        [
+            0,
+            8,
+            "Empty Product",
+            "In a monoid, the empty product is defined as the unit element, i.e., $\\prod_{i=1}^{0} a_{i} := e$, where $e$ is the unit element."
+        ],
+        [
+            1,
+            22,
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            2,
+            32,
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            3,
+            44,
+            "Intersection of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the intersection $\\mathfrak{a} \\cap \\mathfrak{b}$ is defined as $\\{x ; x \\in \\mathfrak{a} \\text { and } x \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            63,
+            "Factorial ring/unique factorization domain",
+            "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            125,
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            10,
+            131,
+            "Normalizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The normalizer of $S$ in $G$ is given by $N_{S}=\\{x \\in G ; x S=S x\\}$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A monoid is a set equipped with an associative binary operation and an identity element. The empty product is defined in terms of the unit element of a monoid.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The concept of a division ring is defined in terms of a ring, which is a more fundamental concept.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The intersection of ideals is defined in terms of ideals, which are subsets of a ring.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A factorial ring or unique factorization domain is a specific type of integral domain, which is a type of ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A finitely generated module is defined in terms of a module, which is a generalization of the concept of a vector space over a ring.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The rank of an A-module is defined in terms of a module, which is a generalization of the concept of a vector space over a ring.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A field extension is defined in terms of fields, which are specific types of rings with additional properties.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The prime subfield of a finite field is defined in terms of a finite field, which is a specific type of field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A solvable group is defined in terms of a group and its subgroups.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The normalizer of a subset in a group is defined in terms of the group and its elements.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 1
+                    }
+                ]
+            }
+        ]
+    ]
+]

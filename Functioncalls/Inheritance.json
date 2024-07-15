@@ -1,0 +1,33 @@
+{
+    "name": "Inheritance_Analysis",
+    "description": "Gather Inheritence Relations between Concepts",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "Generalization_Specialization_Relationships": {
+                "type": "array",
+                "description": "A list of inheritance relationships. In this case two concepts are equivalent, they should be entered as both generalizations and specializations of each other. There should hence be two such relations, in such a case.",
+                "items": {
+                    "type": "object",
+                    "description": "An object containing each inheritance relationship. For A to be a specialization of B, A has to fulfill all of the properties that B has. It is not enough for B to have a structure which is generelly tied to A, the nature of the actual concepts involved have to fully align with the one it is generalizing, concepts of different types should not be mixed. For example, a monoid is a generalization of a group but a group homomorphism is not a specialization of a monoid. Instead it is a specialization of a monoid homomorphism.",
+                    "properties": {
+                        "Explanation": {
+                            "type": "string",
+                            "description": "Descibe how one of the concepts is a generalization of the other. Should include the authoritative statement that the concept A (specialization) is a B (generalization)."
+                        },
+                        "Generalization": {
+                            "type": "integer",
+                            "description": "The ID number belonging to the concept generalising the specialised concept"
+                        },
+                        "Specialization": {
+                            "type": "integer",
+                            "description": "The ID number belongin to the concept specializing the generalized concept."
+                        }
+                        
+                    }
+                }
+            }
+        },"required": ["Generalization_Specialization_Relationships"]
+       
+    }
+}

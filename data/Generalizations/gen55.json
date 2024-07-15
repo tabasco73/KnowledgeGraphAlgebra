@@ -1,0 +1,89 @@
+[
+    [
+        [
+            0,
+            6,
+            "Monoid",
+            "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+        ],
+        [
+            1,
+            25,
+            "Dedekind Domain",
+            "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+        ],
+        [
+            2,
+            34,
+            "Zero Divisor",
+            "An element a of a ring R is called a zero divisor if there exists an element b in R - {0} such that ab=0 or ba=0. Fields and skew fields do not admit any zero divisors, except for 0, the trivial zero divisor."
+        ],
+        [
+            3,
+            50,
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        [
+            4,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            5,
+            68,
+            "Primitive Polynomial",
+            "A polynomial $f \\in R[X]$ with coefficients in a unique factorization domain $R$ is called primitive if the greatest common divisor of all its coefficients is 1, or equivalently, if $\nu_p(f) = 0$ for all prime elements $p \\in R$."
+        ],
+        [
+            6,
+            79,
+            "Free A-module",
+            "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+        ],
+        [
+            7,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            8,
+            109,
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        [
+            9,
+            119,
+            "Noetherian ring",
+            "A ring \\(R\\) is called Noetherian if every ascending chain of ideals \\(\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\subset \\ldots \\subset R\\) becomes stationary after finitely many steps, or equivalently, every ideal of \\(R\\) is finitely generated."
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 4,
+                        "Explanation": "A Dedekind domain (ID: 1) is an integral domain in which every nonzero prime ideal is a maximal ideal. A prime ideal (ID: 4) is a proper ideal in a ring, and in the context of a Dedekind domain, these prime ideals have the additional property of being maximal. Thus, the concept of a prime ideal is a specialization of the properties of ideals in a Dedekind domain."
+                    },
+                    {
+                        "Generalization": 9,
+                        "Specialization": 1,
+                        "Explanation": "A Noetherian ring (ID: 9) is defined as a ring in which every ascending chain of ideals becomes stationary, implying every ideal is finitely generated. A Dedekind domain (ID: 1) is a specific type of Noetherian ring where every ideal is not only finitely generated but also uniquely factorizable into prime ideals, making Dedekind domain a specialization of Noetherian ring."
+                    }
+                ]
+            }
+        ]
+    ]
+]

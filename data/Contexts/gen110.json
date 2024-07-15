@@ -1,0 +1,120 @@
+[
+    [
+        [
+            0,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            35,
+            "Integral Domain",
+            "A commutative ring R is called an integral domain if it is nonzero and does not admit nontrivial zero divisors."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            60,
+            "Euclidean domain",
+            "An integral domain $R$ is called a Euclidean domain if it admits a map $\\delta: R-\\{0\\} \\longrightarrow \\mathbb{N}$ making possible Euclidean division in $R$ in the following sense: Given elements $f, g \\in R, g \\neq 0$, there are elements $q, r \\in R$ such that $f=q g+r$, where $\\delta(r)<\\delta(g)$ or $r=0$."
+        ],
+        [
+            5,
+            78,
+            "Free system of generators (basis)",
+            "A family (x_i)_{i in I} of elements of an A-module M is called free or linearly independent if from an equation sum_{i in I} a_i x_i = 0 with coefficients a_i in A we can conclude that a_i = 0 for all i in I. A free system of generators will also be referred to as a basis."
+        ],
+        [
+            6,
+            90,
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            7,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            8,
+            105,
+            "Trivial Algebraic field extension",
+            "An algebraic field extension $L / K$ is trivial if every element of $L$ is algebraic over $K$."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ],
+        [
+            11,
+            148,
+            "Codomain",
+            "The codomain of a function is the set that contains all potential output values, even if some of those values are not actually produced by any input in the domain."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of an inverse of an element requires the concept of a monoid, which is a specific type of algebraic structure.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of a Euclidean domain requires the concept of an integral domain, as a Euclidean domain is a specific type of integral domain.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The definition of a subfield requires the concept of a field, as a subfield is a subset of a field that is itself a field.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of a field extension requires the concept of a subfield, as a field extension is a pair of fields where one is a subfield of the other.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "The definition of a trivial algebraic field extension requires the concept of a field extension, as it is a specific type of field extension.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of a Galois extension requires the concept of a field extension, as it is a specific type of field extension that is both normal and separable.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The definition of the alternating group requires the concept of permutations, specifically even permutations, which are elements of the symmetric group.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 11
+                    }
+                ]
+            }
+        ]
+    ]
+]

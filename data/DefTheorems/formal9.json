@@ -1,0 +1,34 @@
+[
+    10,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Irreducible Polynomial",
+                        "Definition_Content": "A polynomial $f$ in a ring $R[X]$ is irreducible if it cannot be factored into the product of two non-constant polynomials in $R[X]$."
+                    },
+                    {
+                        "Concept_Name": "Prime Element",
+                        "Definition_Content": "An element $p$ in a unique factorization domain $R$ is called a prime element if it generates a prime ideal, i.e., the ideal $(p)$ is such that if $p$ divides a product of elements in $R$, then $p$ divides at least one of those elements."
+                    },
+                    {
+                        "Concept_Name": "Canonical Homomorphism",
+                        "Definition_Content": "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Proposition 1 (Eisenstein's Criterion)",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain and $f=a_{n} X^{n}+\n...\n+a_{0} \\\\in R[X]$ a primitive polynomial of degree $>0$. Assume there is a prime element $p \\\\in R$ such that $p \\\\nmid a_{n}$, $p \\\\mid a_{i}$ for $i<n$, and $p^{2} \\\\nmid a_{0}$. Then $f$ is irreducible in $R[X]$ and hence, by 2.7/7, also in $Q(R)[X]$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 2",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain, $p \\\\in R$ a prime element, and $f \\\\in R[X]$ a polynomial of degree $>0$ whose leading coefficient is not divisible by p. If $\\\\[Phi(f)\\\\]$ is irreducible in $R /(p)[X]$, then the same is true for $f$ in $Q(R)[X]$. If in addition, $f$ is primitive, then it is irreducible in $R[X]$ as well."
+                    }
+                ]
+            }
+        ]
+    ]
+]

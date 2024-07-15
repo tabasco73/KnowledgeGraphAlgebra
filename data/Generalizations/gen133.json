@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            12,
+            "Submonoid",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            63,
+            "Factorial ring/unique factorization domain",
+            "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+        ],
+        [
+            5,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            6,
+            91,
+            "Prime subfield of a Field",
+            "The unique smallest subfield $P$ of a field $K$, given by the intersection of all subfields in $K$, is referred to as the prime (sub)field in $K$."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            105,
+            "Trivial Algebraic field extension",
+            "An algebraic field extension $L / K$ is trivial if every element of $L$ is algebraic over $K$."
+        ],
+        [
+            9,
+            127,
+            "Orbit",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+        ],
+        [
+            10,
+            142,
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ],
+        [
+            11,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 3,
+                        "Specialization": 4,
+                        "Explanation": "A Principal Ideal Domain (PID) is a type of integral domain where every ideal is principal. A Factorial Ring or Unique Factorization Domain (UFD) is a specific type of integral domain where every non-zero non-unit element can be uniquely factored into irreducible elements, which are also prime. Since every PID is an integral domain and the property of unique factorization into primes (which are irreducible) holds in PIDs, a PID is a generalization of a UFD."
+                    }
+                ]
+            }
+        ]
+    ]
+]

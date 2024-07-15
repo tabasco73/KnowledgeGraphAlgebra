@@ -1,0 +1,50 @@
+[
+    24,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Element of a Set",
+                        "Definition_Content": "An element of a set is an object belonging to a set."
+                    },
+                    {
+                        "Concept_Name": "Subset",
+                        "Definition_Content": "A subset is a set where all of its elements are also contained within another set."
+                    },
+                    {
+                        "Concept_Name": "Set",
+                        "Definition_Content": "A set is a collection of distinct objects considered as an entity."
+                    },
+                    {
+                        "Concept_Name": "Map/Function",
+                        "Definition_Content": "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+                    },
+                    {
+                        "Concept_Name": "Domain",
+                        "Definition_Content": "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+                    },
+                    {
+                        "Concept_Name": "Codomain",
+                        "Definition_Content": "The codomain of a function is the set that contains all potential output values, even if some of those values are not actually produced by any input in the domain."
+                    },
+                    {
+                        "Concept_Name": "Tensor",
+                        "Definition_Content": "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+                    },
+                    {
+                        "Concept_Name": "Image of Map",
+                        "Definition_Content": "The image of a function \\( f: A \to B \\) is the set of all elements in \\( B \\) that have at least one corresponding element in \\( A \\) via the function \\( f \\)."
+                    },
+                    {
+                        "Concept_Name": "Kernel of Map",
+                        "Definition_Content": "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+                    }
+                ],
+                "Theorems": [
+                ]
+            }
+        ]
+    ]
+]

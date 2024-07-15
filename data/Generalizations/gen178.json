@@ -1,0 +1,111 @@
+[
+    [
+        [
+            0,
+            118,
+            "Ideal corresponding to a subset",
+            "Given a subset \\(U \\subset \\bar{K}^{n}\\), the corresponding ideal \\(I(U)\\) in the polynomial ring \\(K[X]\\) consists of all polynomials that vanish on \\(U\\)."
+        ],
+        [
+            1,
+            119,
+            "Noetherian ring",
+            "A ring \\(R\\) is called Noetherian if every ascending chain of ideals \\(\\mathfrak{a}_{1} \\subset \\mathfrak{a}_{2} \\subset \\ldots \\subset R\\) becomes stationary after finitely many steps, or equivalently, every ideal of \\(R\\) is finitely generated."
+        ],
+        [
+            2,
+            120,
+            "Reduced ideal",
+            "An ideal \\(\\mathfrak{a}\\) in a ring \\(R\\) is called reduced if \\(\\mathfrak{a} = \\operatorname{rad} \\mathfrak{a}\\), where \\(\\operatorname{rad} \\mathfrak{a}\\) is the set of all elements \\(a \\in R\\) such that there exists some \\(n \\in \\mathbb{N}\\) with \\(a^{n} \\in \\mathfrak{a}\\)."
+        ],
+        [
+            3,
+            121,
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            4,
+            122,
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            5,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            6,
+            124,
+            "Galois group of a Field Extension",
+            "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+        ],
+        [
+            7,
+            125,
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            8,
+            126,
+            "Group Action",
+            "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+        ],
+        [
+            9,
+            127,
+            "Orbit",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+        ],
+        [
+            10,
+            128,
+            "Stabilizer",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The stabilizer or isotropy subgroup of a point $x \\in X$ is defined as $G_{x}:=\\{g \\in G ; g x=x\\}$."
+        ],
+        [
+            11,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            12,
+            130,
+            "Center",
+            "The center of a group $G$ is defined as the centralizer of $G$, i.e., as $Z=Z_{G}=\\{x \\in G ; x s=s x \\text { for all } s \\in G\\} .$"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 4,
+                        "Specialization": 5,
+                        "Explanation": "A Galois extension is a specialization of a separable extension, as it requires the extension to be both normal and separable, thus inheriting all properties of a separable extension and adding additional constraints."
+                    },
+                    {
+                        "Generalization": 8,
+                        "Specialization": 9,
+                        "Explanation": "The concept of an Orbit is a specialization of Group Action, as it directly utilizes the definition and properties of a group acting on a set to define the set of elements reachable from a given point under the group action."
+                    },
+                    {
+                        "Generalization": 8,
+                        "Specialization": 10,
+                        "Explanation": "The concept of a Stabilizer is a specialization of Group Action, as it uses the group action to define the subgroup of elements that leave a particular point unchanged, thus inheriting the properties of group actions."
+                    },
+                    {
+                        "Generalization": 11,
+                        "Specialization": 12,
+                        "Explanation": "The Center of a group is a specialization of the Centralizer concept, specifically it is the centralizer of the entire group itself, thus inheriting all properties of centralizers and applying them to the group as a whole."
+                    }
+                ]
+            }
+        ]
+    ]
+]

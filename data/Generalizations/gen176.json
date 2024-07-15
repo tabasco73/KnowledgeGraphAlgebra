@@ -1,0 +1,111 @@
+[
+    [
+        [
+            0,
+            92,
+            "Frobenius homomorphism",
+            "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+        ],
+        [
+            1,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            2,
+            94,
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            3,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            4,
+            96,
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            5,
+            97,
+            "Simple Field Extension",
+            "A field extension $K \\subset L$ is called simple if there exists an element $\\alpha \\in L$ such that $L=K(\\alpha)$. The degree $[K(\\alpha): K]$ is referred to as the degree of $\\alpha$ over $K$."
+        ],
+        [
+            6,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            100,
+            "Ring Homomorphism of Finite Type",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is of finite type if there exists an epimorphism $\\Phi: A[X_{1}, \\ldots, X_{n}] \\longrightarrow B$ from a polynomial ring in finitely many variables over $A$ to $B$ that extends $\\varphi$. Alternatively, it can be characterized by the existence of elements $x_{1}, \\ldots, x_{n} \\in B$ such that $B=\\varphi(A)[x_{1}, \\ldots, x_{n}]$."
+        ],
+        [
+            9,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            10,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            11,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            12,
+            104,
+            "Algebraically closed field",
+            "A field $K$ is called algebraically closed if every nonconstant polynomial $f$ of $K[X]$ admits a zero in $K$, or in other words, if $f$ decomposes in $K[X]$ into a product of linear factors. This means that $f$ admits a product decomposition $f=c \\prod_{i}\\left(X-\\alpha_{i}\\right)$ with a constant $c \\in K^{*}$ as well as zeros $\\alpha_{i} \\in K$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 2,
+                        "Explanation": "The Degree of a Field Extension (ID: 2) is a specific characteristic of a Field Extension (ID: 1), describing the dimension of the extension field as a vector space over the base field."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 4,
+                        "Explanation": "An Algebraic Field Extension (ID: 4) is a type of Field Extension (ID: 1) where every element of the extension field is algebraic over the base field."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 5,
+                        "Explanation": "A Simple Field Extension (ID: 5) is a type of Field Extension (ID: 1) characterized by the extension field being generated by a single element over the base field."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 6,
+                        "Explanation": "A Finitely Generated Field Extension (ID: 6) is a type of Field Extension (ID: 1) where the extension field is generated by finitely many elements over the base field."
+                    }
+                ]
+            }
+        ]
+    ]
+]

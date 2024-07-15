@@ -1,0 +1,23 @@
+[
+    [
+        1130,
+        [
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        "Does the concept of a/an Field of Fractions need to be defined for a definition of a/an Field Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Field Extension involves two fields, where one field is a subfield of another. This concept inherently requires both $K$ and $L$ to be fields already. The definition of a Field of Fractions, on the other hand, pertains to constructing a field from an integral domain by considering equivalence classes of pairs, essentially creating a field from a non-field structure. The Field of Fractions is relevant when starting with an integral domain that is not a field and you want to construct its field of fractions (like constructing the rational numbers $\\textbf{Q}$ from the integers $\\textbf{Z}$). However, for the definition of a Field Extension, both $K$ and $L$ are already fields. Therefore, the concept of a Field of Fractions is not necessary for the definition of a Field Extension to make sense. The Field Extension simply requires the existence of two fields, one being a subfield of the other, and does not depend on the process of constructing a field from an integral domain.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

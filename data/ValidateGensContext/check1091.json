@@ -1,0 +1,23 @@
+[
+    [
+        1091,
+        [
+            "Ring Homomorphism",
+            "Manual"
+        ],
+        [
+            "Free A-module",
+            "Manual"
+        ],
+        "Does the concept of a/an Ring Homomorphism need to be defined for a definition of a/an Ring Homomorphism of Finite Type to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "manual",
+                "Verdict": true
+            }
+        ]
+    ]
+]

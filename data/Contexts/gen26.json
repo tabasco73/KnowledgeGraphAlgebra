@@ -1,0 +1,109 @@
+[
+    [
+        [
+            0,
+            4,
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            32,
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            3,
+            52,
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            4,
+            62,
+            "Irreducible element",
+            "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+        ],
+        [
+            5,
+            68,
+            "Primitive Polynomial",
+            "A polynomial $f \\in R[X]$ with coefficients in a unique factorization domain $R$ is called primitive if the greatest common divisor of all its coefficients is 1, or equivalently, if $\nu_p(f) = 0$ for all prime elements $p \\in R$."
+        ],
+        [
+            6,
+            85,
+            "Galois Group of a Polynomial Splitting Fields",
+            "The Galois group of a polynomial equation is the group of automorphisms of the splitting field of the polynomial that fix the base field. These automorphisms permute the roots of the polynomial."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            116,
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        [
+            9,
+            122,
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            10,
+            132,
+            "p-group",
+            "A finite group G is called a p-group if the order of G is a power of p, where p is a prime number."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A primitive polynomial is defined in terms of a unique factorization domain, which is a type of integral domain. Therefore, the concept of an integral domain must be defined to understand a primitive polynomial.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "The Galois group of a polynomial splitting field is defined in terms of the splitting field of the polynomial, which is a field extension. Therefore, the concept of a field extension must be defined to understand the Galois group of a polynomial splitting field.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "The Galois group of a finite field extension is defined in terms of field automorphisms that fix a base field. Therefore, the concept of a field extension must be defined to understand the Galois group of a finite field extension.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "A polynomial is defined in terms of coefficients that belong to a field or ring. Therefore, the concept of a field or ring must be defined to understand a polynomial.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A ring epimorphism is defined as a surjective ring homomorphism. Therefore, the concept of a ring must be defined to understand a ring epimorphism.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A finite ring homomorphism is defined in terms of a ring homomorphism. Therefore, the concept of a ring homomorphism must be defined to understand a finite ring homomorphism.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 3
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,23 @@
+[
+    [
+        271,
+        [
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        "Does the concept of a/an Commutative Law need to be defined for a definition of a/an Solvable group to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a solvable group involves a sequence of subgroups where each successive subgroup is normal in the previous one, and the quotient groups formed are abelian. An abelian group, by definition, is a group where the group operation is commutative. Thus, the concept of the Commutative Law is inherently used in the definition of solvable groups because it is essential for the abelian nature of the quotient groups. Therefore, understanding and defining the Commutative Law is necessary to fully grasp what it means for these quotient groups to be abelian, which is a central part of the definition of a solvable group.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

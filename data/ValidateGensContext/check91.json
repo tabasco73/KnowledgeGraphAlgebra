@@ -1,0 +1,23 @@
+[
+    [
+        91,
+        [
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        "Does the concept of a/an Subfield need to be defined for a definition of a/an Normal field extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To understand whether the concept of a subfield is necessary for defining a normal field extension, we need to analyze the definitions provided:\\n\\n1. Normal field extension: This concept involves an extension field, which is a larger field containing a smaller field (base field). The definition mentions that the extension field must be a splitting field for polynomials from the base field. It also involves the concept of homomorphisms from the extension field to its algebraic closure, and conditions related to the behavior of polynomials with coefficients in the base field.\\n\\n2. Subfield: This concept defines a subfield as a subring of a field that is itself a field.\\n\\nIn the definition of a normal field extension, the base field and the extension field are inherently subfields of a larger field (possibly an algebraic closure). Understanding and defining what constitutes a subfield is crucial because it establishes the foundational relationship between the base field and the extension field. Without the concept of a subfield, the relationship between the base field and the extension field, and the conditions involving homomorphisms and polynomial behavior, would not be properly framed or understood.\\n\\nTherefore, the concept of a subfield is necessary to properly define and understand a normal field extension, as it underpins the structural relationship and properties that characterize the extension.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

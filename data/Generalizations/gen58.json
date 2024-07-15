@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            6,
+            "Monoid",
+            "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+        ],
+        [
+            1,
+            15,
+            "Group Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+        ],
+        [
+            2,
+            37,
+            "Coefficient of a Polynomial",
+            "Given a polynomial f=\nsum a_i X^i in R[X], the i-th coefficient a_i is called the coefficient of degree i."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            61,
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        [
+            5,
+            71,
+            "Canonical Homomorphism",
+            "The canonical homomorphism $\\\\[Phi: R[X] \\\\longrightarrow R /(p)[X]\\\\]$ is a ring homomorphism that reduces the coefficients of a polynomial modulo a prime element $p$ in $R$."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            122,
+            "Separable extension",
+            "An extension $L / K$ is called separable if it does not contain any inseparable algebraic elements over $K$."
+        ],
+        [
+            10,
+            143,
+            "Element of a Set",
+            "An element of a set is an object belonging to a set."
+        ],
+        [
+            11,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 0,
+                        "Specialization": 1,
+                        "Explanation": "A group homomorphism is a specialization of a monoid homomorphism, which itself is a specialization of a monoid. This is because a group is a special case of a monoid (a monoid with all elements invertible), and a group homomorphism preserves the structure of a group, which includes the properties of a monoid."
+                    }
+                ]
+            }
+        ]
+    ]
+]

@@ -1,0 +1,111 @@
+[
+    [
+        [
+            0,
+            144,
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ],
+        [
+            1,
+            145,
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ],
+        [
+            2,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ],
+        [
+            3,
+            147,
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ],
+        [
+            4,
+            148,
+            "Codomain",
+            "The codomain of a function is the set that contains all potential output values, even if some of those values are not actually produced by any input in the domain."
+        ],
+        [
+            5,
+            149,
+            "Tensor",
+            "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+        ],
+        [
+            6,
+            150,
+            "Image of Map",
+            "The image of a function \\( f: A \to B \\) is the set of all elements in \\( B \\) that have at least one corresponding element in \\( A \\) via the function \\( f \\)."
+        ],
+        [
+            7,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A subset is defined as a set where all of its elements are also contained within another set. Therefore, the concept of a set must be defined to understand what a subset is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A map/function is defined as a relationship between two sets. Therefore, the concept of a set must be defined to understand what a map/function is.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The domain of a function is the set of all possible input values for which the function is defined. Therefore, the concept of a function must be defined to understand what a domain is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The codomain of a function is the set that contains all potential output values. Therefore, the concept of a function must be defined to understand what a codomain is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The image of a function is the set of all elements in the codomain that have at least one corresponding element in the domain via the function. Therefore, the concept of a function must be defined to understand what an image is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The kernel of a function is defined as the set of elements in the domain that map to zero in the codomain. Therefore, the concept of a function must be defined to understand what a kernel is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The kernel of a function is defined as a subset of the domain. Therefore, the concept of a subset must be defined to understand what a kernel is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The image of a function is defined as a set of elements in the codomain. Therefore, the concept of a set must be defined to understand what an image is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The domain of a function is defined as a set of all possible input values. Therefore, the concept of a set must be defined to understand what a domain is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The codomain of a function is defined as a set that contains all potential output values. Therefore, the concept of a set must be defined to understand what a codomain is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    }
+                ]
+            }
+        ]
+    ]
+]

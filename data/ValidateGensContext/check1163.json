@@ -1,0 +1,23 @@
+[
+    [
+        1163,
+        [
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        "Does the concept of a/an Algebraic Field Extension need to be defined for a definition of a/an Galois extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine whether the concept of an Algebraic Field Extension is necessary for the definition of a Galois extension, we need to analyze the definitions and relationships between these concepts.\\n\\n1. **Algebraic Field Extension**: An extension field $L$ over $K$ is algebraic if every element in $L$ is algebraic over $K$, meaning each element $\\beta \\notin K$ in $L$ satisfies some polynomial equation with coefficients in $K$.\\n\\n2. **Galois Extension**: Defined as an extension $K_r/K$ that is both normal and separable. A normal extension means that $K_r$ is the splitting field of a polynomial over $K$. A separable extension means that the minimal polynomial of every element in $K_r$ over $K$ has distinct roots.\\n\\n3. **Connection**: For an extension to be normal, as required by the definition of a Galois extension, it must be the splitting field of some polynomial over $K$. This implies that every element in $K_r$ must be a root of some polynomial over $K$, thus making every element algebraic over $K$. Therefore, a Galois extension is inherently an algebraic extension.\\n\\n4. **Conclusion**: Since a Galois extension requires the extension to be normal (and hence algebraic), the concept of an Algebraic Field Extension is indeed necessary for the definition of a Galois extension to make sense. Without understanding what it means for an extension to be algebraic, one cannot fully grasp the implications of an extension being normal and hence cannot fully understand the definition of a Galois extension.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

@@ -1,0 +1,70 @@
+[
+    21,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Group Action",
+                        "Definition_Content": "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+                    },
+                    {
+                        "Concept_Name": "Orbit",
+                        "Definition_Content": "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The orbit of a point $x \\in X$ is defined as $G x:=\\{g x ; g \\in G\\}$."
+                    },
+                    {
+                        "Concept_Name": "Stabilizer",
+                        "Definition_Content": "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The stabilizer or isotropy subgroup of a point $x \\in X$ is defined as $G_{x}:=\\{g \\in G ; g x=x\\}$."
+                    },
+                    {
+                        "Concept_Name": "Centralizer",
+                        "Definition_Content": "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+                    },
+                    {
+                        "Concept_Name": "Center",
+                        "Definition_Content": "The center of a group $G$ is defined as the centralizer of $G$, i.e., as $Z=Z_{G}=\\{x \\in G ; x s=s x \\text { for all } s \\in G\\} .$"
+                    },
+                    {
+                        "Concept_Name": "Normalizer",
+                        "Definition_Content": "Let $G$ be a group and $S \\subset G$ a subset. The normalizer of $S$ in $G$ is given by $N_{S}=\\{x \\in G ; x S=S x\\}$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Remark 2",
+                        "Theorem_Content": "Let $G$ be a group and $X$ a set. Then, using the mappings $G \\times X \\longrightarrow X$ and $G \\longrightarrow S(X)$, the group actions $G \\times X \\longrightarrow X$ correspond bijectively to the group homomorphisms $G \\longrightarrow S(X)$."
+                    },
+                    {
+                        "Theorem_Name": "Remark 4",
+                        "Theorem_Content": "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. If $x, y$ are two points of one and the same $G$-orbit in $X$, then the stabilizer subgroups $G_{x}, G_{y} \\subset G$ are conjugate."
+                    },
+                    {
+                        "Theorem_Name": "Remark 5",
+                        "Theorem_Content": "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. Then $X$ is the disjoint union of its G-orbits."
+                    },
+                    {
+                        "Theorem_Name": "Orbit-stabilizer lemma",
+                        "Theorem_Content": "Let $G \\times X \\longrightarrow X$ be a group action. For a point $x \\in X$, the map $G \\longrightarrow X, g \\longmapsto g x$, induces a bijection $G / G_{x} \\xrightarrow{\\sim} G x$ from the set of left cosets of $G$ modulo the stabilizer subgroup $G_{x}$ onto the orbit of $x$ under $G$. In particular, we get $\\operatorname{ord} G x=\\operatorname{ord} G / G_{x}=(G: G_{x}) \\text {. }$"
+                    },
+                    {
+                        "Theorem_Name": "Proposition 7 (Orbit equation)",
+                        "Theorem_Content": "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a finite set $X$, and let $x_{1}, \\ldots, x_{n}$ be a system of representatives of the orbits of $X$. Then $\\operatorname{ord} X=\\sum_{i=1}^{n} \\operatorname{ord}\\left(G x_{i}\\right)=\\sum_{i=1}^{n}\\left(G: G_{x_{i}}\\right)$"
+                    },
+                    {
+                        "Theorem_Name": "Proposition 9 (Class equation)",
+                        "Theorem_Content": "Let $G$ be a finite group with center $Z$. Furthermore, consider the conjugation action on $G$ and let $x_{1}, \\ldots, x_{n}$ be a system of representatives of the orbits contained in $G-Z$. Then $\\operatorname{ord} G=\\operatorname{ord} Z+\\sum_{i=1}^{n}\\left(G: Z_{\\left\\{x_{i}\\right\\}}\\right)$"
+                    },
+                    {
+                        "Theorem_Name": "Remark 10",
+                        "Theorem_Content": "The group of inner automorphisms of $G$ is isomorphic to $G / Z$."
+                    },
+                    {
+                        "Theorem_Name": "Remark 11",
+                        "Theorem_Content": "If $G / Z$ is cyclic, then $G$ is abelian."
+                    }
+                ]
+            }
+        ]
+    ]
+]

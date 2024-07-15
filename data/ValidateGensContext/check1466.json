@@ -1,0 +1,23 @@
+[
+    [
+        1466,
+        [
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ],
+        [
+            "Codomain",
+            "The codomain of a function is the set that contains all potential output values, even if some of those values are not actually produced by any input in the domain."
+        ],
+        "Does the concept of a/an Map/Function need to be defined for a definition of a/an Codomain to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a codomain is inherently tied to the concept of a function or map. According to the provided definitions, a codomain is defined as the set containing all potential output values of a function. This definition presupposes the existence of a function, as it refers to the outputs that a function could potentially produce. Without the concept of a function or map, which establishes a relationship between a domain and a codomain, the idea of a codomain lacks context and meaning. Therefore, the concept of a function or map is necessary to define and understand what a codomain is.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

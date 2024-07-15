@@ -1,0 +1,23 @@
+[
+    [
+        1292,
+        [
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        "Does the concept of a/an Algebraic Field Extension need to be defined for a definition of a/an Normal field extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine if the concept of an Algebraic Field Extension is necessary for defining a Normal Field Extension, we need to analyze the definitions provided:\\n\\n1. The definition of a Normal Field Extension mentions that it is an extension field that is the splitting field of a family of polynomials from the base field. It specifically states that an algebraic field extension \\(K \\subset L\\) is called normal if it satisfies certain conditions. This directly implies that the field extension must first be algebraic (i.e., every element of \\(L\\) must be algebraic over \\(K\\)) before it can be considered normal.\\n\\n2. The definition of an Algebraic Field Extension is that every element \\(\\alpha \\in L\\) is algebraic over \\(K\\), meaning there exists a polynomial in \\(K[x]\\) such that \\(\\alpha\\) is a root. This is a prerequisite for the field extension to be normal, as the normality conditions involve properties of polynomials in \\(K[X]\\) and their roots in \\(L\\).\\n\\n3. The conditions for a normal extension (like being a splitting field for polynomials in \\(K[X]\\) and the decomposition of irreducible polynomials) inherently require the extension to be algebraic, as they deal with the behavior of polynomial roots in \\(L\\).\\n\\nFrom this analysis, it is clear that the concept of an Algebraic Field Extension is indeed necessary for the definition of a Normal Field Extension to make sense. Without the field extension being algebraic, the conditions defining normality would not be applicable.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

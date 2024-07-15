@@ -1,0 +1,99 @@
+[
+    [
+        [
+            0,
+            13,
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ],
+        [
+            1,
+            18,
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        [
+            2,
+            37,
+            "Coefficient of a Polynomial",
+            "Given a polynomial f=\nsum a_i X^i in R[X], the i-th coefficient a_i is called the coefficient of degree i."
+        ],
+        [
+            3,
+            52,
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            4,
+            53,
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            80,
+            "Torsion element",
+            "An element x of an A-module M is called a torsion element if there exists an element a in A-{0} such that a.x = 0."
+        ],
+        [
+            7,
+            97,
+            "Simple Field Extension",
+            "A field extension $K \\subset L$ is called simple if there exists an element $\\alpha \\in L$ such that $L=K(\\alpha)$. The degree $[K(\\alpha): K]$ is referred to as the degree of $\\alpha$ over $K$."
+        ],
+        [
+            8,
+            113,
+            "Extension Field",
+            "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+        ],
+        [
+            9,
+            124,
+            "Galois group of a Field Extension",
+            "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+        ],
+        [
+            10,
+            138,
+            "Transposition",
+            "A 2-cycle is called a transposition."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A normal subgroup is a specific type of subgroup. Therefore, the concept of a subgroup must be defined to understand what a normal subgroup is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A ring epimorphism is a specific type of ring homomorphism. Therefore, the concept of a ring homomorphism must be defined to understand what a ring epimorphism is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "A simple field extension is a specific type of field extension. Therefore, the concept of a field extension must be defined to understand what a simple field extension is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 8
+                    },
+                    {
+                        "Explanation": "The Galois group of a field extension is defined in terms of field automorphisms that fix every element of the base field. Therefore, the concept of a field extension must be defined to understand what the Galois group of a field extension is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 8
+                    }
+                ]
+            }
+        ]
+    ]
+]

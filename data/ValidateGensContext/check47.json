@@ -1,0 +1,23 @@
+[
+    [
+        47,
+        [
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        [
+            "Galois Group of a Polynomial Splitting Fields",
+            "The Galois group of a polynomial equation is the group of automorphisms of the splitting field of the polynomial that fix the base field. These automorphisms permute the roots of the polynomial."
+        ],
+        "Does the concept of a/an Degree of a Field Extension need to be defined for a definition of a/an Galois Group of a Polynomial Splitting Fields to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of the degree of a field extension is crucial for understanding the structure and properties of field extensions, which are fundamental in the definition of the Galois group of a polynomial's splitting field. The degree of the field extension $[L: K]$ tells us how 'large' the extension is in terms of the dimension of $L$ as a vector space over $K$. This is important because the Galois group consists of automorphisms of the splitting field $L$ that fix the base field $K$. Knowing the degree of the extension helps in understanding the complexity and the possible structure of these automorphisms. For instance, the size of the Galois group is often closely related to the degree of the field extension. Therefore, without the concept of the degree of a field extension, the definition and study of the Galois group of a polynomial's splitting fields would lack a necessary context for understanding how the automorphisms relate to the field structure.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

@@ -1,0 +1,23 @@
+[
+    [
+        676,
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        [
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        "Does the concept of a/an Normal field extension need to be defined for a definition of a/an Galois extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Galois extension explicitly states that it is an extension that is both normal and separable. This means that for an extension to be considered Galois, it must first satisfy the conditions of being a normal extension. The concept of a normal field extension is therefore integral to understanding and defining what a Galois extension is. Without the concept of a normal field extension, one cannot fully define or understand a Galois extension because the normality condition is a part of its definition. Thus, the concept of a normal field extension is necessary for the definition of a Galois extension to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

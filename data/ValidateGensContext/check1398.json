@@ -1,0 +1,23 @@
+[
+    [
+        1398,
+        [
+            "Ring Homomorphism",
+            "Let $R$ and $R'$ be rings. A map $\\varphi: R \\longrightarrow R'$ is called a ring homomorphism if it satisfies two conditions: (i) $\\varphi(a+b)=\\varphi(a)+\\varphi(b)$ for all $a, b \\in R$, making $\\varphi$ a group homomorphism with respect to addition, and (ii) $\\varphi(a \\cdot b)=\\varphi(a) \\cdot \\varphi(b)$ for all $a, b \\in R$ and $\\varphi(1)=1$, making $\\varphi$ a monoid homomorphism with respect to multiplication."
+        ],
+        [
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        "Does the concept of a/an Ring Homomorphism need to be defined for a definition of a/an Ring Epimorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Ring Epimorphism explicitly states that it is a type of ring homomorphism which is surjective. This means that the concept of a Ring Homomorphism is inherently required to define what a Ring Epimorphism is. Without understanding what a Ring Homomorphism is, one cannot fully comprehend the definition or the properties of a Ring Epimorphism, as the latter is a special case of the former where the function is surjective. Therefore, the concept of a Ring Homomorphism is essential and foundational for the definition of a Ring Epimorphism.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

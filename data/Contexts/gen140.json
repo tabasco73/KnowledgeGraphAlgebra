@@ -1,0 +1,129 @@
+[
+    [
+        [
+            0,
+            12,
+            "Submonoid",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+        ],
+        [
+            1,
+            26,
+            "Ring",
+            "A ring (admitting a unit element) is a set R together with two laws of composition written as addition '+' and multiplication '.' such that: (i) R is a commutative group with respect to addition. (ii) R is a monoid with respect to multiplication, i.e., the multiplication is associative, and there exists a unit element in R. (iii) The distributive laws hold, i.e., (a+b) \ncdot c=a \ncdot c+b \ncdot c, and c \ncdot(a+b)=c \ncdot a+c \ncdot b for all a, b, c in R."
+        ],
+        [
+            2,
+            38,
+            "Degree of a Polynomial",
+            "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+        ],
+        [
+            3,
+            42,
+            "Sum of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the sum $\\mathfrak{a}+\\mathfrak{b}$ is defined as $\\{a+b ; a \\in \\mathfrak{a}, b \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            57,
+            "Factor Ring",
+            "Let $R$ be a ring and $\\mathfrak{a}$ an ideal in $R$. The factor ring, or residue class ring, $R / \\mathfrak{a}$, is defined initially as an abelian group by viewing $\\mathfrak{a}$ as a (normal) subgroup of the additive group of $R$. The elements of $R / \\mathfrak{a}$ are all residue classes of type $x+\\mathfrak{a}$ for $x \\in R$, where addition is given by $(x+\\mathfrak{a})+(y+\\mathfrak{a})=(x+y)+\\mathfrak{a}$ and multiplication by $(x+\\mathfrak{a}) \\cdot(y+\\mathfrak{a})=(x \\cdot y)+\\mathfrak{a}$. The ring properties of $R$ carry over to $R / \\mathfrak{a}$."
+        ],
+        [
+            5,
+            66,
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            6,
+            85,
+            "Galois Group of a Polynomial Splitting Fields",
+            "The Galois group of a polynomial equation is the group of automorphisms of the splitting field of the polynomial that fix the base field. These automorphisms permute the roots of the polynomial."
+        ],
+        [
+            7,
+            93,
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            121,
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            10,
+            136,
+            "r-cycle",
+            "A cycle involving $r$ elements is called an $r$-cycle and is denoted as $\\pi = (x_{1}, \\ldots, x_{r})$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A submonoid is defined as a subset of a monoid that satisfies certain conditions. Therefore, the concept of a monoid must be defined to understand what a submonoid is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A ring is defined as a set with two operations, one of which makes it a monoid. Therefore, the concept of a monoid must be defined to understand what a ring is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The degree of a polynomial is defined in terms of a polynomial ring, which is a ring. Therefore, the concept of a ring must be defined to understand what the degree of a polynomial is.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The sum of ideals is defined in the context of a ring. Therefore, the concept of a ring must be defined to understand what the sum of ideals is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A factor ring is defined as a quotient of a ring by an ideal. Therefore, the concept of a ring must be defined to understand what a factor ring is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The field of fractions is defined for an integral domain, which is a specific type of ring. Therefore, the concept of a ring must be defined to understand what the field of fractions is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The Galois group of a polynomial is defined in terms of the splitting field of the polynomial. Therefore, the concept of a splitting field must be defined to understand what the Galois group is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "A field extension is defined as a pair of fields where one is a subfield of the other. Therefore, the concept of a field must be defined to understand what a field extension is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "The splitting field of a polynomial over its prime subfield is a specific case of a splitting field. Therefore, the concept of a splitting field must be defined to understand what the splitting field of a polynomial over its prime subfield is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "A splitting field is defined as a field extension where a polynomial splits into linear factors. Therefore, the concept of a field extension must be defined to understand what a splitting field is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 7
+                    }
+                ]
+            }
+        ]
+    ]
+]

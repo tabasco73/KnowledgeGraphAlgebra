@@ -1,0 +1,17 @@
+{
+    "name": "Validity_Check",
+    "description": "Answers the given true or false question",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "Explanation": {
+                "type": "string",
+                "description": "Provided a detailed answer of the question, where every line of reasoning is step-by-step and clear."
+            },
+            "Verdict": {
+                "type": "boolean",
+                "description": "Verdict of True/False depending on your anlysis."
+            }
+        },"required": ["Explanation", "Verdict"]
+    }
+}

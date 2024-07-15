@@ -1,0 +1,120 @@
+[
+    [
+        [
+            0,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            1,
+            14,
+            "Monoid Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$."
+        ],
+        [
+            2,
+            32,
+            "Division Ring",
+            "A ring R is called a division ring or a skew field if R is not the zero ring and every nonzero element of R is a unit (R* = R - {0})."
+        ],
+        [
+            3,
+            51,
+            "Ring Monomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called a monomorphism if it is injective."
+        ],
+        [
+            4,
+            54,
+            "Ring Automorphism",
+            "An automorphism of a ring $R$ is an isomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            6,
+            83,
+            "Length of an A-module",
+            "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+        ],
+        [
+            7,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            8,
+            117,
+            "Algebraic subset",
+            "An algebraic subset of \\(\\bar{K}^{n}\\) defined over \\(K\\) is the set of common zeros in \\(\\bar{K}^{n}\\) of the polynomials belonging to a subset \\(E\\) of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\). It is denoted as \\(V(E)\\)."
+        ],
+        [
+            9,
+            124,
+            "Galois group of a Field Extension",
+            "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ],
+        [
+            11,
+            146,
+            "Map/Function",
+            "A map is a relationship between two sets that associates every element in one set(domain) to exactly one element in another set (codomain)."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A group is defined as a monoid with additional properties. Therefore, the concept of a monoid must be defined to understand what a group is.",
+                        "The_Definition_of_This_Concept": 0,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A monoid homomorphism is a specific type of map between two monoids. Therefore, the concept of a map must be defined to understand what a monoid homomorphism is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "A ring automorphism is a specific type of isomorphism, which is a bijective homomorphism. Therefore, the concept of a ring homomorphism must be defined to understand what a ring automorphism is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The length of an A-module is defined in terms of submodules. Therefore, the concept of a submodule must be defined to understand what the length of an A-module is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "An algebraic element is defined in terms of a field extension. Therefore, the concept of a field extension must be defined to understand what an algebraic element is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "An algebraic subset is defined in terms of polynomials and polynomial rings. Therefore, the concept of a polynomial ring must be defined to understand what an algebraic subset is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 7
+                    },
+                    {
+                        "Explanation": "The Galois group of a field extension is defined in terms of field automorphisms. Therefore, the concept of a field automorphism must be defined to understand what a Galois group is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 4
+                    }
+                ]
+            }
+        ]
+    ]
+]

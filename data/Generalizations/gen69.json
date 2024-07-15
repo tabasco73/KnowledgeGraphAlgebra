@@ -1,0 +1,95 @@
+[
+    [
+        [
+            0,
+            7,
+            "Product Notation in Monoids",
+            "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+        ],
+        [
+            1,
+            25,
+            "Dedekind Domain",
+            "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+        ],
+        [
+            2,
+            28,
+            "Zero Ring",
+            "The zero ring is a ring where the unit element of addition (0) and the unit element of multiplication (1) are the same, i.e., 1=0. It consists of a single element 0."
+        ],
+        [
+            3,
+            42,
+            "Sum of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the sum $\\mathfrak{a}+\\mathfrak{b}$ is defined as $\\{a+b ; a \\in \\mathfrak{a}, b \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            62,
+            "Irreducible element",
+            "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+        ],
+        [
+            5,
+            74,
+            "Submodule",
+            "Submodules of an A-module M are defined similarly to subspaces in vector spaces, where a submodule N of M is a subset that is closed under the operations of M."
+        ],
+        [
+            6,
+            82,
+            "Rank of an A-module",
+            "The rank of an A-module M is defined as the supremum of all numbers n such that there exists a linearly independent system of elements x_1, ..., x_n in M."
+        ],
+        [
+            7,
+            97,
+            "Simple Field Extension",
+            "A field extension $K \\subset L$ is called simple if there exists an element $\\alpha \\in L$ such that $L=K(\\alpha)$. The degree $[K(\\alpha): K]$ is referred to as the degree of $\\alpha$ over $K$."
+        ],
+        [
+            8,
+            105,
+            "Trivial Algebraic field extension",
+            "An algebraic field extension $L / K$ is trivial if every element of $L$ is algebraic over $K$."
+        ],
+        [
+            9,
+            130,
+            "Center",
+            "The center of a group $G$ is defined as the centralizer of $G$, i.e., as $Z=Z_{G}=\\{x \\in G ; x s=s x \\text { for all } s \\in G\\} .$"
+        ],
+        [
+            10,
+            137,
+            "Disjoint Cycles",
+            "Two cycles $(x_{1}, \\ldots, x_{r})$ and $(y_{1}, \\ldots, y_{s})$ are called disjoint if the sets $\\{x_{1}, \\ldots, x_{r}\\}$ and $\\{y_{1}, \\ldots, y_{s}\\}$ have no elements in common."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 1,
+                        "Specialization": 4,
+                        "Explanation": "An irreducible element (ID: 4) is a concept that specifically applies within the context of integral domains, which includes Dedekind domains (ID: 1). Therefore, the concept of an irreducible element is a specialization of the properties and structure defined in a Dedekind domain."
+                    },
+                    {
+                        "Generalization": 1,
+                        "Specialization": 3,
+                        "Explanation": "The sum of ideals (ID: 3) is a concept that applies to rings, including Dedekind domains (ID: 1) which are a specific type of integral domain. Thus, the concept of the sum of ideals is a specialization of the properties and structure defined in a Dedekind domain."
+                    }
+                ]
+            }
+        ]
+    ]
+]

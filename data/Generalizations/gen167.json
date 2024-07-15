@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            1,
+            "Cartesian Product",
+            "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+        ],
+        [
+            1,
+            25,
+            "Dedekind Domain",
+            "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+        ],
+        [
+            2,
+            38,
+            "Degree of a Polynomial",
+            "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+        ],
+        [
+            3,
+            51,
+            "Ring Monomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called a monomorphism if it is injective."
+        ],
+        [
+            4,
+            64,
+            "Greatest common divisor",
+            "An element $d \\in R$ is called a greatest common divisor of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $d \\mid x_{i}$ for $i=1, \\ldots, n$, i.e., $d$ is a common divisor of all the $x_{i}$. (ii) If $a \\in R$ is a common divisor of the $x_{i}$, i.e., if $a \\mid x_{i}$ for $i=1, \\ldots, n$, then $a \\mid d$."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            90,
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            7,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            8,
+            116,
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        [
+            9,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            10,
+            142,
+            "Klein Four-Group",
+            "The Klein four-group, denoted as $\\mathfrak{V}_{4}$, is a subgroup of $\\mathfrak{S}_{4}$ consisting of the permutations $\\{\\mathrm{id}, (1,2)(3,4), (1,3)(2,4), (1,4)(2,3)\\}$. It is isomorphic to $\\mathbb{Z} / 2 \\mathbb{Z} \\times \\mathbb{Z} / 2 \\mathbb{Z}$."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 3,
+                        "Specialization": 7,
+                        "Explanation": "A ring monomorphism is a generalization of an integral ring homomorphism. An integral ring homomorphism is a specific type of ring homomorphism where every element of the codomain is integral over the domain, which is a special case of the injectivity required in ring monomorphisms."
+                    }
+                ]
+            }
+        ]
+    ]
+]

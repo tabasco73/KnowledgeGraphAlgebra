@@ -1,0 +1,23 @@
+[
+    [
+        189,
+        [
+            "Characteristic of a field",
+            "Let $K$ be a field (or, more generally, an integral domain) and let $\\varphi: \\mathbb{Z} \\longrightarrow K$ be the canonical ring homomorphism. Furthermore, let $p \\in \\mathbb{N}$ be a generating element of the principal ideal $\\operatorname{ker} \\varphi$. Then $p$ is called the characteristic of $K$, and we write $p=\\operatorname{char} K$."
+        ],
+        [
+            "Degree of a Field Extension",
+            "Let $K \\subset L$ be a field extension. The vector space dimension $[L: K]:=\\operatorname{dim}_{K} L$ is called the degree of $L$ over $K$. The field extension is called finite or infinite, depending on whether $[L: K]$ is finite or infinite."
+        ],
+        "Does the concept of a/an Characteristic of a field need to be defined for a definition of a/an Degree of a Field Extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of the degree of a field extension, as defined, involves the dimension of one field as a vector space over another field. This dimension is calculated purely in terms of vector space properties and does not inherently involve the characteristic of the field. The characteristic of a field, which is a measure of the smallest number of times the unit element must be added to itself to yield zero, affects the structure of the field but does not directly influence the definition or calculation of the degree of a field extension. The degree of a field extension is determined by the number of linearly independent vectors in the larger field when considered as a vector space over the smaller field, which is a concept independent of the characteristic. Therefore, understanding or defining the characteristic of a field is not necessary for the concept of the degree of a field extension to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

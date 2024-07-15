@@ -1,0 +1,89 @@
+[
+    [
+        [
+            0,
+            13,
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ],
+        [
+            1,
+            19,
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        [
+            2,
+            38,
+            "Degree of a Polynomial",
+            "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+        ],
+        [
+            3,
+            40,
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        [
+            4,
+            54,
+            "Ring Automorphism",
+            "An automorphism of a ring $R$ is an isomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            78,
+            "Free system of generators (basis)",
+            "A family (x_i)_{i in I} of elements of an A-module M is called free or linearly independent if from an equation sum_{i in I} a_i x_i = 0 with coefficients a_i in A we can conclude that a_i = 0 for all i in I. A free system of generators will also be referred to as a basis."
+        ],
+        [
+            6,
+            81,
+            "Torsion submodule",
+            "The torsion submodule T of an A-module M consists of all torsion elements of M. If T = 0, M is called torsion-free; if T = M, it is called a torsion module."
+        ],
+        [
+            7,
+            98,
+            "Finitely Generated Field Extension",
+            "A field extension $K \\subset L$ is called finitely generated if there exist finitely many elements $\\alpha_{1}, \\ldots, \\alpha_{n} \\in L$ such that $L=K(\\alpha_{1}, \\ldots, \\alpha_{n})$."
+        ],
+        [
+            8,
+            114,
+            "Algebraic Closure of Finite Field",
+            "An algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of a finite field $\\\\[\\mathbb{F}_p\\]$ is a field that contains $\\\\[\\mathbb{F}_p\\]$ and all its algebraic extensions. It is used to view the fields $\\\\[\\mathbb{F}_{p^n}\\]$ as subfields."
+        ],
+        [
+            9,
+            125,
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            10,
+            139,
+            "Sign or Signature of a Permutation",
+            "The sign or signature of a permutation $\\pi \\in \\mathfrak{S}_{n}$, denoted as $\\operatorname{sgn} \\pi$, is defined by the product $\\prod_{i<j} \\frac{\\pi(i)-\\pi(j)}{i-j}$. The sign can only assume the values 1 and -1. If $\\operatorname{sgn} \\pi$ is positive, $\\pi$ is called an even permutation, and an odd permutation otherwise."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 0,
+                        "Specialization": 9,
+                        "Explanation": "A solvable group (ID: 9) is a type of group that has a specific structure involving a chain of subgroups. Since a subgroup (ID: 0) is a general concept of a subset of a group that fulfills group properties, every solvable group inherently involves subgroups as part of its definition. Thus, a subgroup is a generalization of a solvable group."
+                    },
+                    {
+                        "Generalization": 3,
+                        "Specialization": 9,
+                        "Explanation": "An ideal (ID: 3) is a subset of a ring that is an additive subgroup and closed under multiplication by any element of the ring. Since a solvable group (ID: 9) is a group and thus can be considered under the broader category of rings (groups being akin to rings without multiplicative inverses), and since it involves a chain of subgroups, each of which can be seen as an additive subgroup, an ideal can be considered a generalization of the concept of a solvable group."
+                    }
+                ]
+            }
+        ]
+    ]
+]

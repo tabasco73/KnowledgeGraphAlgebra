@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            9,
+            "Powers of an Element",
+            "For an element $a \\in M$ of a monoid and an exponent $n \\in \\mathbb{N}$, the $n$th power of $a$, denoted $a^n$, is defined in the usual way. Note that $a^0 = e$, following the convention on empty products."
+        ],
+        [
+            1,
+            25,
+            "Dedekind Domain",
+            "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+        ],
+        [
+            2,
+            29,
+            "Subring",
+            "A subset S of a ring R is called a subring if S is a subgroup with respect to the addition on R and a submonoid with respect to the multiplication on R. S inherits the laws of composition from R and is itself a ring."
+        ],
+        [
+            3,
+            52,
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            4,
+            57,
+            "Factor Ring",
+            "Let $R$ be a ring and $\\mathfrak{a}$ an ideal in $R$. The factor ring, or residue class ring, $R / \\mathfrak{a}$, is defined initially as an abelian group by viewing $\\mathfrak{a}$ as a (normal) subgroup of the additive group of $R$. The elements of $R / \\mathfrak{a}$ are all residue classes of type $x+\\mathfrak{a}$ for $x \\in R$, where addition is given by $(x+\\mathfrak{a})+(y+\\mathfrak{a})=(x+y)+\\mathfrak{a}$ and multiplication by $(x+\\mathfrak{a}) \\cdot(y+\\mathfrak{a})=(x \\cdot y)+\\mathfrak{a}$. The ring properties of $R$ carry over to $R / \\mathfrak{a}$."
+        ],
+        [
+            5,
+            73,
+            "A-homomorphism",
+            "Homomorphisms between A-modules, also referred to as A-homomorphisms, are defined just as in the context of vector spaces."
+        ],
+        [
+            6,
+            88,
+            "Purely Inseparable Extension",
+            "A purely inseparable extension is a field extension where the minimal polynomial of any element in the extension has a single root, which is repeated according to the degree of the polynomial."
+        ],
+        [
+            7,
+            95,
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        [
+            8,
+            110,
+            "Finite Field",
+            "A finite field $\\\\[\\mathbb{F}\\\text{\\_q}\\]$ consists of $q$ elements, where $q=p^n$ for some prime number $p$ and integer $n>0$. It is different from the residue class ring $\\\\[\\mathbb{Z} / p^n \\mathbb{Z}\\]$ for $n>1$, as the latter has nontrivial zero divisors and cannot be a field."
+        ],
+        [
+            9,
+            126,
+            "Group Action",
+            "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+        ],
+        [
+            10,
+            131,
+            "Normalizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The normalizer of $S$ in $G$ is given by $N_{S}=\\{x \\in G ; x S=S x\\}$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A purely inseparable extension is a type of field extension, which requires the definition of a field.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 2
+                    }
+                ]
+            }
+        ]
+    ]
+]

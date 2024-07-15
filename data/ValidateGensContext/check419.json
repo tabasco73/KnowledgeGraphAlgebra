@@ -1,0 +1,23 @@
+[
+    [
+        419,
+        [
+            "Group Action",
+            "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+        ],
+        [
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        "Does the concept of a/an Group Action need to be defined for a definition of a/an Right Coset to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Right Coset involves a group $G$ and a subgroup $H$ of $G$. The right coset of $H$ in $G$ is defined as $Ha = \\{ha; h \\in H\\}$ for some $a \\in G$. This definition relies solely on the group operation within $G$ and does not require any external set $X$ or an action of $G$ on $X$. It is purely an internal operation within the group $G$ itself.\\n\\nOn the other hand, a Group Action involves a group $G$ acting on an external set $X$ through a specific map that satisfies certain properties. This concept is broader and involves interactions between the group and another set, which is not required for defining a right coset.\\n\\nTherefore, the definition and understanding of a right coset do not depend on the concept of a group action on some set $X$. The group action is a separate concept that deals with the interaction of group elements with elements of a different set, which is not necessary for defining or understanding right cosets within a group.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

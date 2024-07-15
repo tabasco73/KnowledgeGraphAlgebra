@@ -1,0 +1,23 @@
+[
+    [
+        1471,
+        [
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ],
+        [
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ],
+        "Does the concept of a/an Set need to be defined for a definition of a/an Domain to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Domain explicitly uses the concept of a Set. It states that the domain of a function is the 'set of all possible input values' for which the function is defined. This implies that the domain itself is a collection of inputs, which aligns with the definition of a Set as a 'collection of distinct objects considered as an entity.' Without the concept of a Set, the notion of a Domain would lack a clear structure to define what it means to be a collection of all possible input values. Therefore, understanding and defining a Domain inherently relies on the concept of a Set.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

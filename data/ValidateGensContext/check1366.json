@@ -1,0 +1,23 @@
+[
+    [
+        1366,
+        [
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        "Does the concept of a/an Order of a group need to be defined for a definition of a/an Left Coset to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a left coset involves a group $G$ and a subgroup $H$ of $G$. A left coset of $H$ in $G$ is defined as the set $aH = \\{ah; h \\in H\\}$, where $a$ is an element of $G$. This definition requires the concept of a group and a subgroup but does not explicitly require the concept of the order of a group. The order of a group, which is the total number of elements in the group, does not influence the definition or existence of a left coset. The left coset is simply a way of partitioning the group using its subgroup, and this partitioning does not depend on knowing the total number of elements in the group. Therefore, the concept of the order of a group is not necessary for the definition of a left coset to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

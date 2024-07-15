@@ -1,0 +1,30 @@
+[
+    4,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Polynomial",
+                        "Definition_Content": "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+                    },
+                    {
+                        "Concept_Name": "Dedekind Domain",
+                        "Definition_Content": "A Dedekind domain is an integral domain in which the theorem on unique prime factorization holds for ideals. It is a nonzero ring without nontrivial zero divisors, and Dedekind's theorem on unique prime factorization for ideals is applicable."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Theorem on Unique Prime Factorization in Polynomial Rings",
+                        "Theorem_Content": "In a polynomial ring $K[X]$ over a field $K$, every monic polynomial admits a unique factorization into irreducible monic polynomials. This theorem extends the concept of unique prime factorization from the ring of integers to polynomial rings."
+                    },
+                    {
+                        "Theorem_Name": "Theorem on Unique Prime Factorization in Principal Ideal Domains",
+                        "Theorem_Content": "The theorem on unique prime factorization is valid in principal ideal domains, indicating that every element can be uniquely factored into irreducible elements within such domains."
+                    }
+                ]
+            }
+        ]
+    ]
+]

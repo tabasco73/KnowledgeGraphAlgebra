@@ -1,0 +1,90 @@
+[
+    [
+        [
+            0,
+            9,
+            "Powers of an Element",
+            "For an element $a \\in M$ of a monoid and an exponent $n \\in \\mathbb{N}$, the $n$th power of $a$, denoted $a^n$, is defined in the usual way. Note that $a^0 = e$, following the convention on empty products."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            33,
+            "Field",
+            "A field is a commutative division ring."
+        ],
+        [
+            3,
+            43,
+            "Product of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the product $\\mathfrak{a} \\cdot \\mathfrak{b}$ is defined as $\\left\\{\\sum_{i=1}^{<\\infty} a_{i} b_{i} ; a_{i} \\in \\mathfrak{a}, b_{i} \\in \\mathfrak{b}\\right\\}$."
+        ],
+        [
+            4,
+            61,
+            "Euclidean function",
+            "The map $\\delta$ in a Euclidean domain $R$ that facilitates the Euclidean division process."
+        ],
+        [
+            5,
+            77,
+            "Finitely generated module",
+            "An A-module M is said to be finitely generated if it admits a finite system of generators. It is also referred to as a finite A-module."
+        ],
+        [
+            6,
+            79,
+            "Free A-module",
+            "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+        ],
+        [
+            7,
+            99,
+            "Finite Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+        ],
+        [
+            8,
+            114,
+            "Algebraic Closure of Finite Field",
+            "An algebraic closure $\\\\[\\overline{\\mathbb{F}}_p\\]$ of a finite field $\\\\[\\mathbb{F}_p\\]$ is a field that contains $\\\\[\\mathbb{F}_p\\]$ and all its algebraic extensions. It is used to view the fields $\\\\[\\mathbb{F}_{p^n}\\]$ as subfields."
+        ],
+        [
+            9,
+            130,
+            "Center",
+            "The center of a group $G$ is defined as the centralizer of $G$, i.e., as $Z=Z_{G}=\\{x \\in G ; x s=s x \\text { for all } s \\in G\\} .$"
+        ],
+        [
+            10,
+            135,
+            "Cycle",
+            "A permutation $\\pi \\in \\mathfrak{S}_{n}$ is called a cycle if there exist distinct elements $x_{1}, \\ldots, x_{r}$ in $\\{1, \\ldots, n\\}, r \\geq 2$, such that $\\pi(x_{i}) = x_{i+1}$ for $1 \\leq i < r$, $\\pi(x_{r}) = x_{1}$, and $\\pi(x) = x$ for $x \\in \\{1, \\ldots, n\\} - \\{x_{1}, \\ldots, x_{r}\\}$."
+        ],
+        [
+            11,
+            145,
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 2,
+                        "Specialization": 8,
+                        "Explanation": "A field is a generalization of an algebraic closure of a finite field, as the latter is a specific type of field that contains a finite field and all its algebraic extensions."
+                    }
+                ]
+            }
+        ]
+    ]
+]

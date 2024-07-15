@@ -1,0 +1,23 @@
+[
+    [
+        1472,
+        [
+            "Set",
+            "A set is a collection of distinct objects considered as an entity."
+        ],
+        [
+            "Codomain",
+            "The codomain of a function is the set that contains all potential output values, even if some of those values are not actually produced by any input in the domain."
+        ],
+        "Does the concept of a/an Set need to be defined for a definition of a/an Codomain to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a codomain explicitly mentions that it is a set containing all potential output values of a function. This implies that the concept of a set is integral to understanding what a codomain is, as it uses the idea of a collection of objects (outputs in this case) grouped together as an entity. Without the concept of a set, the notion of a codomain would lack a framework to describe how these outputs are collectively handled and defined. Therefore, the concept of a set is necessary to fully define and comprehend what a codomain is.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

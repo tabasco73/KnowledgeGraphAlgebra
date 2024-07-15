@@ -1,0 +1,23 @@
+[
+    [
+        860,
+        [
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        "Does the concept of a/an Ring Epimorphism need to be defined for a definition of a/an Integral Element over a Ring to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of an integral element over a ring involves a ring homomorphism \\n\\from A to B, but it does not specify that this homomorphism must be an epimorphism. The \\nconcept of an integral element over a ring can be understood and applied without the \\nrequirement that the homomorphism be surjective, which is the defining characteristic of a \\nring epimorphism. The integral element concept primarily concerns whether certain \\nconditions (like satisfying a monic polynomial equation) are met by an element in the \\nsecond ring B, relative to the first ring A, under any given ring homomorphism. Thus, \\nthe nature of the homomorphism (whether it is an epimorphism or not) does not impact \\nthe definition or application of the concept of an integral element.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

@@ -1,0 +1,23 @@
+[
+    [
+        1370,
+        [
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        [
+            "Factor Group",
+            "Given a normal subgroup $N \\subset G$ of a group $G$, the factor group or the residue class group of $G$ modulo $N$, denoted $G / N$, is the group formed by the set of left cosets of $N$ in $G$ with the group operation defined by $(aN) \\cdot (bN) = (ab)N$ for $a, b \\in G$."
+        ],
+        "Does the concept of a/an Normal Subgroup need to be defined for a definition of a/an Factor Group to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Factor Group explicitly requires the existence of a normal subgroup $N$ of a group $G$. The factor group $G / N$ is defined as the group formed by the set of left cosets of $N$ in $G$. The group operation within the factor group is defined based on these cosets, specifically $(aN) \\times (bN) = (ab)N$. This operation is well-defined only because $N$ is a normal subgroup, ensuring that the product of any two cosets is also a coset. If $N$ were not normal, the product of two cosets might not be a coset, breaking the group structure. Therefore, the concept of a normal subgroup is essential for the definition of a factor group to make sense, as it guarantees the closure and well-definedness of the group operation in the factor group.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

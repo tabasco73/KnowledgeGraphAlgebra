@@ -1,0 +1,23 @@
+[
+    [
+        1242,
+        [
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            "Normal field extension",
+            "A normal field extension is an extension field that is the splitting field of a family of polynomials from the base field. It is a prestage to Galois extensions. An algebraic field extension \\\\(K \\subset L\\\\) is called normal if it satisfies the equivalent conditions of Theorem 4: (i) Every \\\\(K\\\\)-homomorphism \\\\(L \\longrightarrow \\bar{L}\\\\) into an algebraic closure \\\\(\\bar{L}\\\\) of \\\\(L\\\\) restricts to an automorphism of \\\\(L\\\\). (ii) \\\\(L\\\\) is a splitting field of a family of polynomials in \\\\(K[X]\\\\). (iii) Every irreducible polynomial in \\\\(K[X]\\\\) that admits a zero in \\\\(L\\\\) decomposes over \\\\(L\\\\) completely into linear factors."
+        ],
+        "Does the concept of a/an Field Extension need to be defined for a definition of a/an Normal field extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine if the concept of a Field Extension is necessary for defining a Normal field extension, we need to analyze the dependencies between the two concepts based on their definitions.\\n\\n1. The definition of a Normal field extension explicitly mentions an 'extension field' and uses the notation \\(K \\subset L\\), indicating a relationship where \\(L\\) is an extension of \\(K\\). This directly refers to the concept of a Field Extension, where \\(K\\) is a subfield of \\(L\\).\\n\\n2. The properties and conditions described in the definition of a Normal field extension (such as being a splitting field, the behavior of \\(K\\)-homomorphisms, and the decomposition of polynomials) all presuppose that there is an established relationship of one field being an extension of another, which is precisely what is defined in the concept of a Field Extension.\\n\\n3. Without understanding what a Field Extension is (i.e., one field being a subfield of another), the conditions and properties used to define a Normal field extension would not make sense, as they rely on the existence of this relationship.\\n\\nTherefore, the concept of a Field Extension is essential for the definition of a Normal field extension to be meaningful and complete.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

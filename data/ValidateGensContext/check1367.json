@@ -1,0 +1,23 @@
+[
+    [
+        1367,
+        [
+            "Order of a group",
+            "The order of a group $G$, denoted as ord $G$, is defined as the number of elements in $G$ if $G$ is finite. If $G$ is infinite, its order is said to be infinite."
+        ],
+        [
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        "Does the concept of a/an Order of a group need to be defined for a definition of a/an Right Coset to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a right coset involves a group $G$ and a subgroup $H$ of $G$. The right coset of $H$ in $G$ is defined as the set $Ha = \\{ha; h \\in H\\}$ for some $a \\in G$. This definition requires the understanding of what a group and a subgroup are, and how elements of the group can be multiplied by elements of the subgroup.\\n\\nThe order of a group, on the other hand, is concerned with the number of elements in the group. It is a measure of the 'size' of the group, whether finite or infinite.\\n\\nTo define or understand a right coset, we do not need to know the order of the group or the subgroup. The concept of a right coset is purely about the structure and elements of the group and subgroup, and how they interact through the operation of the group. The order of the group or the subgroup does not influence the definition or existence of a right coset. Therefore, the concept of the order of a group is not necessary for the definition of a right coset to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

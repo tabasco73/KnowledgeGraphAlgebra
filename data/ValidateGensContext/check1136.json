@@ -1,0 +1,23 @@
+[
+    [
+        1136,
+        [
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        "Does the concept of a/an Commutative Ring need to be defined for a definition of a/an Maximal Ideal to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a maximal ideal does not explicitly require that the ring R be commutative. A maximal ideal is defined as a proper ideal in a ring R such that there is no other ideal between it and the ring R itself. This definition applies to any ring, whether it is commutative or not. Therefore, the concept of a commutative ring is not necessary for the definition of a maximal ideal to make sense. The concept of a maximal ideal is applicable in both commutative and non-commutative rings.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

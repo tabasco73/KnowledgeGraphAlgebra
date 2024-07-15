@@ -1,0 +1,23 @@
+[
+    [
+        1422,
+        [
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            "Algebraic Element",
+            "Given a field extension $K \\subset L$, an element $\\alpha \\in L$ is called algebraic over $K$ if it satisfies an algebraic equation over $K$, i.e., an equation $\\alpha^{n}+c_{1} \\alpha^{n-1}+\\ldots+c_{n}=0$ with coefficients $c_{1}, \\ldots, c_{n} \\in K$."
+        ],
+        "Does the concept of a/an Field Extension need to be defined for a definition of a/an Algebraic Element to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of an Algebraic Element inherently relies on the concept of a Field Extension. According to the provided definition, an element \\\\(\\alpha \\\\in L\\\\) is algebraic over \\\\(K\\\\) if it satisfies a certain polynomial equation with coefficients in \\\\(K\\\\), where \\\\(K \\\\subset L\\\\) is a field extension. This implies that the very notion of an algebraic element presupposes the existence of a field extension, as the element \\\\(\\alpha\\\\) must belong to a larger field \\\\(L\\\\) while the coefficients of the polynomial equation are in the smaller field \\\\(K\\\\). Without the concept of a field extension, the definition of an algebraic element would lack the necessary framework of having two fields \\\\(K\\\\) and \\\\(L\\\\) where \\\\(K\\\\) is a subfield of \\\\(L\\\\). Thus, the concept of a field extension is essential for the definition of an algebraic element to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

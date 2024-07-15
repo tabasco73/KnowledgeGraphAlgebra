@@ -1,0 +1,23 @@
+[
+    [
+        939,
+        [
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        "Does the concept of a/an Right Coset need to be defined for a definition of a/an Inverse of an Element to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of the inverse of an element in a monoid or group is defined independently of the concept of a right coset. The definition of an inverse of an element requires only the existence of an identity element and the ability to multiply elements within the structure (monoid or group). It focuses on the relationship between two elements and the identity element, ensuring that their product results in the identity element.\\n\\nOn the other hand, the concept of a right coset involves a subgroup and an element of the larger group, forming subsets based on the product of each element of the subgroup with a fixed element of the group. This concept is used to study the structure of the group relative to its subgroups and does not directly relate to the existence or properties of inverses of individual elements.\\n\\nTherefore, the definition and understanding of an inverse of an element do not require the concept of right cosets. The two concepts operate independently within the algebraic structures of monoids and groups.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

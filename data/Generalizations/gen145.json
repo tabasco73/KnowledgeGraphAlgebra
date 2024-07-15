@@ -1,0 +1,84 @@
+[
+    [
+        [
+            0,
+            13,
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ],
+        [
+            1,
+            17,
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            36,
+            "Polynomial Ring",
+            "Given a commutative ring R, the polynomial ring R[X] is the set of all sequences (a_i) where a_i in R and a_i=0 for almost all i, equipped with addition and multiplication defined by (a_i)+(b_i)=(a_i+b_i) and (a_i) \ncdot (b_i)=(c_i) where c_i=\nsum_{\nu+\nu=i} a_\nu b_\nu. Elements of R[X] can be written as \nsum_{i=0}^n a_i X^i where X is the sequence (0,1,0,0,...)."
+        ],
+        [
+            3,
+            51,
+            "Ring Monomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called a monomorphism if it is injective."
+        ],
+        [
+            4,
+            65,
+            "Least common multiple",
+            "An element $v \\in R$ is called a least common multiple of $x_{1}, \\ldots, x_{n} \\in R$ if: (i) $x_{i} \\mid v$ for $i=1, \\ldots, n$, i.e., $v$ is a common multiple of all the $x_{i}$. (ii) If $a \\in R$ is a common multiple of the $x_{i}$, i.e., if $x_{i} \\mid a$ for $i=1, \\ldots, n$, then $v \\mid a$."
+        ],
+        [
+            5,
+            76,
+            "System of generators",
+            "A family (x_i)_{i in I} of elements of an A-module M is called a system of generators of M if M = sum_{i in I} A x_i."
+        ],
+        [
+            6,
+            79,
+            "Free A-module",
+            "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+        ],
+        [
+            7,
+            96,
+            "Algebraic Field Extension",
+            "The extension field $L$ is called algebraic over $K$ if every element $\\alpha \\in L$ is algebraic over $K$."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            137,
+            "Disjoint Cycles",
+            "Two cycles $(x_{1}, \\ldots, x_{r})$ and $(y_{1}, \\ldots, y_{s})$ are called disjoint if the sets $\\{x_{1}, \\ldots, x_{r}\\}$ and $\\{y_{1}, \\ldots, y_{s}\\}$ have no elements in common."
+        ]
+    ],
+    [
+        [
+            "Inheritance_Analysis",
+            {
+                "Generalization_Specialization_Relationships": [
+                    {
+                        "Generalization": 0,
+                        "Specialization": 1,
+                        "Explanation": "A right coset of a subgroup in a group is a subset formed by multiplying all elements of the subgroup by a particular group element. Since a right coset is defined using a subgroup, it inherits the properties of being a subset of a group, specifically structured around the subgroup's elements."
+                    }
+                ]
+            }
+        ]
+    ]
+]

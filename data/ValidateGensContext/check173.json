@@ -1,0 +1,23 @@
+[
+    [
+        173,
+        [
+            "Associative Law",
+            "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+        ],
+        [
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        "Does the concept of a/an Associative Law need to be defined for a definition of a/an Right Coset to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a right coset involves the subset $Ha = \\{ha; h \\in H\\}$ where $a \\in G$. This definition uses the group operation implicitly, as it involves the product of elements $h$ from the subgroup $H$ and an element $a$ from the group $G$. \\n\\nFor the operation in the definition of a right coset to make sense and be well-defined, the group operation itself must be well-defined and follow certain properties, including associativity. The group $G$ is defined with an operation that must be associative; that is, for any elements $x, y, z \\in G$, the operation must satisfy $(xy)z = x(yz)$. This associative property is crucial for handling expressions within the group and ensuring that the operations within the coset are consistent and follow the group's rules.\\n\\nTherefore, the associative law is necessary for the definition of a group, and since a right coset is defined in terms of group elements and the group operation, the associative law must be defined and hold true for the concept of a right coset to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

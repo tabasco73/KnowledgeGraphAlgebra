@@ -1,0 +1,120 @@
+[
+    [
+        [
+            0,
+            6,
+            "Monoid",
+            "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            38,
+            "Degree of a Polynomial",
+            "The degree of a polynomial f=\nsum a_i X^i in R[X], denoted by deg f, is defined as the maximum i such that a_i \neq 0. The degree is assigned -\ninfty for the zero polynomial."
+        ],
+        [
+            3,
+            41,
+            "Trivial Ideals",
+            "In any ring $R$, the zero ideal $\\{0\\}$ and the unit ideal $R$ are called trivial ideals. These are the only ideals if $R$ is a field."
+        ],
+        [
+            4,
+            62,
+            "Irreducible element",
+            "Let $R$ be an integral domain and $p \\in R$ a nonzero nonunit. $p$ is called irreducible if a factorization of type $p=x y$ with $x, y \\in R$ implies $x \\in R^{*}$ or $y \\in R^{*}$. Furthermore, $p$ is called reducible if it is not irreducible."
+        ],
+        [
+            5,
+            72,
+            "A-module",
+            "An A-module is an abelian group M, together with an exterior multiplication A x M -> M, (a, x) -> a.x that satisfies the vector space axioms: a.(x+y) = a.x + a.y, (a+b).x = a.x + b.x, a.(b.x) = (ab).x, 1.x = x for elements a, b in A, x, y in M."
+        ],
+        [
+            6,
+            83,
+            "Length of an A-module",
+            "The length l_A(M) of an A-module M is defined as the supremum of all numbers l such that there is a chain of submodules 0 subsetneq M_1 subsetneq M_2 subsetneq ... subsetneq M_l = M of length l."
+        ],
+        [
+            7,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            8,
+            113,
+            "Extension Field",
+            "An extension field $\\\\[\\mathbb{F}_q / \\mathbb{F}_p\\]$ is a field consisting of $q=p^n$ elements, where $p$ is a prime number and $n$ is a positive integer. This field is uniquely characterized up to isomorphism as a splitting field of the polynomial $X^q-X$ over $\\\\[\\mathbb{F}_p\\]$."
+        ],
+        [
+            9,
+            123,
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        [
+            10,
+            131,
+            "Normalizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The normalizer of $S$ in $G$ is given by $N_{S}=\\{x \\in G ; x S=S x\\}$."
+        ],
+        [
+            11,
+            147,
+            "Domain",
+            "The domain of a function is the set of all possible input values for which the function is defined. Every input value in the domain has a corresponding output in the codomain via the function."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A left coset is defined in terms of a group and a subgroup. Therefore, the concept of a group must be defined before defining a left coset.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The length of an A-module is defined in terms of submodules of an A-module. Therefore, the concept of an A-module must be defined before defining its length.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "An irreducible element is defined in terms of an integral domain. Therefore, the concept of an integral domain must be defined before defining an irreducible element.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "An element is integral over a ring with respect to a ring homomorphism. Therefore, the concept of a ring must be defined before defining an integral element over it.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "An extension field is defined in terms of a base field. Therefore, the concept of a field must be defined before defining an extension field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "A Galois extension is defined in terms of an extension field. Therefore, the concept of an extension field must be defined before defining a Galois extension.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 8
+                    },
+                    {
+                        "Explanation": "The normalizer of a subset in a group is defined in terms of the group. Therefore, the concept of a group must be defined before defining a normalizer.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

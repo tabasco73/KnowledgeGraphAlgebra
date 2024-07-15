@@ -1,0 +1,23 @@
+[
+    [
+        1169,
+        [
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ],
+        [
+            "Ideal",
+            "Let $R$ be a ring. A subset $\\mathfrak{a} \\subset R$ is called an ideal in $R$ if: (i) $\\mathfrak{a}$ is an additive subgroup of $R$. (ii) For any $r \\in R$ and $a \\in \\mathfrak{a}$, it holds that $ra \\in \\mathfrak{a}$."
+        ],
+        "Does the concept of a/an Subgroup need to be defined for a definition of a/an Ideal to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of an Ideal explicitly states that a subset \\(\\mathfrak{a}\\) of a ring \\(R\\) must be an additive subgroup of \\(R\\) as its first condition. This means that for the concept of an Ideal to be fully understood and applied, the concept of a Subgroup must first be defined and understood, since an Ideal relies on the subset being a subgroup with respect to addition. Without understanding what a subgroup is, one cannot verify whether a given subset \\(\\mathfrak{a}\\) satisfies the necessary conditions to be considered an ideal in the ring \\(R\\). Therefore, the concept of a Subgroup is necessary for the definition of an Ideal to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

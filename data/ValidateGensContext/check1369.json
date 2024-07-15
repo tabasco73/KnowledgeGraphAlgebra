@@ -1,0 +1,23 @@
+[
+    [
+        1369,
+        [
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        "Does the concept of a/an Right Coset need to be defined for a definition of a/an Normal Subgroup to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a normal subgroup explicitly relies on the concept of right cosets. According to the definition, a subgroup $H$ of a group $G$ is normal if $aH = Ha$ for all $a \\\\$in G$. This equality involves both left and right cosets of $H$ in $G$. The left coset $aH$ and the right coset $Ha$ must be equal for all elements $a$ in $G$ for $H$ to be considered normal. Therefore, understanding what a right coset is becomes essential to understanding what it means for a subgroup to be normal. Without the concept of right cosets, the condition $aH = Ha$ would not make sense, as we wouldn't have a clear definition of what $Ha$ represents. Thus, the concept of a right coset is necessary for the definition of a normal subgroup to be complete and understandable.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

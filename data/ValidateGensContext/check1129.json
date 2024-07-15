@@ -1,0 +1,23 @@
+[
+    [
+        1129,
+        [
+            "Splitting Field of Polynomial",
+            "A splitting field $L$ of a polynomial $f \\\\(in K[X]\\\\) with coefficients in a field $K$ is a field extension $L / K$ where the polynomial $f$ splits into linear factors."
+        ],
+        [
+            "Galois Group of a Polynomial Splitting Fields",
+            "The Galois group of a polynomial equation is the group of automorphisms of the splitting field of the polynomial that fix the base field. These automorphisms permute the roots of the polynomial."
+        ],
+        "Does the concept of a/an Splitting Field of Polynomial need to be defined for a definition of a/an Galois Group of a Polynomial Splitting Fields to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine whether the concept of a Splitting Field of a Polynomial is necessary for defining the Galois Group of a Polynomial's Splitting Fields, we need to analyze the definitions provided:\\n\\n1. The definition of the Galois Group of a Polynomial's Splitting Fields states that it is the group of automorphisms of the splitting field of the polynomial that fix the base field. This definition inherently relies on the existence of a splitting field, as it specifies that the automorphisms are of the splitting field.\\n\\n2. The definition of a Splitting Field of a Polynomial describes it as a field extension where the polynomial splits into linear factors. This field is essential for the definition of the Galois group because without the splitting field, there would be no specific field over which the automorphisms could act.\\n\\nTherefore, the concept of a Splitting Field is integral to the definition of the Galois Group of a Polynomial's Splitting Fields. Without the splitting field, the concept of the Galois group, which involves automorphisms permuting the roots of the polynomial in that field, would not make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

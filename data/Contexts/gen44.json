@@ -1,0 +1,120 @@
+[
+    [
+        [
+            0,
+            5,
+            "Unit or Neutral Element",
+            "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+        ],
+        [
+            1,
+            15,
+            "Group Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+        ],
+        [
+            2,
+            30,
+            "Ring Extension",
+            "The pair (S, R), where S is a subring of R, is called a ring extension."
+        ],
+        [
+            3,
+            48,
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            4,
+            57,
+            "Factor Ring",
+            "Let $R$ be a ring and $\\mathfrak{a}$ an ideal in $R$. The factor ring, or residue class ring, $R / \\mathfrak{a}$, is defined initially as an abelian group by viewing $\\mathfrak{a}$ as a (normal) subgroup of the additive group of $R$. The elements of $R / \\mathfrak{a}$ are all residue classes of type $x+\\mathfrak{a}$ for $x \\in R$, where addition is given by $(x+\\mathfrak{a})+(y+\\mathfrak{a})=(x+y)+\\mathfrak{a}$ and multiplication by $(x+\\mathfrak{a}) \\cdot(y+\\mathfrak{a})=(x \\cdot y)+\\mathfrak{a}$. The ring properties of $R$ carry over to $R / \\mathfrak{a}$."
+        ],
+        [
+            5,
+            78,
+            "Free system of generators (basis)",
+            "A family (x_i)_{i in I} of elements of an A-module M is called free or linearly independent if from an equation sum_{i in I} a_i x_i = 0 with coefficients a_i in A we can conclude that a_i = 0 for all i in I. A free system of generators will also be referred to as a basis."
+        ],
+        [
+            6,
+            79,
+            "Free A-module",
+            "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+        ],
+        [
+            7,
+            102,
+            "Integral Element over a Ring",
+            "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+        ],
+        [
+            8,
+            116,
+            "Galois Group of a Finite Field Extension",
+            "The Galois group, or automorphism group, $\\\\[\\operatorname{Aut}_{\\mathbb{F}_q}(\\mathbb{F}_{q'})\\]$ of a finite field extension $\\\\[\\mathbb{F}_{q'} / \\mathbb{F}_q\\]$ is the group of field automorphisms of $\\\\[\\mathbb{F}_{q'}\\]$ that fix $\\\\[\\mathbb{F}_q\\]$. It is cyclic of order $n$, where $n$ is the degree of the extension."
+        ],
+        [
+            9,
+            124,
+            "Galois group of a Field Extension",
+            "The Galois group $\\\\operatorname{Gal}(L / K)$ of an extension $L / K$ is the group of all field automorphisms of $L$ that fix every element of $K$."
+        ],
+        [
+            10,
+            133,
+            "p-Sylow subgroup",
+            "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+        ],
+        [
+            11,
+            151,
+            "Kernel of Map",
+            "The kernel of \\( f \\) is defined as:\\[\\mathrm{Ker}(f) = \\{ a \\in A \\mid f(a) = 0 \\} and is hence a subset of the Domain A.\\]"
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A group homomorphism is defined in terms of monoids, which are algebraic structures that include a unit element. Therefore, the concept of a unit element is necessary to define a group homomorphism.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A principal ideal domain is a specific type of integral domain, so the concept of an integral domain must be defined to understand what a principal ideal domain is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A factor ring is defined in terms of ideals and rings. Therefore, the concept of a ring is necessary to define a factor ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A free A-module is defined as an A-module that has a basis (free system of generators). Therefore, the concept of a free system of generators is necessary to define a free A-module.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "An element is integral over a ring with respect to a ring homomorphism. Therefore, the concept of a ring homomorphism is necessary to define an integral element over a ring.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The Galois group of a finite field extension is a specific case of the Galois group of a field extension. Therefore, the general concept of a Galois group of a field extension is necessary to define the Galois group of a finite field extension.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "The kernel of a map is a subset of the domain of the map. Therefore, the concept of a map (or function) is necessary to define the kernel of a map.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 1
+                    }
+                ]
+            }
+        ]
+    ]
+]

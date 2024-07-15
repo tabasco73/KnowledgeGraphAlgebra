@@ -1,0 +1,23 @@
+[
+    [
+        1017,
+        [
+            "Separable extension",
+            "Manual"
+        ],
+        [
+            "Field Extension",
+            "Manual"
+        ],
+        "Manual"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "Manual",
+                "Verdict": true
+            }
+        ]
+    ]
+]

@@ -1,0 +1,104 @@
+[
+    [
+        [
+            0,
+            9,
+            "Powers of an Element",
+            "For an element $a \\in M$ of a monoid and an exponent $n \\in \\mathbb{N}$, the $n$th power of $a$, denoted $a^n$, is defined in the usual way. Note that $a^0 = e$, following the convention on empty products."
+        ],
+        [
+            1,
+            14,
+            "Monoid Homomorphism",
+            "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            41,
+            "Trivial Ideals",
+            "In any ring $R$, the zero ideal $\\{0\\}$ and the unit ideal $R$ are called trivial ideals. These are the only ideals if $R$ is a field."
+        ],
+        [
+            4,
+            59,
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        [
+            5,
+            75,
+            "Residue class module",
+            "The residue class module M/N of an A-module M by a submodule N is defined analogously to the quotient space in vector spaces, where M/N consists of the cosets of N in M."
+        ],
+        [
+            6,
+            90,
+            "Subfield",
+            "A subring $T$ of a field $K$ is called a subfield if $T$ is a field itself."
+        ],
+        [
+            7,
+            97,
+            "Simple Field Extension",
+            "A field extension $K \\subset L$ is called simple if there exists an element $\\alpha \\in L$ such that $L=K(\\alpha)$. The degree $[K(\\alpha): K]$ is referred to as the degree of $\\alpha$ over $K$."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            128,
+            "Stabilizer",
+            "Let $G \\times X \\longrightarrow X$ be an action of a group $G$ on a set $X$. The stabilizer or isotropy subgroup of a point $x \\in X$ is defined as $G_{x}:=\\{g \\in G ; g x=x\\}$."
+        ],
+        [
+            10,
+            133,
+            "p-Sylow subgroup",
+            "A subgroup H of a finite group G is called a p-Sylow subgroup if H is a p-group such that p does not divide the index (G: H). This means there exist integers k, m in N satisfying ord H=p^k, as well as ord G=p^k m, where p does not divide m."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of units of a ring requires the concept of a ring, as it involves elements that are multiplicatively invertible within a ring.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The definition of a maximal ideal requires the concept of a ring, as it involves a proper ideal within a ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The definition of a simple field extension requires the concept of a field, as it involves a field extension and the degree of an element over a field.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "The definition of a splitting field of a polynomial over its prime subfield requires the concept of a field, as it involves the factorization of a polynomial within a field.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "The definition of a p-Sylow subgroup requires the concept of a group, as it involves a subgroup of a finite group with specific properties related to its order.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 9
+                    }
+                ]
+            }
+        ]
+    ]
+]

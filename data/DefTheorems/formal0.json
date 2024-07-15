@@ -1,0 +1,86 @@
+[
+    1,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Cartesian Product",
+                        "Definition_Content": "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+                    },
+                    {
+                        "Concept_Name": "Law of Composition",
+                        "Definition_Content": "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+                    },
+                    {
+                        "Concept_Name": "Associative Law",
+                        "Definition_Content": "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+                    },
+                    {
+                        "Concept_Name": "Commutative Law",
+                        "Definition_Content": "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+                    },
+                    {
+                        "Concept_Name": "Unit or Neutral Element",
+                        "Definition_Content": "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+                    },
+                    {
+                        "Concept_Name": "Monoid",
+                        "Definition_Content": "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+                    },
+                    {
+                        "Concept_Name": "Product Notation in Monoids",
+                        "Definition_Content": "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+                    },
+                    {
+                        "Concept_Name": "Empty Product",
+                        "Definition_Content": "In a monoid, the empty product is defined as the unit element, i.e., $\\prod_{i=1}^{0} a_{i} := e$, where $e$ is the unit element."
+                    },
+                    {
+                        "Concept_Name": "Powers of an Element",
+                        "Definition_Content": "For an element $a \\in M$ of a monoid and an exponent $n \\in \\mathbb{N}$, the $n$th power of $a$, denoted $a^n$, is defined in the usual way. Note that $a^0 = e$, following the convention on empty products."
+                    },
+                    {
+                        "Concept_Name": "Inverse of an Element",
+                        "Definition_Content": "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+                    },
+                    {
+                        "Concept_Name": "Group",
+                        "Definition_Content": "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+                    },
+                    {
+                        "Concept_Name": "Submonoid",
+                        "Definition_Content": "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+                    },
+                    {
+                        "Concept_Name": "Subgroup",
+                        "Definition_Content": "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+                    },
+                    {
+                        "Concept_Name": "Monoid Homomorphism",
+                        "Definition_Content": "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$."
+                    },
+                    {
+                        "Concept_Name": "Group Homomorphism",
+                        "Definition_Content": "Let $G, G^{\\'prime}$ be monoids with corresponding unit elements $e$ and $e^{\\'prime}$. A monoid homomorphism $\\varphi: G \\longrightarrow G^{\\'prime}$ is a map $\\varphi$ from $G$ to $G^{\\'prime}$ such that (i) $\\varphi(e)=e^{\\'prime}$, (ii) $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Furthermore, if $G, G^{\\'prime}$ are groups, $\\varphi$ is called a group homomorphism."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Remark 2",
+                        "Theorem_Content": "In the definition of a group it is enough to require the following weaker conditions instead of (ii) and (iii): (ii') There is a left neutral element in $G$, i.e., an element $e \\in G$ satisfying $e a=a$ for all $a \\in G$. (iii') For each $a \\in G$ there is a left inverse in $G$, i.e., an element $b \\in G$ such that $b a=e$."
+                    },
+                    {
+                        "Theorem_Name": "Remark 5",
+                        "Theorem_Content": "A map $\\varphi: G \\longrightarrow G^{\\'prime}$ between groups is a group homomorphism if and only if $\\varphi(a b)=\\varphi(a) \\varphi(b)$ for all $a, b \\in G$. Proof. We conclude $\\varphi(e)=e^{\\'prime}$ from $\\varphi(e)=\\varphi(e e)=\\varphi(e) \\varphi(e)$."
+                    },
+                    {
+                        "Theorem_Name": "Remark 6",
+                        "Theorem_Content": "Let $\\varphi: G \\longrightarrow G^{\\'prime}$ be a group homomorphism. Then inverse elements satisfy $\\varphi\\left(a^{-1}\\right)=(\\varphi(a))^{-1}$ for all $a \\in G$. Proof. $e^{\\'prime}=$\\varphi(e)=\\varphi\\left(a a^{-1}\\right)=\\varphi(a) \\varphi\\left(a^{-1}\\right)$."
+                    }
+                ]
+            }
+        ]
+    ]
+]

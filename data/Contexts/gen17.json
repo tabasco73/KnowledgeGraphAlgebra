@@ -1,0 +1,130 @@
+[
+    [
+        [
+            0,
+            3,
+            "Associative Law",
+            "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            30,
+            "Ring Extension",
+            "The pair (S, R), where S is a subring of R, is called a ring extension."
+        ],
+        [
+            3,
+            52,
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        [
+            4,
+            63,
+            "Factorial ring/unique factorization domain",
+            "An integral domain $R$ satisfying the conditions that every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ can be uniquely written, up to associatedness and order, as a product of irreducible elements, and every element $a \\in R-\\left(R^{*} \\cup\\{0\\}\\right)$ is a product of prime elements. An element of a unique factorization domain is irreducible if and only if it is prime."
+        ],
+        [
+            5,
+            67,
+            "Localization of a Ring",
+            "Given a ring $R$ and a multiplicative system $S \\subset R$, the localization $S^{-1}R$ (or $R_S$) is the ring of fractions $\frac{a}{s}$ where $a \\in R$ and $s \\in S$, under an equivalence relation defined by $\frac{a}{s} = \frac{a'}{s'}$ if there exists some $s'' \\in S$ such that $as's'' = a'ss''$."
+        ],
+        [
+            6,
+            87,
+            "Separable Polynomial",
+            "A separable polynomial is a polynomial that has distinct roots in its splitting field, i.e., all roots are simple."
+        ],
+        [
+            7,
+            92,
+            "Frobenius homomorphism",
+            "For a field $K$ of characteristic $p>0$, the map $\\sigma: K \\longrightarrow K, \\quad a \\longmapsto a^{p}$, which respects the addition on $K$, defines a homomorphism of fields known as the Frobenius homomorphism of $K$."
+        ],
+        [
+            8,
+            112,
+            "Splitting Field of a polynomial $X^q-X$ over its prime subfield",
+            "A field $\\\\[\\mathbb{F}\\]$ is a splitting field of a polynomial $X^q-X$ over its prime subfield $\\\\[\\mathbb{F}_p\\]$ if the polynomial factorizes into linear factors in $\\\\[\\mathbb{F}\\]$. This implies that $\\\\[\\mathbb{F}\\]$ contains all zeros of $X^q-X$."
+        ],
+        [
+            9,
+            129,
+            "Centralizer",
+            "Let $G$ be a group and $S \\subset G$ a subset. The centralizer of $S$ in $G$ is given by $Z_{S}=\\{x \\in G ; x s=s x \\text { for all } s \\in S\\} .$"
+        ],
+        [
+            10,
+            140,
+            "Alternating Group",
+            "The alternating group on $\\{1, \\ldots, n\\}$, denoted as $\\mathfrak{A}_{n}$, is the set of all even permutations in $\\mathfrak{S}_{n}$, i.e., those permutations for which $\\operatorname{sgn} \\pi = 1$. It forms a normal subgroup of index 2 in $\\mathfrak{S}_{n}$."
+        ],
+        [
+            11,
+            149,
+            "Tensor",
+            "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A left coset is defined in terms of a group and a subgroup. Therefore, the concept of a group must be defined to understand what a left coset is.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A ring epimorphism is a specific type of ring homomorphism, which in turn is a function between two rings. Therefore, the concept of a ring must be defined to understand what a ring epimorphism is.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A factorial ring or unique factorization domain is a specific type of integral domain, which is a type of ring. Therefore, the concept of a ring must be defined to understand what a factorial ring is.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "Localization of a ring involves creating a new ring from an existing ring and a multiplicative system. Therefore, the concept of a ring must be defined to understand what localization is.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A separable polynomial is defined in terms of its roots in a splitting field. Therefore, the concept of a splitting field must be defined to understand what a separable polynomial is.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 8
+                    },
+                    {
+                        "Explanation": "The Frobenius homomorphism is a map that respects the addition on a field. Therefore, the concept of a field must be defined to understand what the Frobenius homomorphism is.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The splitting field of a polynomial is defined in terms of the polynomial itself. Therefore, the concept of a polynomial must be defined to understand what a splitting field is.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 6
+                    },
+                    {
+                        "Explanation": "The centralizer of a subset in a group is defined in terms of the group and the subset. Therefore, the concept of a group must be defined to understand what a centralizer is.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The alternating group is defined in terms of permutations, which are elements of the symmetric group. Therefore, the concept of a symmetric group must be defined to understand what the alternating group is.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

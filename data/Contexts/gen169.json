@@ -1,0 +1,181 @@
+[
+    [
+        [
+            0,
+            1,
+            "Cartesian Product",
+            "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+        ],
+        [
+            1,
+            2,
+            "Law of Composition",
+            "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+        ],
+        [
+            2,
+            3,
+            "Associative Law",
+            "A law of composition on a set $M$ is said to be associative if $(ab)c = a(bc)$ for all elements $a, b, c \\in M$."
+        ],
+        [
+            3,
+            4,
+            "Commutative Law",
+            "A law of composition on a set $M$ is commutative if $ab = ba$ for all elements $a, b \\in M$."
+        ],
+        [
+            4,
+            5,
+            "Unit or Neutral Element",
+            "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+        ],
+        [
+            5,
+            6,
+            "Monoid",
+            "A set $M$ with a law of composition $\\sigma: M \\times M \\longrightarrow M$ is called a monoid if $\\sigma$ is associative and $M$ admits a unit element with respect to $\\sigma$."
+        ],
+        [
+            6,
+            7,
+            "Product Notation in Monoids",
+            "For a monoid $M$ and elements $a_{1}, \\ldots, a_{n} \\in M$, the product is defined as $\\prod_{i=1}^{n} a_{i} := a_{1} \\cdot \\ldots \\cdot a_{n}$. A special bracketing on the right-hand side is not necessary due to the associative nature of the law of composition."
+        ],
+        [
+            7,
+            8,
+            "Empty Product",
+            "In a monoid, the empty product is defined as the unit element, i.e., $\\prod_{i=1}^{0} a_{i} := e$, where $e$ is the unit element."
+        ],
+        [
+            8,
+            9,
+            "Powers of an Element",
+            "For an element $a \\in M$ of a monoid and an exponent $n \\in \\mathbb{N}$, the $n$th power of $a$, denoted $a^n$, is defined in the usual way. Note that $a^0 = e$, following the convention on empty products."
+        ],
+        [
+            9,
+            10,
+            "Inverse of an Element",
+            "In a monoid $M$, an element $b \\in M$ is called an inverse of a given element $a \\in M$ if $ab = e = ba$. The element $b$, if it exists, is uniquely determined by $a$ and is denoted by $a^{-1}$."
+        ],
+        [
+            10,
+            11,
+            "Group",
+            "A group is a monoid $G$ such that every element of $G$ admits an inverse. More explicitly, this means we are given a set $G$ with a law of composition $G \\times G \\longrightarrow G,(a, b) \\longmapsto a b$, such that: (i) The law is associative, i.e., we have $(a b) c=a(b c)$ for $a, b, c \\in G$. (ii) There exists $a$ unit element, i.e., an element $e \\in$ such that $e a=a=a e$ for all $a \\in G$. (iii) Every element $a \\in G$ admits an inverse, i.e., an element $b \\in G$ such that $a b=e=b a$. The group is called commutative or abelian if the law is commutative, i.e., if (iv) $a b=b a$ for all $a, b \\in G$."
+        ],
+        [
+            11,
+            12,
+            "Submonoid",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$."
+        ],
+        [
+            12,
+            13,
+            "Subgroup",
+            "Let $G$ be a monoid. A subset $H \\subset G$ is called a submonoid if $H$ satisfies the following conditions: (i) $e \\in H$, (ii) $a, b \\in H \\Longrightarrow a b \\in H$. If $G$ is a group, $H$ is called a subgroup of $G$ if in addition, (iii) $a \\in H \\Longrightarrow a^{-1} \\in H$. In particular, a subgroup of a group $G$ is a submonoid that is closed under the process of taking inverses. In defining a subgroup $H \\subset G$, condition (i) can be weakened by simply requiring $H \\neq \\emptyset$, since this implies $e \\in H$ using (ii) and (iii). Of course, similar reasoning is not possible for monoids. Every group $G$ admits $\\{e\\}$ and $G$ as trivial subgroups. Given $m \\in \\mathbb{Z}$, the set $m \\mathbb{Z}$ consisting of all integral multiples of $m$ is a subgroup of the additive group $\\mathbb{Z}$. We will see in 1.3/4 that all subgroups of $\\mathbb{Z}$ are of this type. More generally, every element $a$ of a group $G$ gives rise to a so-called cyclic subgroup of $G$. It consists of all powers $a^{n}, n \\in \\mathbb{Z}$, where we put $a^{n}=\\left(a^{-1}\\right)^{-n}$ for $n<0; see also Section 1.3."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of a Law of Composition requires the concept of a Cartesian Product to define the domain of the map.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The Associative Law is a property of a Law of Composition.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "The Commutative Law is a property of a Law of Composition.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A Unit or Neutral Element is defined with respect to a Law of Composition.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "A Monoid is defined as a set with an associative Law of Composition and a Unit Element.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A Monoid is defined as a set with an associative Law of Composition and a Unit Element.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "Product Notation in Monoids is defined for elements in a Monoid.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "The Empty Product is defined in the context of a Monoid, specifically referring to the Unit Element.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "The Empty Product is defined in the context of a Monoid, specifically referring to the Unit Element.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "Powers of an Element are defined for elements in a Monoid.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "Powers of an Element are defined for elements in a Monoid, and the definition of the 0th power uses the concept of the Unit Element.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "The Inverse of an Element is defined in the context of a Monoid, specifically referring to the Unit Element.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "The Inverse of an Element is defined in the context of a Monoid, specifically referring to the Unit Element.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 4
+                    },
+                    {
+                        "Explanation": "A Group is defined as a Monoid where every element has an inverse.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "A Group is defined as a Monoid where every element has an inverse.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "A Submonoid is defined as a subset of a Monoid that satisfies certain conditions.",
+                        "The_Definition_of_This_Concept": 11,
+                        "Depends_On_This_Concept": 5
+                    },
+                    {
+                        "Explanation": "A Subgroup is defined as a Submonoid of a Group that is closed under taking inverses.",
+                        "The_Definition_of_This_Concept": 12,
+                        "Depends_On_This_Concept": 11
+                    },
+                    {
+                        "Explanation": "A Subgroup is defined as a Submonoid of a Group that is closed under taking inverses.",
+                        "The_Definition_of_This_Concept": 12,
+                        "Depends_On_This_Concept": 10
+                    }
+                ]
+            }
+        ]
+    ]
+]

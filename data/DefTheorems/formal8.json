@@ -1,0 +1,50 @@
+[
+    9,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Field of Fractions",
+                        "Definition_Content": "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+                    },
+                    {
+                        "Concept_Name": "Localization of a Ring",
+                        "Definition_Content": "Given a ring $R$ and a multiplicative system $S \\subset R$, the localization $S^{-1}R$ (or $R_S$) is the ring of fractions $\frac{a}{s}$ where $a \\in R$ and $s \\in S$, under an equivalence relation defined by $\frac{a}{s} = \frac{a'}{s'}$ if there exists some $s'' \\in S$ such that $as's'' = a'ss''$."
+                    },
+                    {
+                        "Concept_Name": "Primitive Polynomial",
+                        "Definition_Content": "A polynomial $f \\in R[X]$ with coefficients in a unique factorization domain $R$ is called primitive if the greatest common divisor of all its coefficients is 1, or equivalently, if $\nu_p(f) = 0$ for all prime elements $p \\in R$."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Gauss's Proposition",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain. Then the polynomial ring $R[X]$ is also a unique factorization domain."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 2",
+                        "Theorem_Content": "If $R$ is a unique factorization domain, then the polynomial ring $R[X_1, ..., X_n]$ is also a unique factorization domain."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 3",
+                        "Theorem_Content": "For any field $K$, the polynomial ring $K[X_1, ..., X_n]$ is a unique factorization domain."
+                    },
+                    {
+                        "Theorem_Name": "Gauss's Lemma",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain and $p \\in R$ a prime element. Then $\nu_p(fg) = \nu_p(f) + \nu_p(g)$ for elements $f, g \\in Q(R)[X]$."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 6",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain and $h \\in R[X]$ a monic polynomial. If there is a factorization $h = f \\cdot g$ into monic polynomials $f, g \\in Q(R)[X]$, then necessarily $f, g \\in R[X]$."
+                    },
+                    {
+                        "Theorem_Name": "Proposition 7 (Gauss)",
+                        "Theorem_Content": "Let $R$ be a unique factorization domain. Then the polynomial ring $R[X]$ is a unique factorization domain as well. A polynomial $q \\in R[X]$ is prime if and only if: (i) $q$ is prime in $R$, or (ii) $q$ is primitive in $R[X]$ and prime in $Q(R)[X]."
+                    }
+                ]
+            }
+        ]
+    ]
+]

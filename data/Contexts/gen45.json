@@ -1,0 +1,129 @@
+[
+    [
+        [
+            0,
+            5,
+            "Unit or Neutral Element",
+            "An element $e \\in M$ is called a unit element or a neutral element with respect to the law of composition on $M$ if $ea = a = ae$ holds for all $a \\in M$. Such a unit element $e$ is uniquely determined by its defining property; it is usually denoted as 1."
+        ],
+        [
+            1,
+            16,
+            "Left Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A left coset of $H$ in $G$ is a subset of $G$ of the form $aH = \\{ah; h \\in H\\}$, where $a \\in G$."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            49,
+            "Ring Homomorphism",
+            "Let $R$ and $R'$ be rings. A map $\\varphi: R \\longrightarrow R'$ is called a ring homomorphism if it satisfies two conditions: (i) $\\varphi(a+b)=\\varphi(a)+\\varphi(b)$ for all $a, b \\in R$, making $\\varphi$ a group homomorphism with respect to addition, and (ii) $\\varphi(a \\cdot b)=\\varphi(a) \\cdot \\varphi(b)$ for all $a, b \\in R$ and $\\varphi(1)=1$, making $\\varphi$ a monoid homomorphism with respect to multiplication."
+        ],
+        [
+            4,
+            58,
+            "Prime Ideal",
+            "A proper ideal $\\mathfrak{p} \\subsetneq R$ in a ring $R$ is called a prime ideal if for elements $a, b \\in R$, $ab \\in \\mathfrak{p}$ implies $a \\in \\mathfrak{p}$ or $b \\in \\mathfrak{p}$."
+        ],
+        [
+            5,
+            66,
+            "Field of Fractions",
+            "For an integral domain $R$, the field of fractions $Q(R)$ is the set of equivalence classes of pairs $(a, b)$ where $a, b \\in R$ and $b \\neq 0$, under the equivalence relation defined by $(a, b) \\sim (a', b')$ if and only if $ab' = a'b$."
+        ],
+        [
+            6,
+            80,
+            "Torsion element",
+            "An element x of an A-module M is called a torsion element if there exists an element a in A-{0} such that a.x = 0."
+        ],
+        [
+            7,
+            103,
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            8,
+            117,
+            "Algebraic subset",
+            "An algebraic subset of \\(\\bar{K}^{n}\\) defined over \\(K\\) is the set of common zeros in \\(\\bar{K}^{n}\\) of the polynomials belonging to a subset \\(E\\) of the polynomial ring \\(K[X]=K\\left[X_{1}, \\ldots, X_{n}\\right]\\). It is denoted as \\(V(E)\\)."
+        ],
+        [
+            9,
+            125,
+            "Solvable group",
+            "A group $G$ is called solvable if there exists a chain of subgroups $G_{0} \\\\supsetneq G_{1} \\\\supsetneq \\\\ldots \\\\supsetneq G_{r}=\\\\{1\\\\}$ such that each $G_{i+1}$ is a normal subgroup of $G_{i}$ and the residue class group $G_{i} / G_{i+1}$ is abelian."
+        ],
+        [
+            10,
+            134,
+            "Symmetric Group",
+            "The symmetric group, denoted as $\\mathfrak{S}_{n}$, is the group of all bijective self-maps of the set $\\{1, \\ldots, n\\}$."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "The definition of a left coset requires the concept of a group and a subgroup.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 9
+                    },
+                    {
+                        "Explanation": "The definition of units of a ring requires the concept of a ring.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a ring homomorphism requires the concept of a ring.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a prime ideal requires the concept of a ring.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a field of fractions requires the concept of an integral domain, which is a specific type of ring.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a torsion element requires the concept of a module.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of an integral ring homomorphism requires the concept of a ring homomorphism.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 3
+                    },
+                    {
+                        "Explanation": "The definition of an algebraic subset requires the concept of a polynomial ring.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a solvable group requires the concept of a group.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The definition of a symmetric group requires the concept of a group.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

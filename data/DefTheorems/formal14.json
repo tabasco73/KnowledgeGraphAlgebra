@@ -1,0 +1,70 @@
+[
+    15,
+    [
+        [
+            "Store_Definitions_Theorems",
+            {
+                "Definitions": [
+                    {
+                        "Concept_Name": "Finite Ring Homomorphism",
+                        "Definition_Content": "A ring homomorphism $\\varphi: A \\longrightarrow B$ is finite if $B$ is a finite $A$-module under $\\varphi$. This is also referred to as $B$ being finite over $A$ or, if $\\varphi$ is an inclusion homomorphism, that the extension $A \\hookrightarrow B$ is finite."
+                    },
+                    {
+                        "Concept_Name": "Ring Homomorphism of Finite Type",
+                        "Definition_Content": "A ring homomorphism $\\varphi: A \\longrightarrow B$ is of finite type if there exists an epimorphism $\\Phi: A[X_{1}, \\ldots, X_{n}] \\longrightarrow B$ from a polynomial ring in finitely many variables over $A$ to $B$ that extends $\\varphi$. Alternatively, it can be characterized by the existence of elements $x_{1}, \\ldots, x_{n} \\in B$ such that $B=\\varphi(A)[x_{1}, \\ldots, x_{n}]$."
+                    },
+                    {
+                        "Concept_Name": "Algebra over a Ring",
+                        "Definition_Content": "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+                    },
+                    {
+                        "Concept_Name": "Integral Element over a Ring",
+                        "Definition_Content": "An element $b \\in B$ is integral over $A$ with respect to a ring homomorphism $\\varphi: A \\longrightarrow B$ if it satisfies any of the equivalent conditions: (i) there exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]$, (ii) the subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated, (iii) viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M$."
+                    },
+                    {
+                        "Concept_Name": "Integral Ring Homomorphism",
+                        "Definition_Content": "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+                    }
+                ],
+                "Theorems": [
+                    {
+                        "Theorem_Name": "Lemma 1",
+                        "Theorem_Content": "For a ring homomorphism $\\varphi: A \\longrightarrow B$ and an element $b \\in B$, the following conditions are equivalent: (i) There exists an integral equation of $b$ over $A$, i.e., an equation of type $f(b)=0$ for a monic polynomial $f \\in A[X]. (ii) The subring $A[b] \\subset B$, viewed as an $A$-module, is finitely generated. (iii) Viewing $B$ as an $A$-module, there exists a finitely generated submodule $M=\\sum_{i=1}^{n} A m_{i} \\subset B$ such that $1 \\in M$ and $b M \\subset M."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 3",
+                        "Theorem_Content": "Every finite ring homomorphism $A \\longrightarrow B$ is integral."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 4",
+                        "Theorem_Content": "Let $\\varphi: A \\longrightarrow B$ be a ring homomorphism of finite type and assume $B=A[b_{1}, \\ldots, b_{r}]$ for elements $b_{1}, \\ldots, b_{r} \\in B$ that are integral over $A$. Then $A \\longrightarrow B$ is finite and, in particular, integral."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 5",
+                        "Theorem_Content": "Let $A \\longrightarrow B$ and $B \\longrightarrow C$ be two finite (resp. integral) ring homomorphisms. Then their composition $A \\longrightarrow C$ is also finite (resp. integral)."
+                    },
+                    {
+                        "Theorem_Name": "Theorem 6 (Noether normalization)",
+                        "Theorem_Content": "Let $K$ be a field and $K \\hookrightarrow B$ a nonzero $K$-algebra of finite type. Then there exist elements $x_{1}, \\ldots, x_{r} \\in B$ such that $B$ is finite over the subring $K[x_{1}, \\ldots, x_{r}] \\subset B$, while the system $x_{1}, \\ldots, x_{r} \\in B$ is algebraically independent over $K$."
+                    },
+                    {
+                        "Theorem_Name": "Lemma 7",
+                        "Theorem_Content": "Let $A \\hookrightarrow B$ be an integral extension of integral domains. If one of the rings $A$ and $B$ is a field, then the same is true for the other as well."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 8",
+                        "Theorem_Content": "Let $K \\subset L$ be a field extension satisfying $L=K[x_{1}, \\ldots, x_{n}]$ for some elements $x_{1}, \\ldots, x_{n} \\in L$, i.e., assume that $K \\subset L$, as a ring extension, is of finite type. Then the extension $K \\subset L$ is finite."
+                    },
+                    {
+                        "Theorem_Name": "Corollary 9",
+                        "Theorem_Content": "Let $K[X_{1}, \\ldots, X_{n}]$ be the polynomial ring in $n$ variables over a field $K$ and let $\\mathfrak{m} \\subset K[X_{1}, \\ldots, X_{n}]$ be a maximal ideal. Then the canonical map $K \\longrightarrow K[X_{1}, \\ldots, X_{n}] / \\mathfrak{m}=L$ is finite, so that $L / K$ is a finite field extension."
+                    },
+                    {
+                        "Theorem_Name": "Remark 10",
+                        "Theorem_Content": "Given a ring extension $R \\subset R'$, the inclusion map $R \\hookrightarrow R'$ can always be viewed as a ring homomorphism."
+                    }
+                ]
+            }
+        ]
+    ]
+]

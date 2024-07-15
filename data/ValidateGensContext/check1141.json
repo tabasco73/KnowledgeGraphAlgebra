@@ -1,0 +1,23 @@
+[
+    [
+        1141,
+        [
+            "Separable Polynomial",
+            "A separable polynomial is a polynomial that has distinct roots in its splitting field, i.e., all roots are simple."
+        ],
+        [
+            "Galois extension",
+            "An extension $K_{r} / K$ is Galois if it is both normal and separable."
+        ],
+        "Does the concept of a/an Separable Polynomial need to be defined for a definition of a/an Galois extension to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a Galois extension explicitly states that the extension must be separable. This implies that the extension involves separable polynomials, as a field extension is separable if every element of the extension field is the root of a separable polynomial over the base field. Therefore, the concept of a separable polynomial is inherently required to understand and define what a separable extension is, and thus, what a Galois extension is. Without the concept of separable polynomials, we cannot fully define or understand the separability condition in the context of Galois extensions.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

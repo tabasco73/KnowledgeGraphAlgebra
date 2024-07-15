@@ -1,0 +1,23 @@
+[
+    [
+        1052,
+        [
+            "Subset",
+            "A subset is a set where all of its elements are also contained within another set."
+        ],
+        [
+            "Right Coset",
+            "Let $G$ be a group and $H$ a subgroup of $G$. A right coset of $H$ in $G$ is a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$."
+        ],
+        "Does the concept of a/an Subset need to be defined for a definition of a/an Right Coset to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine if the concept of a subset is necessary for the definition of a right coset, we need to analyze the definition of a right coset. According to the provided definition, a right coset of a subgroup $H$ in a group $G$ is described as a subset of $G$ of the form $Ha = \\{ha; h \\in H\\}$, where $a \\in G$. This definition explicitly states that a right coset is a subset of $G$. Therefore, understanding what a subset is becomes crucial to comprehending the definition of a right coset. Without the concept of a subset, one would not be able to grasp the meaning of a right coset being a collection of elements from $G$ that forms a particular kind of subset. Hence, the concept of a subset is indeed necessary for the definition of a right coset to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]

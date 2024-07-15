@@ -1,0 +1,23 @@
+[
+    [
+        991,
+        [
+            "Commutative Ring",
+            "A ring R is called commutative if the multiplication is commutative."
+        ],
+        [
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        "Does the concept of a/an Commutative Ring need to be defined for a definition of a/an Integral Ring Homomorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine if the concept of a commutative ring is necessary for defining an integral ring homomorphism, we need to analyze the definitions provided:\\n\\n1. Integral Ring Homomorphism: This concept involves a ring homomorphism where every element of the target ring B is integral over the source ring A. The definition does not specify that the rings A or B must be commutative; it only requires that elements of B satisfy a certain polynomial equation with coefficients in A.\\n\\n2. Commutative Ring: This concept defines a ring where the multiplication operation is commutative.\\n\\nThe definition of an integral ring homomorphism does not inherently require that the rings involved be commutative. The essential requirement is that elements of B are roots of monic polynomials over A, which is a condition that can be met even if the rings are not commutative. Therefore, the concept of a commutative ring is not necessary for the definition of an integral ring homomorphism to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

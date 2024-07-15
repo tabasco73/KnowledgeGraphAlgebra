@@ -1,0 +1,23 @@
+[
+    [
+        1288,
+        [
+            "Cartesian Product",
+            "Let $M$ be a set. The Cartesian product of $M$ with itself, denoted as $M \\times M$, is the set of all ordered pairs of elements from $M$."
+        ],
+        [
+            "Normal Subgroup",
+            "A subgroup $H \\subset G$ is called a normal subgroup of $G$ if $aH = Ha$ for all $a \\in G$, i.e., if for each element $a \\in G$ the associated left and right cosets of $H$ in $G$ coincide."
+        ],
+        "Does the concept of a/an Cartesian Product need to be defined for a definition of a/an Normal Subgroup to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a normal subgroup involves the condition that the left and right cosets of a subgroup $H$ in a group $G$ are equal for all elements in $G$. This condition is expressed as $aH = Ha$ for all $a \\n G$. This definition focuses on the properties of group operations and the equality of sets of elements derived from these operations.\\n\\nThe Cartesian product, on the other hand, is defined as the set of all ordered pairs $(m, n)$ where $m$ and $n$ are elements of a set $M$. This concept is used in various areas of mathematics to construct product sets, but it does not directly relate to the definition or properties of groups or subgroups.\\n\\nIn the context of defining a normal subgroup, there is no requirement to use or refer to the Cartesian product. The definition and understanding of normal subgroups rely solely on group theory concepts, particularly the behavior of elements with respect to the group operation and subgroup structure. Therefore, the Cartesian product is not necessary for the definition of a normal subgroup to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

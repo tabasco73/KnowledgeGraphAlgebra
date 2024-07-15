@@ -1,0 +1,140 @@
+[
+    [
+        [
+            0,
+            2,
+            "Law of Composition",
+            "A law of composition on a set $M$ is a map from $M \\times M$ to $M$. It is characterized by the assignment $(a, b) \\longmapsto a \\cdot b$ for $(a, b) \\in M \\times M$, and in many cases, the image of a given pair $(a, b)$ is written as a \"product\" $a \\cdot b$ or $ab$."
+        ],
+        [
+            1,
+            24,
+            "Polynomial",
+            "A polynomial with coefficients in a field or ring is defined as a formal sum $f=\\sum_{j=0}^{n} a_{j} X^{j}$, where $a_{j}$ are the coefficients. This definition emphasizes that a polynomial is identified with the sequence of its coefficients."
+        ],
+        [
+            2,
+            31,
+            "Units of a Ring",
+            "For a ring R, the set of multiplicatively invertible elements is denoted by R*. These elements are called the units of R."
+        ],
+        [
+            3,
+            42,
+            "Sum of Ideals",
+            "For ideals $\\mathfrak{a}, \\mathfrak{b}$ in a ring $R$, the sum $\\mathfrak{a}+\\mathfrak{b}$ is defined as $\\{a+b ; a \\in \\mathfrak{a}, b \\in \\mathfrak{b}\\}$."
+        ],
+        [
+            4,
+            54,
+            "Ring Automorphism",
+            "An automorphism of a ring $R$ is an isomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            5,
+            69,
+            "Irreducible Polynomial",
+            "A polynomial $f$ in a ring $R[X]$ is irreducible if it cannot be factored into the product of two non-constant polynomials in $R[X]$."
+        ],
+        [
+            6,
+            79,
+            "Free A-module",
+            "An A-module M is called a free A-module if it has a basis, i.e., a free system of generators. In this case, every element x in M admits a representation x = sum_{i in I} a_i x_i with coefficients a_i in A that are unique."
+        ],
+        [
+            7,
+            101,
+            "Algebra over a Ring",
+            "An algebra $B$ over a ring $A$ is defined as a ring homomorphism $A \\longrightarrow B$. A homomorphism between two $A$-algebras $B$ and $C$ is a ring homomorphism $B \\longrightarrow C$ that is compatible with the defining homomorphisms $A \\longrightarrow B$ and $A \\longrightarrow C$, ensuring the commutativity of the diagram involving these maps."
+        ],
+        [
+            8,
+            111,
+            "Prime Subfield of a Finite Field",
+            "The prime subfield of a finite field $\\\\[\\mathbb{F}\\]$ is the smallest subfield contained within $\\\\[\\mathbb{F}\\]$, denoted as $\\\\[\\mathbb{F}_p\\]$, where $p=\\operatorname{char} \\\\[\\mathbb{F}\\]>0$."
+        ],
+        [
+            9,
+            126,
+            "Group Action",
+            "Let $G$ be a group and $X$ a set. An action or an operation of $G$ on $X$ is a map $G \\times X \\longrightarrow X, \\quad(g, x) \\longmapsto g \\cdot x$ such that: (i) $1 \\cdot x=x$ for the unit element $1 \\in G$ and for elements $x \\in X$. (ii) $(g h) \\cdot x=g \\cdot(h \\cdot x)$ for $g, h \\in G, x \\in X$."
+        ],
+        [
+            10,
+            138,
+            "Transposition",
+            "A 2-cycle is called a transposition."
+        ],
+        [
+            11,
+            149,
+            "Tensor",
+            "A tensor is a multi-dimensional array, generalizing the concept of a scalar, vector and matrix."
+        ]
+    ],
+    [
+        [
+            "Definition_Association_Analysis",
+            {
+                "Implied_Association_Relationships": [
+                    {
+                        "Explanation": "A polynomial is defined as a formal sum with coefficients in a field or ring. Therefore, the concept of a ring must be defined to understand the coefficients in the polynomial.",
+                        "The_Definition_of_This_Concept": 1,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "The units of a ring are defined as the multiplicatively invertible elements of the ring. Therefore, the concept of a ring must be defined to understand its units.",
+                        "The_Definition_of_This_Concept": 2,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The sum of ideals is defined for ideals in a ring. Therefore, the concept of a ring must be defined to understand the sum of its ideals.",
+                        "The_Definition_of_This_Concept": 3,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A ring automorphism is an isomorphism from a ring to itself. Therefore, the concept of a ring must be defined to understand its automorphisms.",
+                        "The_Definition_of_This_Concept": 4,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An irreducible polynomial is defined as a polynomial that cannot be factored into the product of two non-constant polynomials in a ring. Therefore, the concept of a polynomial must be defined to understand irreducible polynomials.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 1
+                    },
+                    {
+                        "Explanation": "An irreducible polynomial is defined as a polynomial that cannot be factored into the product of two non-constant polynomials in a ring. Therefore, the concept of a ring must be defined to understand irreducible polynomials.",
+                        "The_Definition_of_This_Concept": 5,
+                        "Depends_On_This_Concept": 2
+                    },
+                    {
+                        "Explanation": "A free A-module is defined as an A-module with a basis. Therefore, the concept of a module must be defined to understand free modules.",
+                        "The_Definition_of_This_Concept": 6,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "An algebra over a ring is defined as a ring homomorphism from one ring to another. Therefore, the concept of a ring must be defined to understand algebras over rings.",
+                        "The_Definition_of_This_Concept": 7,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "The prime subfield of a finite field is the smallest subfield contained within the field. Therefore, the concept of a field must be defined to understand its prime subfield.",
+                        "The_Definition_of_This_Concept": 8,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A group action is defined as a map from the Cartesian product of a group and a set to the set. Therefore, the concept of a group must be defined to understand group actions.",
+                        "The_Definition_of_This_Concept": 9,
+                        "Depends_On_This_Concept": 0
+                    },
+                    {
+                        "Explanation": "A transposition is defined as a 2-cycle. Therefore, the concept of a cycle must be defined to understand transpositions.",
+                        "The_Definition_of_This_Concept": 10,
+                        "Depends_On_This_Concept": 0
+                    }
+                ]
+            }
+        ]
+    ]
+]

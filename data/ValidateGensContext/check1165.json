@@ -1,0 +1,23 @@
+[
+    [
+        1165,
+        [
+            "Ring Endomorphism",
+            "An endomorphism of a ring $R$ is a homomorphism $\\varphi: R \\longrightarrow R$."
+        ],
+        [
+            "Ring Epimorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an epimorphism if it is surjective."
+        ],
+        "Does the concept of a/an Ring Endomorphism need to be defined for a definition of a/an Ring Epimorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "To determine if the concept of a Ring Endomorphism is necessary for the definition of a Ring Epimorphism, we need to analyze the definitions provided:\\n\\n1. A Ring Epimorphism is defined as a surjective ring homomorphism from one ring $R$ to another ring $R'$. This definition requires the concept of a ring homomorphism, specifically focusing on its surjectivity.\\n\\n2. A Ring Endomorphism is defined as a homomorphism from a ring $R$ to itself. This concept specifically deals with mappings where the domain and codomain are the same.\\n\\nThe definition of a Ring Epimorphism does not inherently require that the homomorphism be from a ring to itself; it can be between any two rings. Therefore, the concept of a Ring Endomorphism, which restricts the homomorphism to the same ring, is not necessary for understanding or defining a Ring Epimorphism. The essential concept for a Ring Epimorphism is that of a ring homomorphism, not specifically an endomorphism.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

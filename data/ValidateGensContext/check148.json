@@ -1,0 +1,23 @@
+[
+    [
+        148,
+        [
+            "Integral Ring Homomorphism",
+            "A ring homomorphism $\\varphi: A \\longrightarrow B$ is integral if every element $b \\in B$ is integral over $A$ in the way described in the definition of an integral element over a ring."
+        ],
+        [
+            "Ring Isomorphism",
+            "A ring homomorphism $\\varphi: R \\longrightarrow R'$ is called an isomorphism if it admits an inverse, i.e., there exists a ring homomorphism $\\psi: R' \\longrightarrow R$ such that $\\psi \\circ \\varphi=\\mathrm{id}_{R}$ and $\\varphi \\circ \\psi=\\mathrm{id}_{R'}$. This is equivalent to $\\varphi$ being bijective."
+        ],
+        "Does the concept of a/an Integral Ring Homomorphism need to be defined for a definition of a/an Ring Isomorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Ring Isomorphism involves a bijective ring homomorphism that has an inverse which is also a ring homomorphism. This definition requires the homomorphism to be both surjective (onto) and injective (one-to-one), ensuring that every element in the target ring corresponds to exactly one element in the source ring, and vice versa.\\n\\nOn the other hand, an Integral Ring Homomorphism involves a condition where every element of the target ring B is integral over the source ring A. This concept is related to the algebraic dependencies of elements in B over A, and does not inherently involve the bijectiveness or the existence of an inverse homomorphism.\\n\\nThus, the definition of a Ring Isomorphism does not depend on the concept of an Integral Ring Homomorphism. The two concepts operate independently in the context of ring theory. A Ring Isomorphism focuses on the structural and functional correspondence between two rings, while an Integral Ring Homomorphism focuses on the algebraic properties of elements with respect to their pre-images.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

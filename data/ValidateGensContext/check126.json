@@ -1,0 +1,23 @@
+[
+    [
+        126,
+        [
+            "Principal Ideal Domain",
+            "A ring $R$ is called a principal ideal domain if it is an integral domain and every ideal of $R$ is principal."
+        ],
+        [
+            "Maximal Ideal",
+            "A proper ideal $\\mathfrak{m} \\subsetneq R$ in a ring $R$ is called a maximal ideal if for any ideal $\\mathfrak{a} \\subset R$ that contains $\\mathfrak{m}$, $\\mathfrak{a}$ must be either $\\mathfrak{m}$ or $R$."
+        ],
+        "Does the concept of a/an Principal Ideal Domain need to be defined for a definition of a/an Maximal Ideal to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The concept of a Maximal Ideal is defined independently of the concept of a Principal Ideal Domain. The definition of a Maximal Ideal only requires the structure of a ring and does not necessitate that every ideal in the ring be principal, which is the defining characteristic of a Principal Ideal Domain. A Maximal Ideal is defined as a proper ideal in a ring that is not contained in any larger proper ideal. This definition can be applied to any ring, whether or not it is a Principal Ideal Domain. Therefore, the concept of a Principal Ideal Domain is not necessary for the definition of a Maximal Ideal to make sense.",
+                "Verdict": false
+            }
+        ]
+    ]
+]

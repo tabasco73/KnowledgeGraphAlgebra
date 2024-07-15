@@ -1,0 +1,23 @@
+[
+    [
+        445,
+        [
+            "Field Extension",
+            "A pair of fields $K \\subset L$, where $K$ is a subfield of $L$, is called a field extension. $L$ is a field extending $K$ or an extension field of $K$, or simply that $L$ is a \"field extension\" of $K$."
+        ],
+        [
+            "K-homomorphism",
+            "A field homomorphism \\\\(\\sigma: L \\longrightarrow L'\\\\) between two field extensions \\\\(L / K\\\\) and \\\\(L' / K\\\\) is called a \\\\(K\\\\)-homomorphism if it restricts to the identity map on \\\\(K\\\\)."
+        ],
+        "Does the concept of a/an Field Extension need to be defined for a definition of a/an K-homomorphism to make sense? (True if the first concept is needed and False if is not.)"
+    ],
+    [
+        [
+            "Validity_Check",
+            {
+                "Explanation": "The definition of a K-homomorphism inherently involves the concept of field extensions. A K-homomorphism is defined as a field homomorphism between two field extensions L/K and L'/K, where the homomorphism restricts to the identity map on K. This definition presupposes the existence of field extensions L/K and L'/K, meaning that L and L' are fields that extend K. Without the concept of a field extension, the notion of a K-homomorphism would lack the necessary context of L and L' being extensions of K, and thus the definition would not be meaningful or complete. Therefore, the concept of a field extension is necessary for the definition of a K-homomorphism to make sense.",
+                "Verdict": true
+            }
+        ]
+    ]
+]
