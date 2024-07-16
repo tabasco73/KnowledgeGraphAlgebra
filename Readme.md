@@ -1,24 +1,56 @@
-To see graph:
-Run:
-```
+# Knowledge Graph and Argument Generator
+
+## Prerequisites
+
+To visualize the graph, ensure you have [Graphviz](https://graphviz.org/) installed. You can install it using Homebrew:
+
+```sh
 brew install graphviz
 ```
-to install graphviz and then create a virtual environment with for example
-```
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt -U
-```
-to create, activate and install dependencies
 
-Then you can run it with it
-```
-generate_graph.py
-```
-to see a knowledge graph for the course and
-```
-generate_argument.py
-```
-to generate logical arguments about the nature of the concepts based on the knowledge graph.
+## Setup
 
-If you want to fork my generation of relationships and try it on your course, you need to create a .env file with OPENAI_API_KEY = "whatever-your-key-is"
+1. **Create a Virtual Environment**
+
+   Set up a virtual environment. For example:
+
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. **Install Dependencies**
+
+   Install the required dependencies by running:
+
+   ```sh
+   pip install -r requirements.txt -U
+   ```
+
+## Usage
+
+1. **Generate Knowledge Graph**
+
+   Run the following script to generate a knowledge graph for the course:
+
+   ```sh
+   python generate_graph.py
+   ```
+
+2. **Generate Logical Arguments**
+
+   To generate logical arguments about the nature of the concepts based on the knowledge graph, run:
+
+   ```sh
+   python generate_argument.py
+   ```
+
+## Customization
+
+If you want to fork and customize the generation of relationships for your own course, create a `.env` file in the project directory with your OpenAI API key:
+
+```
+OPENAI_API_KEY = "your-api-key-here"
+```
+
+Feel free to explore and modify the scripts to fit your needs!
