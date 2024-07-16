@@ -21,4 +21,4 @@ generate_argument.py
 ```
 to generate logical arguments about the nature of the concepts based on the knowledge graph.
 
-If you want to fork my code generation, you need to create a .env file with OPENAI_API_KEY = "whatever-your-key-is"
+If you want to fork my generation of relationships and try it on your course, you need to create a .env file with OPENAI_API_KEY = "whatever-your-key-is"
