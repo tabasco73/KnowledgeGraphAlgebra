@@ -15,11 +15,11 @@ The graph is generated using LLM's (a mix of GPT-4-turbo and and GPT4o) through 
 
 Finally, arguments are generated using the two relationships above and what I like to call the analogy relationship, if you are interested in how this works, feel free to reach out and I can explain how it works. Might update this here later too. 
 
-For the interested, try to determine whether the generated arguments are True or False. I know that there are False ones, which can stem from incorrect relationship classifications or flaws in the theory used, but most of them actually appear to make sense given enough though.
+For the interested, try to determine whether the generated arguments are True or False. I know that there are False ones, which can stem from incorrect relationship classifications or flaws in the theory used, but most of them actually appear to make sense given enough thought.
 
 Some examples:
 
- - A submonoid is to monoid what a subset is to a set (A submonoid is a subset to a monoid)
+ - A submonoid is to a monoid what a subset is to a set (A submonoid is a subset to a monoid)
  - A Ring Endomorphism is to a Ring Automorphism what a Ring Homomorphism is to a Ring Isomorphism (A Ring Endomorphism that is also ismorphic is a Ring Automorphism)
  - An A-module is to a Free A-module what a Group is to an A-module (An A-module is a generalization of a Free A-module)
 
@@ -54,7 +54,7 @@ brew install graphviz
 
 1. **Generate Knowledge Graph**
 
-   Run the following script to generate a knowledge graph for the course:
+   Run the following script to regenerate the knowledge graph for the course:
 
    ```sh
    python generate_graph.py
