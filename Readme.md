@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![The Knowledge Graph:](knowledge_graph.png)
+![The Knowledge Graph:](images/knowledge_graph.png)
 
 (Can be skipped)
 
