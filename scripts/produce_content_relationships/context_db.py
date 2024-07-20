@@ -1,9 +1,9 @@
 from graphviz import Digraph
 
-from utility.utility_files import get_the_jsons, get_actual_id, write_answer
-from composition_repair import find_implied_transitive_closure, reduce_morphisms
-from utility.utility_db import insert_into_table, get_concepts
-from utility.utility_graph import abstract_definitions, node_add, edge_add
+from scripts.utility.utility_files import get_the_jsons, get_actual_id, write_answer
+from scripts.category_theory.composition_repair import find_implied_transitive_closure, reduce_morphisms
+from scripts.utility.utility_db import insert_into_table, get_concepts
+from scripts.utility.utility_graph import abstract_definitions, node_add, edge_add
 
 
 def tuple_in_test(list_tup1, list_tup2):

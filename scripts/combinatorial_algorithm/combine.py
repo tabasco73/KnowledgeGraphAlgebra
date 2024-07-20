@@ -1,6 +1,6 @@
 import ast
-from utility.utility_files import read_prompt, write_answer
-from combinatorial_algorithm.matrix_check import optimal_permut_uneven
+from scripts.utility.utility_files import read_prompt, write_answer
+from scripts.combinatorial_algorithm.matrix_check import optimal_permut_uneven
 
 
 def swap_all_integers_n(new_values, n):

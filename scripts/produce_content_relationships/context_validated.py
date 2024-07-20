@@ -1,9 +1,9 @@
 import json
 import time
 
-from utility.openai_request import query_openai_with_function_calling
-from utility.utility_openai import function_call_fill, count_tokens
-from utility.utility_db import get_edges_db2, get_concept
+from scripts.utility.openai_request import query_openai_with_function_calling
+from scripts.utility.utility_openai import function_call_fill, count_tokens
+from scripts.utility.utility_db import get_edges_db2, get_concept
 
 def validate_an_inh():
     functions = function_call_fill('Functioncalls/Check_Reasoning.json')

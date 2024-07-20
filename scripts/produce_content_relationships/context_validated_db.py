@@ -1,10 +1,16 @@
+import os
 import sqlite3
 
 from graphviz import Digraph
-from composition_repair import find_implied_transitive_closure, reduce_morphisms
-from utility.utility_db import get_concepts, update_column_for_row_at_id
-from utility.utility_files import get_the_jsons, write_answer
-from utility.utility_graph import abstract_definitions, edge_add, node_add
+from scripts.category_theory.composition_repair import find_implied_transitive_closure, reduce_morphisms
+from scripts.utility.utility_db import get_concepts, update_column_for_row_at_id
+from scripts.utility.utility_files import get_the_jsons, write_answer
+from scripts.utility.utility_graph import abstract_definitions, edge_add, node_add
+
+from dotenv import load_dotenv
+load_dotenv()
+DB_PATH = os.getenv('DB_PATH')
+
 def display_info(data):
     def print_algebraic_info(info_list, depth=0):
         indent = "  " * depth
@@ -62,7 +68,7 @@ def get_gens():
 
 
 def get_edges():
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT gen, spec, validation FROM Inheritances")
     rows = cursor.fetchall()
@@ -83,7 +89,7 @@ def get_edges():
     return rows+rows2
 
 def get_edges2():
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT gen, spec, validation FROM Contexts")
     rows = cursor.fetchall()

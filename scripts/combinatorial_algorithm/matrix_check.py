@@ -3,7 +3,7 @@ import ast
 import itertools
 import numpy as np
 
-from combinatorial_algorithm.matrix_build import get_size_nperm
+from scripts.combinatorial_algorithm.matrix_build import get_size_nperm
 
 def assess_pairs(sets_list, pair_size):
     """

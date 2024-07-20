@@ -1,13 +1,18 @@
+import os
 import sqlite3
 import json
 
-from combinatorial_algorithm.combine import swap_all_integers_n
-from utility.openai_request import query_openai_with_function_calling
-from utility.utility_db import get_the_concept_ids
-from utility.utility_openai import function_call_fill, count_tokens
+from scripts.combinatorial_algorithm.combine import swap_all_integers_n
+from scripts.utility.openai_request import query_openai_with_function_calling
+from scripts.utility.utility_db import get_the_concept_ids
+from scripts.utility.utility_openai import function_call_fill, count_tokens
+
+from dotenv import load_dotenv
+load_dotenv()
+DB_PATH = os.getenv('DB_PATH')
 
 def get_contexts(m, uppsättning):
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT id, name, content FROM Definitioner")
     rows = cursor.fetchall()

@@ -1,7 +1,11 @@
+import os
 import sqlite3
 
-from composition_repair import find_implied_transitive_closure, reduce_morphisms
-from utility.utility_db import get_concept
+from scripts.category_theory.composition_repair import find_implied_transitive_closure, reduce_morphisms
+from scripts.utility.utility_db import get_concept
+from dotenv import load_dotenv
+load_dotenv()
+DB_PATH = os.getenv('DB_PATH')
 
 
 def find_configurations(set_1, set_2):
@@ -24,7 +28,7 @@ def find_configurations(set_1, set_2):
 
 
 def get_edges2():
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT gen, spec, validation FROM Inheritances")
     rows = cursor.fetchall()
@@ -33,7 +37,7 @@ def get_edges2():
     rows += [(145,26),(145,6),(6,11),(11,26),(146,14),(33,104),(11,134),(26,29),(11,72),(58,59),(13,129),(132,133),(63,48),(33,66)]
     rows += find_implied_transitive_closure(rows)
     inheritances = reduce_morphisms(rows)
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT gen, spec, validation FROM Contexts")
     rows = cursor.fetchall()

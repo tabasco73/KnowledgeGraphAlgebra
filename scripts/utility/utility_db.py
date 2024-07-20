@@ -1,7 +1,13 @@
+import os
 import sqlite3
 
+from dotenv import load_dotenv
+load_dotenv()
+DB_PATH = os.getenv('DB_PATH')
+
+
 def get_the_concept_ids():
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT id FROM Definitioner")
     rows = cursor.fetchall()
@@ -9,7 +15,7 @@ def get_the_concept_ids():
     return [a for a, in rows]
 
 def get_concept(id_):
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT name, content FROM Definitioner WHERE id = ?",(id_,))
     rows = cursor.fetchall()
@@ -17,7 +23,7 @@ def get_concept(id_):
     return rows
 
 def get_concepts():
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT id, name FROM Definitioner")
     rows = cursor.fetchall()
@@ -25,7 +31,7 @@ def get_concepts():
     return rows
 
 def get_edges_db2():
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT id, gen, spec FROM Contexts")
     rows = cursor.fetchall()
@@ -37,14 +43,14 @@ def add_column(table_choice, column_name, data_type, database = None):
         conn = sqlite3.connect(database)
         cursor = conn.cursor()
     else:
-        conn = sqlite3.connect('lin_fk.db')
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
     cursor.execute("ALTER TABLE {} ADD COLUMN {} {}".format(table_choice, column_name, data_type))
     conn.commit()
     conn.close()
 
 def create_table(table_name):
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(f"""
         CREATE TABLE IF NOT EXISTS {table_name} (
@@ -57,7 +63,7 @@ def create_table(table_name):
     conn.close()
 
 def insert_into_table(q, s, table_name):
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(f"SELECT MAX(id) FROM {table_name}")
     max_id = cursor.fetchone()[0]
@@ -69,7 +75,7 @@ def insert_into_table(q, s, table_name):
     conn.close()
 
 def delete_rows(id_):
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("DELETE FROM Contexts WHERE id = ?",(id_,))
     conn.commit()
@@ -88,7 +94,7 @@ def update_column_for_row_at_id(table_name, id_, new_column):
         update_column_for_row_at_id('users', 123, ('email', 'new.email@example.com'))
         This will update the 'email' column for the row with ID 123 in the 'users' table to 'new.email@example.com'.
     """
-    conn = sqlite3.connect('grupper_ringar.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(f"UPDATE {table_name} SET {new_column[0]} = ? WHERE id = ?", (new_column[1], id_))
     conn.commit()
@@ -101,7 +107,7 @@ print('done')
     #delete_rows(i)
 #create_table('Contexts')
 #create_table('Implied_Contexts')
-#add_column('Contexts','validation_reasoning','TEXT','grupper_ringar.db')
-#add_column('Implied_Contexts','validation_reasoning','TEXT','grupper_ringar.db')
-#add_column('Contexts','validation','INTEGER','grupper_ringar.db')
-#add_column('Implied_Contexts','validation','INTEGER','grupper_ringar.db')
+#add_column('Contexts','validation_reasoning','TEXT',DB_PATH)
+#add_column('Implied_Contexts','validation_reasoning','TEXT',DB_PATH)
+#add_column('Contexts','validation','INTEGER',DB_PATH)
+#add_column('Implied_Contexts','validation','INTEGER',DB_PATH)

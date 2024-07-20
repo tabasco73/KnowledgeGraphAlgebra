@@ -2,24 +2,22 @@ import time
 import openai
 from openai import OpenAI
 import json
-from dotenv import load_dotenv
+
 import os
 from .utility_openai import function_call_choice_fill, function_call_fill
-
+from dotenv import load_dotenv
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 client = OpenAI()
 
-# Serial-messaging
-
 def retry_wrapper(func, *args, **kwargs):
-    for attempt in range(3):  # Attempt up to 3 times
+    for attempt in range(3):
         try:
-            return func(*args, **kwargs)  # Try to execute the function
+            return func(*args, **kwargs)
         except Exception as e:
             print(f"Attempt {attempt + 1} failed: {e}")
-            if attempt < 2:  # If this is not the last attempt, wait before retrying
-                time.sleep(1)  # Optional: wait for 1 second before retrying
+            if attempt < 2:
+                time.sleep(1)
     raise Exception("Operation failed after 3 attempts")
 
 
