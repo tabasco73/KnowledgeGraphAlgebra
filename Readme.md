@@ -1,6 +1,9 @@
 # Knowledge Graph and Argument Generator for Abstract Algebra
 
 ## Introduction
+
+![The Knowledge Graph:](knowledge_graph.png)
+
 (Can be skipped)
 
 When I started studying math at university, I always felt a disconnect between how math was taught and how I most easily learned math. This project is an attempt to approach the abstract concepts taught in math courses in a structured way and to reduce the complexity of what the concepts mean. A key idea in this project is that the essence of a conept can be described through its relationship with other concepts. A mathematical concept has to interact with other concepts, if it is completely isolated from other concepts is will be unusable. 
